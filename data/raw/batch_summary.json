@@ -1,0 +1,212 @@
+{
+  "timestamp": "2026-07-16T21:28:09.587526",
+  "total_companies": 34,
+  "ok_count": 13,
+  "total_jobs": 344,
+  "details": [
+    {
+      "id": "bytedance",
+      "name": "字节跳动",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "tencent",
+      "name": "腾讯",
+      "count": 97,
+      "status": "ok"
+    },
+    {
+      "id": "alibaba",
+      "name": "阿里巴巴",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "count": 90,
+      "status": "ok"
+    },
+    {
+      "id": "meituan",
+      "name": "美团",
+      "count": 58,
+      "status": "ok"
+    },
+    {
+      "id": "jd",
+      "name": "京东",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "pinduoduo",
+      "name": "拼多多",
+      "count": 22,
+      "status": "ok"
+    },
+    {
+      "id": "netease",
+      "name": "网易",
+      "count": 20,
+      "status": "ok"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "count": 5,
+      "status": "ok"
+    },
+    {
+      "id": "huawei",
+      "name": "华为",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "mihoyo",
+      "name": "米哈游",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "kuaishou",
+      "name": "快手",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "didi",
+      "name": "滴滴",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "sohu",
+      "name": "搜狐",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "qihoo360",
+      "name": "360",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "zhipu",
+      "name": "智谱AI",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "moonshot",
+      "name": "月之暗面",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "baichuan",
+      "name": "百川智能",
+      "count": 4,
+      "status": "ok"
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "stepfun",
+      "name": "阶跃星辰",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "deepseek",
+      "name": "深度求索",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "sensetime",
+      "name": "商汤科技",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "megvii",
+      "name": "旷视科技",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "hikvision",
+      "name": "海康威视",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "yitu",
+      "name": "依图科技",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "cloudwalk",
+      "name": "云从科技",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "iFlytek",
+      "name": "科大讯飞",
+      "count": 4,
+      "status": "ok"
+    },
+    {
+      "id": "cambricon",
+      "name": "寒武纪",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "chumenwenwen",
+      "name": "出门问问",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "aispeech",
+      "name": "思必驰",
+      "count": 4,
+      "status": "ok"
+    },
+    {
+      "id": "zhuoyitec",
+      "name": "追一科技",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "jthu",
+      "name": "捷通华声",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "langboat",
+      "name": "澜舟科技",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "id": "leapmotor",
+      "name": "零点万物",
+      "count": 0,
+      "status": "ok"
+    }
+  ]
+}

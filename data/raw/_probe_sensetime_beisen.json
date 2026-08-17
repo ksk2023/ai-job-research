@@ -1,0 +1,13 @@
+{
+  "site": {
+    "id": "sensetime_beisen",
+    "name": "商汤（北森）",
+    "url": "https://hr.sensetime.com/SU604c56f9bef57c3d1a752c60/pb/school.html",
+    "api_hints": [
+      "/api/",
+      "/pb/"
+    ]
+  },
+  "api_calls": [],
+  "api_responses": []
+}

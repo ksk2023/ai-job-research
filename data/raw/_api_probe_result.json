@@ -1,0 +1,150 @@
+{
+  "ok": [
+    {
+      "id": "tencent",
+      "name": "腾讯",
+      "url": "https://careers.tencent.com/tencentcareer/api/post/Query",
+      "status": 200,
+      "len": 30721,
+      "is_json": true,
+      "preview": "{\"Code\":200,\"Data\":{\"Count\":640,\"Posts\":[{\"Id\":0,\"PostId\":\"2039211190525263872\",\"RecruitPostId\":10002685,\"RecruitPostName\":\"AIプログラマー｜AI Programmer\",\"CountryName\":\"Japan\",\"LocationName\":\"Japan-Tokyo-Bu",
+      "found_jobs": 10,
+      "first_job": "{\"Id\": 0, \"PostId\": \"2039211190525263872\", \"RecruitPostId\": 10002685, \"RecruitPostName\": \"AIプログラマー｜AI Programmer\", \"CountryName\": \"Japan\", \"LocationName\": \"Japan-Tokyo-Business Tower\", \"BGName\": \"IEG\", \"ComCode\": \"\", \"ComName\": \"\", \"ProductName\": \"\", \"CategoryName\": \"Technology\", \"Responsibility\": \"",
+      "status_ok": true
+    }
+  ],
+  "fail": [
+    {
+      "id": "alibaba",
+      "name": "阿里巴巴",
+      "url": "https://talent.alibaba.com/off-campus/position-list",
+      "status": 403,
+      "len": 117,
+      "is_json": true,
+      "preview": "{\"timestamp\":1783848794226,\"status\":403,\"error\":\"Forbidden\",\"message\":\"Forbidden\",\"path\":\"/off-campus/position-list\"}"
+    },
+    {
+      "id": "alibaba",
+      "name": "阿里巴巴2",
+      "url": "https://talent.alibaba.com/api/v2/position/list",
+      "status": 404,
+      "len": 124,
+      "is_json": true,
+      "preview": "{\"timestamp\":1783848794291,\"status\":404,\"error\":\"Not Found\",\"message\":\"No message available\",\"path\":\"/api/v2/position/list\"}"
+    },
+    {
+      "id": "meituan",
+      "name": "美团",
+      "url": "https://zhaopin.meituan.com/api/web/job/position/list",
+      "status": 200,
+      "len": 71,
+      "is_json": true,
+      "preview": "{\"data\":{\"errorCode\":401,\"message\":\"未登陆\"},\"status\":401,\"message\":\"未登陆\"}"
+    },
+    {
+      "id": "jd",
+      "name": "京东",
+      "url": "https://campus.jd.com/officialWebsite/list",
+      "status": 200,
+      "len": 36,
+      "is_json": false,
+      "preview": "{\"success\":true,\"body\":{\"code\":401}}"
+    },
+    {
+      "id": "netease",
+      "name": "网易",
+      "url": "https://hr.163.com/api/hr163/position/search",
+      "status": 200,
+      "len": 5679,
+      "is_json": false,
+      "preview": "<!doctype html><html lang=\"en\"><head><meta charset=\"UTF-8\"/><meta name=\"keywords\" content=\"网易招聘,网易社招,网易社会招聘,网易校招,网易校园招聘\"/><meta name=\"description\" content=\"网易社会招聘\"/><meta name=\"viewport\" content=\"widt"
+    },
+    {
+      "id": "pdd",
+      "name": "拼多多",
+      "url": "https://careers.pinduoduo.com/api/position/list",
+      "status": 403,
+      "len": 36,
+      "is_json": true,
+      "preview": "{\"error_code\":40003,\"error_msg\":\"\"} "
+    },
+    {
+      "id": "didi",
+      "name": "滴滴",
+      "url": "https://talent.didiglobal.com/api/job/list",
+      "status": 404,
+      "len": 90,
+      "is_json": true,
+      "preview": "{\"meta\":{\"api\":\"/api/job/list\",\"method\":\"get\",\"code\":10400,\"message\":\"页面不存在\"},\"data\":null}"
+    },
+    {
+      "id": "xiaomi",
+      "name": "小米",
+      "url": "https://hr.xiaomi.com/api/position/list",
+      "status": 404,
+      "len": 61054,
+      "is_json": false,
+      "preview": "<!doctype html> <html lang=\"zh-CN\" xml:lang=\"zh-CN\"> <head>     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />     <meta charset=\"UTF-8\" />     <title>提示信息——小米招聘</title>                 <meta"
+    },
+    {
+      "id": "huawei",
+      "name": "华为",
+      "url": "https://career.huawei.com/reccampportal/services/portal/portaluser/getJobList",
+      "status": 412,
+      "len": 188,
+      "is_json": true,
+      "preview": "{\"code\":\"The origin is not in the trustlist.\",\"httpCode\":412,\"entity\":null,\"message\":\"Missed Message[See log for detail]:The origin is not in the trustlist.\",\"faultUid\":\"\",\"stackTrace\":\"\"}"
+    },
+    {
+      "id": "oppo",
+      "name": "OPPO",
+      "url": "https://careers.oppo.com/api/position/list",
+      "status": 500,
+      "len": 131,
+      "is_json": true,
+      "preview": "{\"timestamp\":\"2026-07-12T09:33:14.080+00:00\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"\",\"path\":\"/api/position/list\"}"
+    },
+    {
+      "id": "vivo",
+      "name": "vivo",
+      "url": "https://hr.vivo.com/api/position/list",
+      "status": 200,
+      "len": 135,
+      "is_json": true,
+      "preview": "{\"code\":100095,\"message\":\"TOKEN已过期，请重新登录\",\"data\":{\"redirect_url\":\"https://uuc.vivo.xyz/#/login?orgfrom=${redirectTo}\"},\"success\":false}",
+      "keys": [
+        "code",
+        "message",
+        "data",
+        "success"
+      ]
+    },
+    {
+      "id": "kuaishou",
+      "name": "快手",
+      "url": "https://campus.kuaishou.cn/api/position/list",
+      "status": 404,
+      "len": 618,
+      "is_json": false,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\r <html>\r <head><title>404 Not Found</title></head>\r <body bgcolor=\"white\">\r <h1>404 Not Found</h1>\r <p>The requested URL was not found on this server"
+    },
+    {
+      "id": "bilibili",
+      "name": "B站",
+      "url": "https://jobs.bilibili.com/api/position/list",
+      "status": 404,
+      "len": 153,
+      "is_json": true,
+      "preview": "{\"path\":\"/api/position/list\",\"requestId\":\"4aeec7ff-23337015\",\"error\":\"Not Found\",\"message\":null,\"timestamp\":\"2026-07-12T09:33:14.255+00:00\",\"status\":404}"
+    },
+    {
+      "id": "ant",
+      "name": "蚂蚁集团",
+      "url": "https://talent.antgroup.com/api/position/list",
+      "status": 405,
+      "len": 18,
+      "is_json": false,
+      "preview": "Method Not Allowed"
+    }
+  ]
+}

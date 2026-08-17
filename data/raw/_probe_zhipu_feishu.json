@@ -1,0 +1,269 @@
+{
+  "site": {
+    "id": "zhipu_feishu",
+    "name": "智谱AI（飞书招聘）",
+    "url": "https://zhipu-ai.jobs.feishu.cn/zhipucampus/position/list",
+    "api_hints": [
+      "/api/v1/search/job/posts",
+      "/api/v1/job/list"
+    ]
+  },
+  "api_calls": [
+    {
+      "url": "https://vcs.snssdk.com/vc/setting",
+      "method": "POST"
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/user/webid",
+      "method": "POST"
+    },
+    {
+      "url": "https://mon.zijieapi.com/monitor_web/settings/browser-settings?bid=portal&store=1",
+      "method": "GET"
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/ip/location",
+      "method": "GET"
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/user/mobile/login_status?random=483691",
+      "method": "GET"
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/ip/location",
+      "method": "GET"
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/user/mobile/login_status?random=237229",
+      "method": "GET"
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/common/setting",
+      "method": "GET"
+    },
+    {
+      "url": "https://starling.zijieapi.com/check_and_get_text/aff8e570233711eb96690bb0655fe40d/test/throne-biz?lang=zh,en",
+      "method": "GET"
+    },
+    {
+      "url": "https://starling.zijieapi.com/check_and_get_text/aff8e570233711eb96690bb0655fe40d/test/throne-biz?lang=zh,en",
+      "method": "GET"
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/search/job/posts?keyword=&limit=10&offset=0&job_category_id_list=&tag_id_list=&location_code_list=&subject_id_list=&recruitment_id_list=&portal_type=6&job_function_id_list=&storefront_id_list=&portal_entrance=1&_signature=5i8uVwAAAAAaQY8YDDZeoOYvLkAAIyE",
+      "method": "POST"
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/config/job/filters/6?_signature=5i8uVwAAAAAaQY8YDDakVeYvLkAAIyE",
+      "method": "GET"
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/csrf/token",
+      "method": "POST"
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/list",
+      "method": "POST"
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/search/job/posts?keyword=&limit=10&offset=0&job_category_id_list=&tag_id_list=&location_code_list=&subject_id_list=&recruitment_id_list=&portal_type=6&job_function_id_list=&storefront_id_list=&portal_entrance=1&_signature=5i8uVwAAAAAaQY8YDDZeoOYvLkAAIyE",
+      "method": "POST"
+    },
+    {
+      "url": "https://verify.snssdk.com/captcha/reportFrontend",
+      "method": "POST"
+    },
+    {
+      "url": "https://lf-cdn-tos.bytescm.com/obj/rc-verifycenter/verifycenter/1.0.0.376/index.js",
+      "method": "GET"
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/list",
+      "method": "POST"
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/list",
+      "method": "POST"
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/list",
+      "method": "POST"
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/list",
+      "method": "POST"
+    },
+    {
+      "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=portal",
+      "method": "POST"
+    },
+    {
+      "url": "https://verify.snssdk.com/captcha/reportFrontend",
+      "method": "POST"
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/list",
+      "method": "POST"
+    },
+    {
+      "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=portal",
+      "method": "POST"
+    },
+    {
+      "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=portal",
+      "method": "POST"
+    }
+  ],
+  "api_responses": [
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/common/setting",
+      "status": 200,
+      "body": "{\"code\":0,\"data\":{\"academic_ranking\":[{\"key\":5,\"val\":\"前 5%\"},{\"key\":10,\"val\":\"前 10%\"},{\"key\":20,\"val\":\"前 20%\"},{\"key\":30,\"val\":\"前 30%\"},{\"key\":50,\"val\":\"前 50%\"},{\"key\":-1,\"val\":\"其他\"}],\"degree\":[{\"key\":8,\"val\":\"博士\"},{\"key\":11,\"val\":\"MBA\"},{\"key\":7,\"val\":\"硕士\"},{\"key\":6,\"val\":\"本科\"},{\"key\":5,\"val\":\"大专\"},{\"key\":4,\"val\":\"高中\"},{\"key\":3,\"val\":\"专职\"},{\"key\":2,\"val\":\"初中\"},{\"key\":1,\"val\":\"小学\"},{\"key\":9,\"val\":\"其他\"}],\"degree_required\":[{\"key\":20,\"val\":\"不限\"},{\"key\":8,\"val\":\"博士及以上\"},{\"key\":7,\"val\":\"硕士及以上\"},{\"key\":6,\"val\":\"本科及以上\"},{\"key\":5,\"val\":\"大专及以上\"},{\"key\":4,\"val\":\"高中及以上\"},{\"key\":3,\"val\":\"专职及以上\"},{\"key\":2,\"val\":\"初中及以上\"},{\"key\":1,\"val\":\"小学及以上\"}],\"education_type\":[{\"key\":1,\"val\":\"海外及港澳台\"},{\"key\":2,\"val\":\"统招全日制\"},{\"key\":3,\"val\":\"统招非全日制\"},{\"key\":4,\"val\":\"自考\"},{\"key\":5,\"val\":\"其他\"}],\"gender\":[{\"key\":1,\"val\":\"男\"},{\"key\":2,\"val\":\"女\"},{\"key\":3,\"val\":\"保密\"}],\"identification_type\":[{\"key\":1,\"val\":\"中国 - 居民身份证\"},{\"key\":6,\"val\":\"中国 - 港澳居民来往内地通行证\"},{\"key\":4,\"val\":\"中国 - 台湾居民来往大陆通行证\"},{\"key\":3,\"val\":\"中国 - 港澳居民居住证\"},{\"key\":9,\"val\":\"中国 - 台湾居民居住证\"},{\"key\":2,\"val\":\"护照\"},{\"key\":5,\"val\":\"其他\"}],\"job_experience\":[{\"key\":1,\"val\":\"不限\"},{\"key\":2,\"val\":\"应届毕业生\"},{\"key\":3,\"val\":\"1 年以下\"},{\"key\":4,\"val\":\"1-3 年\"},{\"key\":5,\"val\":\"3-5 年\"},{\"key\":6,\"val\":\"5-7 年\"},{\"key\":7,\"val\":\"7-10 年\"},{\"key\":8,\"val\":\"10 年以上\"}],\"language\":[{\"key\":1,\"val\":\"英语\"},{\"key\":2,\"val\":\"法语\"},{\"key\":3,\"val\":\"日语\"},{\"key\":4,\"val\":\"韩语\"},{\"key\":5,\"val\":\"德语\"},{\"key\":6,\"val\":\"俄语\"},{\"key\":7,\"val\":\"西班牙语\"},{\"key\":8,\"val\":\"葡萄牙语\"},{\"key\":9,\"val\":\"阿拉伯语\"},{\"key\":10,\"val\":\"印地语\"},{\"key\":11,\"val\":\"印度斯坦语\"},{\"key\":12,\"val\":\"孟加拉语\"},{\"key\":13,\"val\":\"豪萨语\"},{\"key\":14,\"val\":\"旁遮普语\"},{\"key\":15,\"val\":\"波斯语\"},{\"key\":16,\"val\":\"斯瓦西里语\"},{\"key\":17,\"val\":\"泰卢固语\"},{\"key\":18,\"val\":\"土耳其语\"},{\"key\":19,\"val\":\"意大利语\"},{\"key\":20,\"val\":\"爪哇语\"},{\"key\":21,\"val\":\"泰米尔语\"},{\"key\":22,\"val\":\"马拉地语\"},{\"key\":23,\"val\":\"越南语\"},{\"key\":24,\"val\":\"普通话\"},{\"key\":25,\"val\":\"粤语\"},{\"key\":26,\"val\":\"印尼语\"},{\"key\":27,\"val\":\"马来语\"},{\"key\":28,\"val\":\"泰语\"},{\"key\":29,\"val\":\"塞尔维亚语\"}],\"mobile_code\":[{\"country\":\"中国大陆\",\"key\":\"CN_1\",\"py_country_name\":\"zhongguodalu\",\"val\":\"86\"},{\"country\":\"中国澳门\",\"key\":\"CN_2\",\"py_country_name\":\"zhongguoaomen\",\"val\":\"853\"},{\"country\":\"法国\",\"key\":\"CN_3\",\"py_country_name\":\"faguo\",\"val\":\"33\"},{\"country\":\"德国\",\"key\":\"CN_4\",\"py_country_name\":\"deguo\",\"val\":\"49\"},{\"country\":\"印度\",\"key\":\"CN_5\",\"py_country_name\":\"yindu\",\"val\":\"91\"},{\"country\":\"美国\",\"key\":\"CN_6\",\"py_country_name\":\"meiguo\",\"val\":\"1\"},{\"country\":\"日本\",\"key\":\"CN_7\",\"py_country_name\":\"riben\",\"val\":\"81\"},{\"country\":\"阿联酋\",\"key\":\"CN_8\",\"py_country_name\":\"alianqiu\",\"val\":\"971\"},{\"country\":\"爱尔兰\",\"key\":\"CN_9\",\"py_country_name\":\"aierlan\",\"val\":\"353\"},{\"country\":\"越南\",\"key\":\"CN_10\",\"py_country_name\":\"yuenan\",\"val\":\"84\"},{\"country\":\"马来西亚\",\"key\":\"CN_11\",\"py_country_name\":\"malaixiya\",\"val\":\"60\"},{\"country\":\"加拿大\",\"key\":\"CN_12\",\"py_country_name\":\"jianada\",\"val\":\"1\"},{\"country\":\"摩洛哥\",\"key\":\"CN_13\",\"py_country_name\":\"moluoge\",\"val\":\"212\"},{\"country\":\"埃及\",\"key\":\"CN_14\",\"py_country_name\":\"aiji\",\"val\":\"20\"},{\"country\":\"巴西\",\"key\":\"CN_15\",\"py_cou",
+      "body_len": 24158
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/ip/location",
+      "status": 200,
+      "body": "{\"code\":0,\"data\":{\"mainland\":0,\"country_code\":\"CN_25\"},\"message\":\"ok\",\"error\":null}",
+      "body_len": 83
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/user/mobile/login_status?random=237229",
+      "status": 200,
+      "body": "{\"code\":0,\"data\":false,\"message\":\"ok\",\"error\":null}",
+      "body_len": 51
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/user/mobile/login_status?random=483691",
+      "status": 200,
+      "body": "{\"code\":0,\"data\":false,\"message\":\"ok\",\"error\":null}",
+      "body_len": 51
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/search/job/posts?keyword=&limit=10&offset=0&job_category_id_list=&tag_id_list=&location_code_list=&subject_id_list=&recruitment_id_list=&portal_type=6&job_function_id_list=&storefront_id_list=&portal_entrance=1&_signature=5i8uVwAAAAAaQY8YDDZeoOYvLkAAIyE",
+      "status": 405,
+      "body": "",
+      "body_len": 0
+    },
+    {
+      "url": "https://mon.zijieapi.com/monitor_web/settings/browser-settings?bid=portal&store=1",
+      "status": 200,
+      "body": "{\"data\":{\"sample\":{\"sample_rate\":1,\"include_users\":[],\"sample_granularity\":\"session\",\"rules\":[{\"name\":\"js_error\",\"enable\":true,\"sample_rate\":1,\"conditional_sample_rules\":[]},{\"name\":\"http\",\"enable\":true,\"sample_rate\":1,\"conditional_sample_rules\":[{\"sample_rate\":0,\"filter\":{\"type\":\"and\",\"children\":[{\"type\":\"rule\",\"field\":\"payload.request.url\",\"op\":\"regex\",\"values\":[\"mcs.snssdk.com\",\"mcs.zijieapi.com\"]}]}}]},{\"name\":\"performance\",\"enable\":true,\"sample_rate\":1,\"conditional_sample_rules\":[]},{\"name\":\"resource_error\",\"enable\":true,\"sample_rate\":1,\"conditional_sample_rules\":[]},{\"name\":\"resource\",\"enable\":true,\"sample_rate\":0.1,\"conditional_sample_rules\":[]},{\"name\":\"custom\",\"enable\":true,\"sample_rate\":1,\"conditional_sample_rules\":[]},{\"name\":\"performance_timing\",\"enable\":true,\"sample_rate\":1,\"conditional_sample_rules\":[]},{\"name\":\"performance_longtask\",\"enable\":true,\"sample_rate\":0.01,\"conditional_sample_rules\":[]},{\"name\":\"pageview\",\"enable\":true,\"sample_rate\":1,\"conditional_sample_rules\":[]},{\"name\":\"action\",\"enable\":true,\"sample_rate\":0.01,\"conditional_sample_rules\":[]},{\"name\":\"blank_screen\",\"enable\":true,\"sample_rate\":1,\"conditional_sample_rules\":[]}]},\"user_id\":\"8f107c38-6fea-f501-cb8c-9dc9c95bbd39\",\"plugins\":{\"heatmap\":{\"open_list\":[],\"url\":\"https://lf3-short.bytegoofy.com/slardar/heatmap/resource/heatmap.cn.js\"}},\"quota_rate\":1,\"timestamp\":1783845198012,\"apdex\":{\"satisfying_threshold\":0.5,\"frustrating_threshold\":0.3,\"error_weight\":[8,5,2,5000],\"duration_apdex\":[[{\"weight\":0,\"threshold\":1000},{\"weight\":1,\"threshold\":3000},{\"weight\":2}],[{\"weight\":0,\"threshold\":300},{\"weight\":1,\"threshold\":1500},{\"weight\":1}],[{\"weight\":0,\"threshold\":300},{\"weight\":2,\"threshold\":1500},{\"weight\":2}]],\"perf_apdex\":{\"action\":[{\"weight\":3,\"threshold\":2500},{\"weight\":3,\"threshold\":5000},{\"weight\":3}],\"cls\":[{\"weight\":3,\"threshold\":0.1},{\"weight\":3,\"threshold\":0.25},{\"weight\":3}],\"fcp\":[{\"weight\":3,\"threshold\":2000},{\"weight\":3,\"threshold\":4000},{\"weight\":3}],\"fp\":[{\"weight\":3,\"threshold\":0},{\"weight\":3,\"threshold\":0},{\"weight\":3}],\"lcp\":[{\"weight\":3,\"threshold\":2500},{\"weight\":3,\"threshold\":4000},{\"weight\":3}],\"spa_load\":[{\"weight\":10,\"threshold\":2500},{\"weight\":10,\"threshold\":4500},{\"weight\":10}]},\"last_n\":180000},\"refresh_after\":86400,\"updated_at\":1744715279000},\"errmsg\":\"success\",\"errno\":200}",
+      "body_len": 2315
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/ip/location",
+      "status": 200,
+      "body": "{\"code\":0,\"data\":{\"mainland\":0,\"country_code\":\"CN_25\"},\"message\":\"ok\",\"error\":null}",
+      "body_len": 83
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/csrf/token",
+      "status": 200,
+      "body": "{\"code\":0,\"data\":{\"token\":\"LA-BztbMXFOObH6im64D7qEnSzvrTqx4Hqej-horEkE=\"},\"message\":\"ok\",\"error\":null}",
+      "body_len": 102
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/config/job/filters/6?_signature=5i8uVwAAAAAaQY8YDDakVeYvLkAAIyE",
+      "status": 200,
+      "body": "{\"code\":0,\"data\":{\"job_type_list\":[{\"id\":\"6791702736615426317\",\"name\":\"研发\",\"en_name\":\"R\\u0026D\",\"i18n_name\":\"研发\",\"depth\":2,\"parent\":{\"id\":\"6791698585114724616\",\"name\":null,\"en_name\":null,\"i18n_name\":null,\"depth\":null,\"parent\":null,\"children\":null},\"children\":null}],\"city_list\":[{\"code\":\"CT_11\",\"name\":\"北京\",\"en_name\":\"Beijing\",\"location_type\":3,\"i18n_name\":\"北京\",\"py_name\":\"beijing\",\"mdm_code\":\"MDCY00000001\",\"node_status\":1},{\"code\":\"CT_125\",\"name\":\"上海\",\"en_name\":\"Shanghai\",\"location_type\":3,\"i18n_name\":\"上海\",\"py_name\":\"shanghai\",\"mdm_code\":\"MDCY00000002\",\"node_status\":1},{\"code\":\"CT_128\",\"name\":\"深圳\",\"en_name\":\"Shenzhen\",\"location_type\":3,\"i18n_name\":\"深圳\",\"py_name\":\"shenzhen\",\"mdm_code\":\"MDCY00000249\",\"node_status\":1},{\"code\":\"CT_52\",\"name\":\"杭州\",\"en_name\":\"Hangzhou\",\"location_type\":3,\"i18n_name\":\"杭州\",\"py_name\":\"hangzhou\",\"mdm_code\":\"MDCY00000134\",\"node_status\":1}],\"recruitment_type_list\":[{\"id\":\"2\",\"name\":\"校招\",\"en_name\":\"Campus\",\"i18n_name\":\"校招\",\"parent\":null,\"children\":null}],\"job_type_count_map\":null,\"job_subject_list\":null,\"city_count_map\":null,\"job_function_list\":[],\"tag_list\":null,\"storefront_list\":[]},\"message\":\"ok\",\"error\":null}",
+      "body_len": 1148
+    },
+    {
+      "url": "https://starling.zijieapi.com/check_and_get_text/aff8e570233711eb96690bb0655fe40d/test/throne-biz?lang=zh,en",
+      "status": 200,
+      "body": "{\"message\":{\"Data\":{\"AddAvailableTimeSlot\":\"添加可选时间\",\"Agreement.File.PlaceHolder\":\"请选择协议文件\",\"Agreement.Status\":\"状态\",\"Agreement.Status.Accepted\":\"候选人已接受\",\"Agreement.Status.NoFeedback\":\"候选人未反馈\",\"Agreement.Status.PlaceHolder\":\"请选择状态\",\"Agreement.Status.Rejected\":\"候选人已拒绝\",\"Agreement.Status.Unsent\":\"协议文件未发送\",\"Agreement.Title\":\"协议文件\",\"AppInterview.AIConclusionFail\":\"不推进\",\"AppInterview.AIConclusionPass\":\"推进\",\"Approval\":\"审批中\",\"ApprovalFailed\":\"审批不通过\",\"Approved\":\"审批通过\",\"AtLeast15minutes\":\"面试时长不得少于 15 分钟\",\"Available\":\"可选\",\"Average\":\"平均值 {{average}}\",\"BatchBotInterviewCalendar.DeniedBlock.acceptedByInterviewer\":\"面试官已接受\",\"BatchBotInterviewCalendar.DeniedBlock.interviewerTentative\":\"面试官待定\",\"BatchBotInterviewCalendar.DeniedBlock.someInterviewerDeclined\":\"有面试官拒绝\",\"BatchBotInterviewCalendar.DeniedBlock.someInterviewerTentative\":\"有面试官待定\",\"BatchBotInterviewCalendar.DeniedNotice.acceptInterview\":\"接受面试邀请。\",\"BatchBotInterviewCalendar.DeniedNotice.and\":\"、\",\"BatchBotInterviewCalendar.DeniedNotice.interviewArrangedBut\":\"面试已安排，但面试官\",\"BatchBotInterviewCalendar.DeniedNotice.interviewersNoSureIf\":\"{{interviewers}}待定是否\",\"BatchBotInterviewCalendar.DeniedNotice.rejectedByInterviewers\":\"{{interviewers}}已拒绝\",\"BatchBotInterviewCalendar.DeniedNotice.splitComma\":\"、\",\"BatchBotInterviewCalendar.DeniedNotice.tentativeToAcceptInterview\":\"面试已安排，但面试官待定是否接受面试邀请。\",\"BatchBotInterviewCalendar.addPanel\":\"添加「多面一」面试组\",\"BatchBotInterviewCalendar.statusUpdatedRefresh\":\"面试安排状态已更新，请刷新页面后重试\",\"Conflictingwithanotherinterview\":\"和已有面试时间冲突\",\"Deleted\":\"已删除\",\"Disable\":\"已停用\",\"Disabled\":\"已停用\",\"Display.apply_for_salary_offer\":\"申请 Offer 薪酬\",\"EmailInformCandidateModal.email.tips\":\"候选人将收到如下邮件（假设收件人为{{name}}）\",\"EmailInformCandidateModal.noEmail\":\"邮箱无效\",\"EmailInformCandidateModal.noEmailNorSms\":\"手机号及邮箱无效\",\"EmailInformCandidateModal.noSms\":\"手机号无效\",\"EmailInformCandidateModal.select.placeholder\":\"请选择通知模板\",\"EmailInformCandidateModal.sms.tips\":\"候选人将收到如下短信（假设接收人为{{name}}）\",\"EmailInformCandidateModal.smsNoEditAuth\":\"无法编辑短信\",\"EmailInformCandidateModal.templateNoSms\":\"所选模板下无短信内容，不能发送\",\"ExcludeInterviewerBusyTimeSlots\":\"不占用面试官忙碌时间\",\"FinalRoundPassRate\":\"通过后终面通过率\",\"InterviewAssessmentVisibilityRule_CreatorVisible\":\"当前有无权限查看的面评，无法使用该筛选项\",\"InterviewCalendar\":\"面试日历\",\"InterviewCount\":\"面试场次\",\"InterviewDataCardGuide\":\"将光标移至图标上，即可查看面试官的历史面试数据\",\"Locked applications of the current talent\":\"当前人才的锁定投递\",\"Locked applications of the talent to be merged\":\"合并对象的锁定投递\",\"Locking scope\":\"锁定范围\",\"MgPagination.totalPage\":\"共 {{total}} 页\",\"MgPagination.totalPages\":\"共 {{total}} 页\",\"PassRate\":\"面试通过率\",\"ProcessControl.FollowingConditionsMustBeMet\":\"「{{name}}」需满足以下条件：\",\"ProcessControl.JobTransfer.Continue\":\"继续转移\",\"ProcessControl.JobTransfer.NotMatchAndBack\":\"候选人不符合阶段进入条件，已被转移到{{name}}阶段\",\"ProcessControl.JobTransfer.NotMatchContent1\":\"候选人不满足进入\",\"ProcessControl.JobTransfer.NotMatchContent2\":\"的条件\",\"ProcessControl.JobTransfer.NotMatchStageRules\":\"候选人不符合阶段进入条件\",\"ProcessControl.JobTransfer.confirmContent\":\"目标职位的招聘流程已配置阶段进入条件，若候选人不满足条件将会被转移到{{name}}阶段\",\"ProcessC",
+      "body_len": 122132
+    },
+    {
+      "url": "https://vcs.snssdk.com/vc/setting",
+      "status": 200,
+      "body": "{\"common\":{\"period\":5400000,\"alpha\":\"0.5\",\"retry_count\":3,\"retry_interval\":2000,\"rgb\":\"000000\",\"skip_launch\":0,\"use_jsb_request\":0,\"pre_create\":0,\"request_encrypt\":0,\"host\":{\"cn\":\"https://vcs.zijieapi.com/\",\"va\":\"https://vcs-va.byteoversea.com/\",\"sg\":\"https://vcs-sg.byteoversea.com/\",\"boe\":\"\",\"in\":\"\"},\"back_up_host\":{\"cn\":\"https://vcs.zijieapi.com/\",\"va\":\"https://vcs-va.tiktokv.com/\",\"sg\":\"https://vcs-sg.tiktokv.com/\",\"boe\":\"\",\"in\":\"\"},\"use_native_report\":0,\"use_dialog_size_v2\":1,\"ratio\":0,\"verify_use_dialog_v2\":0,\"identity_use_dialog_v2\":0,\"h5_load_retry_enable\":0,\"h5_load_timeout\":8000,\"verify_cancellable\":0,\"use_cache\":1,\"h5_verify_acc_switch\":1,\"h5_verify_gyro_switch\":1,\"sensor_update_interval\":0.05,\"sensor_max_num\":1200,\"popup_url\":{\"cn\":\"https://rmc.bytedance.com/verifycenter/normal-popup\"}},\"period\":0,\"qa\":{\"url\":{\"cn\":\"https://unpkg.byted-static.com/byted/secsdk-qa/1.2.8/build/index.html\",\"sg\":\"\",\"va\":\"\"},\"host\":{\"cn\":\"https://rc.zijieapi.com\",\"sg\":\"\",\"va\":\"\"},\"back_up_host\":{\"cn\":\"\",\"va\":\"\",\"sg\":\"\",\"boe\":\"\",\"in\":\"\"},\"js\":{},\"width\":300,\"height\":318},\"sms\":{\"url\":{\"cn\":\"https://unpkg.byted-static.com/byted/secsdk-mobile-original/1.9.10/build/index.html\",\"sg\":\"\",\"va\":\"\"},\"host\":{\"cn\":\"https://rc.zijieapi.com\",\"sg\":\"\",\"va\":\"\"},\"back_up_host\":{\"cn\":\"\",\"va\":\"\",\"sg\":\"\",\"boe\":\"\",\"in\":\"\"},\"js\":{\"cn\":\"https://unpkg.byted-static.com/byted/secsdk-mobile-original/1.9.10/build/index.js\",\"sg\":\"\",\"va\":\"\"},\"width\":0,\"height\":0},\"self_unpunish\":{\"url\":{\"cn\":\"https://unpkg.byted-static.com/byted/secsdk-unpunish/1.7.6/output/index.html\",\"sg\":\"\",\"va\":\"\"},\"host\":{\"cn\":\"https://rc.zijieapi.com\",\"sg\":\"\",\"va\":\"\"},\"back_up_host\":{\"cn\":\"\",\"va\":\"\",\"sg\":\"\",\"boe\":\"\",\"in\":\"\"},\"js\":{},\"width\":0,\"height\":0},\"verify\":{\"scene_level\":\"p2\",\"url\":{\"boe\":\"https://rmc-boe.bytedance.net/verifycenter/captcha\",\"cn\":\"https://rmc.bytedance.com/verifycenter/captcha\",\"sg\":\"https://lf-rc1.yhgfb-static.com/obj/rc-client-security-sg/secsdk-captcha/2.28.11/index.html\",\"va\":\"https://lf-rc1.yhgfb-static.com/obj/rc-client-security-us/secsdk-captcha/2.28.11/index.html\"},\"host\":{\"boe\":\"https://boe-verify.bytedance.net/\",\"cn\":\"https://verify.zijieapi.com/\",\"in\":\"https://verification-va-useast2a.byteoversea.com/\",\"sg\":\"https://verify-sg.byteoversea.com/\",\"va\":\"https://verification-va.byteoversea.com/\"},\"back_up_host\":{\"cn\":\"https://verify.zijieapi.com/\",\"va\":\"https://verification-va.tiktokv.com/\",\"sg\":\"https://verify-sg.tiktokv.com/\",\"boe\":\"https://boe-verify.bytedance.net/\",\"in\":\"\"},\"width\":300,\"height\":303,\"js\":{\"cn\":\"https://lf-cdn-tos.bytescm.com/obj/rc-verifycenter/verifycenter/1.0.0.376/index.js\",\"sg\":\"https://lf-headquarters-sg.yhgfb-static.com/obj/static-sg/secsdk-captcha/sg/2.26.17/captcha.js\",\"va\":\"https://sf16-scmcdn-va.ibytedtos.com/obj/static-us/secsdk-captcha/va/2.26.17/captcha.js\"},\"gray_url\":{\"cn\":\"https://rmc.bytedance.com/verifycenter/captcha\"},\"gray_js\":{\"cn\":\"https://lf-cdn-tos.bytescm.com/obj/rc-verifycenter/verifycenter/1.0.0.376/index.js\",\"sg\":\"https://sf16-scmcdn-sg.iby",
+      "body_len": 5466
+    },
+    {
+      "url": "https://starling.zijieapi.com/check_and_get_text/aff8e570233711eb96690bb0655fe40d/test/throne-biz?lang=zh,en",
+      "status": 200,
+      "body": "{\"message\":{\"Data\":{\"AddAvailableTimeSlot\":\"添加可选时间\",\"Agreement.File.PlaceHolder\":\"请选择协议文件\",\"Agreement.Status\":\"状态\",\"Agreement.Status.Accepted\":\"候选人已接受\",\"Agreement.Status.NoFeedback\":\"候选人未反馈\",\"Agreement.Status.PlaceHolder\":\"请选择状态\",\"Agreement.Status.Rejected\":\"候选人已拒绝\",\"Agreement.Status.Unsent\":\"协议文件未发送\",\"Agreement.Title\":\"协议文件\",\"AppInterview.AIConclusionFail\":\"不推进\",\"AppInterview.AIConclusionPass\":\"推进\",\"Approval\":\"审批中\",\"ApprovalFailed\":\"审批不通过\",\"Approved\":\"审批通过\",\"AtLeast15minutes\":\"面试时长不得少于 15 分钟\",\"Available\":\"可选\",\"Average\":\"平均值 {{average}}\",\"BatchBotInterviewCalendar.DeniedBlock.acceptedByInterviewer\":\"面试官已接受\",\"BatchBotInterviewCalendar.DeniedBlock.interviewerTentative\":\"面试官待定\",\"BatchBotInterviewCalendar.DeniedBlock.someInterviewerDeclined\":\"有面试官拒绝\",\"BatchBotInterviewCalendar.DeniedBlock.someInterviewerTentative\":\"有面试官待定\",\"BatchBotInterviewCalendar.DeniedNotice.acceptInterview\":\"接受面试邀请。\",\"BatchBotInterviewCalendar.DeniedNotice.and\":\"、\",\"BatchBotInterviewCalendar.DeniedNotice.interviewArrangedBut\":\"面试已安排，但面试官\",\"BatchBotInterviewCalendar.DeniedNotice.interviewersNoSureIf\":\"{{interviewers}}待定是否\",\"BatchBotInterviewCalendar.DeniedNotice.rejectedByInterviewers\":\"{{interviewers}}已拒绝\",\"BatchBotInterviewCalendar.DeniedNotice.splitComma\":\"、\",\"BatchBotInterviewCalendar.DeniedNotice.tentativeToAcceptInterview\":\"面试已安排，但面试官待定是否接受面试邀请。\",\"BatchBotInterviewCalendar.addPanel\":\"添加「多面一」面试组\",\"BatchBotInterviewCalendar.statusUpdatedRefresh\":\"面试安排状态已更新，请刷新页面后重试\",\"Conflictingwithanotherinterview\":\"和已有面试时间冲突\",\"Deleted\":\"已删除\",\"Disable\":\"已停用\",\"Disabled\":\"已停用\",\"Display.apply_for_salary_offer\":\"申请 Offer 薪酬\",\"EmailInformCandidateModal.email.tips\":\"候选人将收到如下邮件（假设收件人为{{name}}）\",\"EmailInformCandidateModal.noEmail\":\"邮箱无效\",\"EmailInformCandidateModal.noEmailNorSms\":\"手机号及邮箱无效\",\"EmailInformCandidateModal.noSms\":\"手机号无效\",\"EmailInformCandidateModal.select.placeholder\":\"请选择通知模板\",\"EmailInformCandidateModal.sms.tips\":\"候选人将收到如下短信（假设接收人为{{name}}）\",\"EmailInformCandidateModal.smsNoEditAuth\":\"无法编辑短信\",\"EmailInformCandidateModal.templateNoSms\":\"所选模板下无短信内容，不能发送\",\"ExcludeInterviewerBusyTimeSlots\":\"不占用面试官忙碌时间\",\"FinalRoundPassRate\":\"通过后终面通过率\",\"InterviewAssessmentVisibilityRule_CreatorVisible\":\"当前有无权限查看的面评，无法使用该筛选项\",\"InterviewCalendar\":\"面试日历\",\"InterviewCount\":\"面试场次\",\"InterviewDataCardGuide\":\"将光标移至图标上，即可查看面试官的历史面试数据\",\"Locked applications of the current talent\":\"当前人才的锁定投递\",\"Locked applications of the talent to be merged\":\"合并对象的锁定投递\",\"Locking scope\":\"锁定范围\",\"MgPagination.totalPage\":\"共 {{total}} 页\",\"MgPagination.totalPages\":\"共 {{total}} 页\",\"PassRate\":\"面试通过率\",\"ProcessControl.FollowingConditionsMustBeMet\":\"「{{name}}」需满足以下条件：\",\"ProcessControl.JobTransfer.Continue\":\"继续转移\",\"ProcessControl.JobTransfer.NotMatchAndBack\":\"候选人不符合阶段进入条件，已被转移到{{name}}阶段\",\"ProcessControl.JobTransfer.NotMatchContent1\":\"候选人不满足进入\",\"ProcessControl.JobTransfer.NotMatchContent2\":\"的条件\",\"ProcessControl.JobTransfer.NotMatchStageRules\":\"候选人不符合阶段进入条件\",\"ProcessControl.JobTransfer.confirmContent\":\"目标职位的招聘流程已配置阶段进入条件，若候选人不满足条件将会被转移到{{name}}阶段\",\"ProcessC",
+      "body_len": 122132
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/user/webid",
+      "status": 200,
+      "body": "{\"e\":0,\"ssid\":\"93d95015-83d4-4dbc-80ca-c3cd98aa15d4\",\"web_id\":\"7661556751682651654\"}",
+      "body_len": 84
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/list",
+      "status": 200,
+      "body": "{\"e\":-1,\"sc\":0}",
+      "body_len": 15
+    },
+    {
+      "url": "https://lf-cdn-tos.bytescm.com/obj/rc-verifycenter/verifycenter/1.0.0.376/index.js",
+      "status": 200,
+      "body": "!function(e,t){\"object\"==typeof exports&&\"undefined\"!=typeof module?t(exports):\"function\"==typeof define&&false?define([\"exports\"],t):t((e=\"undefined\"!=typeof globalThis?globalThis:e||self).verifyCenter={})}(this,(function(e){\"use strict\";var t=\"undefined\"!=typeof globalThis?globalThis:\"undefined\"!=typeof window?window:\"undefined\"!=typeof global?global:\"undefined\"!=typeof self?self:{};var n={exports:{}};!function(e,n){e.exports=function(){function e(e){var t=typeof e;return null!==e&&(\"object\"===t||\"function\"===t)}function n(e){return\"function\"==typeof e}var o=Array.isArray?Array.isArray:function(e){return\"[object Array]\"===Object.prototype.toString.call(e)},i=0,r=void 0,s=void 0,a=function(e,t){_[i]=e,_[i+1]=t,2===(i+=2)&&(s?s(w):O())};function c(e){s=e}function l(e){a=e}var d=\"undefined\"!=typeof window?window:void 0,u=d||{},p=u.MutationObserver||u.WebKitMutationObserver,f=\"undefined\"==typeof self&&\"undefined\"!=typeof process&&\"[object process]\"==={}.toString.call(process),h=\"undefined\"!=typeof Uint8ClampedArray&&\"undefined\"!=typeof importScripts&&\"undefined\"!=typeof MessageChannel;function v(){return function(){return process.nextTick(w)}}function m(){return void 0!==r?function(){r(w)}:b()}function y(){var e=0,t=new p(w),n=document.createTextNode(\"\");return t.observe(n,{characterData:!0}),function(){n.data=e=++e%2}}function g(){var e=new MessageChannel;return e.port1.onmessage=w,function(){return e.port2.postMessage(0)}}function b(){var e=setTimeout;return function(){return e(w,1)}}var _=new Array(1e3);function w(){for(var e=0;e<i;e+=2){(0,_[e])(_[e+1]),_[e]=void 0,_[e+1]=void 0}i=0}function C(){try{var e=Function(\"return this\")().require(\"vertx\");return r=e.runOnLoop||e.runOnContext,m()}catch(e){return b()}}var O=void 0;function k(e,t){var n=this,o=new this.constructor(x);void 0===o[E]&&K(o);var i=n._state;if(i){var r=arguments[i-1];a((function(){return U(i,o,r,n._result)}))}else{W(n,o,e,t)}return o}function S(e){var t=this;if(e&&\"object\"==typeof e&&e.constructor===t){return e}var n=new t(x);return V(n,e),n}O=f?v():p?y():h?g():void 0===d?C():b();var E=Math.random().toString(36).substring(2);function x(){}var L=void 0,A=1,R=2;function j(){return new TypeError(\"You cannot resolve a promise with itself\")}function T(){return new TypeError(\"A promises callback cannot return that same promise.\")}function P(e,t,n,o){try{e.call(t,n,o)}catch(e){return e}}function B(e,t,n){a((function(e){var o=!1,i=P(n,t,(function(n){o||(o=!0,t!==n?V(e,n):D(e,n))}),(function(t){o||(o=!0,M(e,t))}),\"Settle: \"+(e._label||\" unknown promise\"));!o&&i&&(o=!0,M(e,i))}),e)}function F(e,t){t._state===A?D(e,t._result):t._state===R?M(e,t._result):W(t,void 0,(function(t){return V(e,t)}),(function(t){return M(e,t)}))}function I(e,t,o){t.constructor===e.constructor&&o===k&&t.constructor.resolve===S?F(e,t):void 0===o?D(e,t):n(o)?B(e,t,o):D(e,t)}function V(t,n){if(t===n){M(t,j())}else if(e(n)){var o=void 0;try{o=n.then}catch(e){return void M(t,e)}I(t,n,o)}else{D(t,n)}}function N(e){e._o",
+      "body_len": 61051
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/api/v1/search/job/posts?keyword=&limit=10&offset=0&job_category_id_list=&tag_id_list=&location_code_list=&subject_id_list=&recruitment_id_list=&portal_type=6&job_function_id_list=&storefront_id_list=&portal_entrance=1&_signature=5i8uVwAAAAAaQY8YDDZeoOYvLkAAIyE",
+      "status": 200,
+      "body": "{\"code\":0,\"data\":{\"job_post_list\":[{\"id\":\"7615179145912240411\",\"title\":\"多模态强化学习算法实习生 (VLM Agentic RL 方向)\",\"sub_title\":null,\"description\":\"【岗位职责】\\n你将深入参与 VLM Agentic RL 的前沿探索工作，与团队及其他优秀实习生协作，共同攻克以下任务：\\n1、代码框架构建与深入理解： 深入研究并掌握CogVLM（GLM-V）系列模型的基础架构，优化现有的RL训练与推理链路；\\n2、Agentic RL 框架搭建： 负责搭建 VLM RL with Tools 的算法框架，实现模型在 Rollout 过程中对工具的自主调用与逻辑闭环；\\n3、算法方法创新： 针对多步 RL 迭代中的核心难点和挑战，探索创新性 RL 架构，优化trace-level奖励分配策略，优化 PPO/GRPO/HRPO 等对齐算法；\\n4、模型训练与全链路优化： 负责多模态 Agentic 数据的合成、模型迭代训练以及在主流 Benchmark（如 MMSearch, V*, Facts 等）上的性能测试与调优。\",\"requirement\":\"【岗位要求】\\n教育背景： 985 高校计算机、电子、自动化等相关专业在读硕士或博士；\\n专业基础： 深入理解常用的多模态算法（如 CLIP, ViT, LLaVA系列）及强化学习基础理论（PPO, DPO, GRPO 等）；\\n项目经验： 具备多模态大模型、Agent 智能体或强化学习相关的实际项目经历；有VLM + Tool Use相关经验者优先考虑；\\n工程能力： 熟练运用Megatron或DeepSpeed 等主流深度学习框架，具备优秀的编程习惯；\\n综合素质： 具备较强的科研敏锐度，能够独立阅读并复现前沿论文；工作态度认真负责，具备良好的团队协作与沟通能力，能适应高强度的科研节奏。\\n\\n【加分项】\\n在 CVPR, ICCV, NeurIPS, ICLR 等 CCF-A 类会议发表过多模态或 RL 相关论文。\\n\\n\\n【你将获得】\\n参与智谱 AI 最前沿的 VLM 研发进程，接触核心模型（CogVLM/GLM-4.5V）的训练细节；\\n充足的 H100/A100 算力资源支持，助力你的算法构想快速验证；\\n与顶尖 AI 科学家和工程大牛并肩作战的机会；\\n实习期间表现优秀的同学会获得转正机会。\",\"job_category\":{\"id\":\"6791698585114724616\",\"name\":\"互联网 / 电子 / 网游\",\"en_name\":\"Internet / Electronics / Games\",\"i18n_name\":\"互联网 / 电子 / 网游\",\"depth\":1,\"parent\":null,\"children\":null},\"city_info\":null,\"recruit_type\":{\"id\":\"202\",\"name\":\"实习\",\"en_name\":\"Intern\",\"i18n_name\":\"实习\",\"depth\":2,\"parent\":{\"id\":\"2\",\"name\":\"校招\",\"en_name\":\"Campus\",\"i18n_name\":\"校招\",\"depth\":1,\"parent\":null,\"children\":null,\"active_status\":1,\"selectability\":1},\"children\":null,\"active_status\":1,\"selectability\":1},\"publish_time\":1773047159352,\"job_hot_flag\":null,\"job_subject\":null,\"code\":null,\"department_id\":null,\"job_function\":null,\"job_process_id\":\"7224370080740723004\",\"recommend_id\":null,\"city_list\":[{\"code\":\"CT_11\",\"name\":\"北京\",\"en_name\":\"Beijing\",\"location_type\":null,\"i18n_name\":\"北京\",\"py_name\":null,\"mdm_code\":null,\"node_status\":null}],\"job_post_info\":{\"id\":null,\"job_id\":null,\"title\":null,\"sub_title\":null,\"address_id\":null,\"address\":null,\"city\":null,\"education\":null,\"experience\":null,\"description\":null,\"requirement\":null,\"min_salary\":null,\"max_salary\":null,\"currency\":null,\"head_count\":null,\"crator_id\":null,\"expiry_time\":null,\"progress\":null,\"department_id\":null,\"job_type\":null,\"recruitment_type\":{\"id\":\"202\",\"name\":\"实习\",\"en_name\":\"Intern\",\"i18n_name\":\"实习\",\"depth\":2,\"parent\":{\"id\":\"2\",\"name\":\"校招\",\"en_name\":\"Campus\",\"i18n_name\":\"校招\",\"depth\":1,\"parent\":null,\"children\":null,\"active_status\":1,\"selectability\":1},\"children\":null,\"active_status\":1,\"selectability\":1},\"job_process_time\":null,\"job_in_charge_user_id\":null,\"biz_create_time\":null,\"HighlightList\":null,\"JobChannelPublishList\":null,\"required_degree\":null,\"never_expiry\":null,\"job_hot_flag\":null,\"subject\":null,\"sequence\":null,\"min_level\":null,\"max_level\":null,\"job_post_object_value_map\":{},\"code\":null,\"job_active_status\":null,\"job_process_type\":null,\"biz_modify_time\":null,\"job_function\":null,\"job_process\":null,\"job_process_id\":null,\"job_category\":null,\"address_list\":[{\"id\":\"7225496229043437596\",\"name\":\"北京市海",
+      "body_len": 35560
+    },
+    {
+      "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=portal",
+      "status": 204,
+      "body": "",
+      "body_len": 0
+    },
+    {
+      "url": "https://verify.snssdk.com/captcha/reportFrontend",
+      "status": 200,
+      "body": "{\"code\":200,\"data\":null,\"message\":\"\"}",
+      "body_len": 37
+    },
+    {
+      "url": "https://verify.snssdk.com/captcha/reportFrontend",
+      "status": 200,
+      "body": "{\"code\":200,\"data\":null,\"message\":\"\"}",
+      "body_len": 37
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/list",
+      "status": 200,
+      "body": "{\"e\":0,\"sc\":1}",
+      "body_len": 14
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/list",
+      "status": 200,
+      "body": "{\"e\":0,\"sc\":5}",
+      "body_len": 14
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/list",
+      "status": 200,
+      "body": "{\"e\":0,\"sc\":1}",
+      "body_len": 14
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/list",
+      "status": 200,
+      "body": "{\"e\":0,\"sc\":1}",
+      "body_len": 14
+    },
+    {
+      "url": "https://mcs.snssdk.com/v1/list",
+      "status": 200,
+      "body": "{\"e\":0,\"sc\":1}",
+      "body_len": 14
+    },
+    {
+      "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=portal",
+      "status": 204,
+      "body": "",
+      "body_len": 0
+    }
+  ]
+}

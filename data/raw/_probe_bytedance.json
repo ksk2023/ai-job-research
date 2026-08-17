@@ -1,0 +1,13 @@
+{
+  "site": {
+    "id": "bytedance",
+    "name": "字节跳动官网",
+    "url": "https://jobs.bytedance.com/campus/position?keywords=AI&project=7525009396952582407&type=2",
+    "api_hints": [
+      "/api/v1/job/list",
+      "/api/v1/search/positions"
+    ]
+  },
+  "api_calls": [],
+  "api_responses": []
+}
