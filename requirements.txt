@@ -1,0 +1,12 @@
+# 抓取层
+playwright>=1.40.0
+httpx>=0.25.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# 数据处理
+pandas>=2.1.0
+
+# 工具
+python-dateutil>=2.8.0
+tenacity>=8.2.0

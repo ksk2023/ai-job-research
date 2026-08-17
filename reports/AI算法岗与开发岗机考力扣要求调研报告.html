@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI算法岗与开发岗 · 机考与力扣要求调研报告</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.7;
+    padding: 0;
+  }
+  .container { max-width: 980px; margin: 0 auto; padding: 40px 24px 80px; }
+  
+  /* Header */
+  .report-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    color: #fff;
+    padding: 48px 40px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+    position: relative;
+    overflow: hidden;
+  }
+  .report-header::before {
+    content: '';
+    position: absolute;
+    top: -50%; right: -20%;
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(0,212,255,0.08) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .report-header h1 { font-size: 30px; font-weight: 700; margin-bottom: 12px; position: relative; }
+  .report-header .subtitle { font-size: 16px; opacity: 0.85; margin-bottom: 16px; position: relative; }
+  .report-header .meta { display: flex; gap: 24px; font-size: 13px; opacity: 0.7; flex-wrap: wrap; position: relative; }
+  .report-header .meta span { display: flex; align-items: center; gap: 6px; }
+  
+  /* Key Findings Box */
+  .key-findings {
+    background: #fff;
+    border-left: 5px solid #0071e3;
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .key-findings h2 { font-size: 20px; margin-bottom: 16px; color: #0071e3; }
+  .key-findings ul { list-style: none; }
+  .key-findings li {
+    padding: 8px 0 8px 28px;
+    position: relative;
+    font-size: 15px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .key-findings li:last-child { border-bottom: none; }
+  .key-findings li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: #0071e3;
+    font-weight: bold;
+  }
+  .key-findings .highlight { background: #fff8e1; padding: 1px 6px; border-radius: 4px; font-weight: 600; color: #b8860b; }
+
+  /* Section */
+  section {
+    background: #fff;
+    border-radius: 12px;
+    padding: 32px 36px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  }
+  section h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #e8e8ed;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  section h2 .num {
+    background: #1a1a2e;
+    color: #fff;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  section h3 { font-size: 17px; margin: 24px 0 12px; color: #1d1d1f; font-weight: 600; }
+  section p { margin-bottom: 12px; font-size: 15px; }
+  
+  /* Table */
+  .table-wrapper { overflow-x: auto; margin: 16px 0; border-radius: 8px; border: 1px solid #e8e8ed; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  thead { background: #1a1a2e; color: #fff; }
+  th { padding: 12px 14px; text-align: left; font-weight: 600; white-space: nowrap; }
+  td { padding: 12px 14px; border-bottom: 1px solid #e8e8ed; vertical-align: top; }
+  tbody tr:nth-child(even) { background: #fafafa; }
+  tbody tr:hover { background: #f0f7ff; }
+  
+  /* Difficulty badges */
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+  .badge-easy { background: #e8f5e9; color: #2e7d32; }
+  .badge-medium { background: #fff3e0; color: #e65100; }
+  .badge-hard { background: #ffebee; color: #c62828; }
+  .badge-hell { background: #1a1a2e; color: #ff5252; }
+  
+  /* Info cards */
+  .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 16px 0; }
+  .info-card {
+    background: linear-gradient(135deg, #f8f9ff 0%, #f0f4ff 100%);
+    border: 1px solid #d6e0ff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .info-card.algo { background: linear-gradient(135deg, #fff8f0 0%, #fff0e8 100%); border-color: #ffe0c2; }
+  .info-card.dev { background: linear-gradient(135deg, #f0fff4 0%, #e8ffee 100%); border-color: #b8e6c8; }
+  .info-card h4 { font-size: 16px; margin-bottom: 10px; font-weight: 700; }
+  .info-card .big-num { font-size: 36px; font-weight: 800; color: #0071e3; line-height: 1; margin: 8px 0; }
+  .info-card.algo .big-num { color: #e65100; }
+  .info-card.dev .big-num { color: #2e7d32; }
+  .info-card .desc { font-size: 13px; color: #555; }
+  
+  /* Warning box */
+  .warning {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-left: 4px solid #f0ad4e;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  .warning strong { color: #856404; }
+  
+  .note {
+    background: #e8f4fd;
+    border-left: 4px solid #2196f3;
+    border-radius: 0 8px 8px 0;
+    padding: 14px 20px;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  
+  /* Progress bar */
+  .bar-chart { margin: 16px 0; }
+  .bar-row { display: flex; align-items: center; margin-bottom: 10px; gap: 12px; }
+  .bar-label { width: 120px; font-size: 13px; font-weight: 600; text-align: right; flex-shrink: 0; }
+  .bar-track { flex: 1; background: #e8e8ed; border-radius: 6px; height: 26px; position: relative; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 6px; display: flex; align-items: center; padding-left: 10px; color: #fff; font-size: 12px; font-weight: 600; transition: width 0.8s ease; }
+  .bar-fill.easy { background: linear-gradient(90deg, #4caf50, #66bb6a); }
+  .bar-fill.medium { background: linear-gradient(90deg, #ff9800, #ffa726); }
+  .bar-fill.hard { background: linear-gradient(90deg, #f44336, #ef5350); }
+  .bar-fill.hell { background: linear-gradient(90deg, #6a1b9a, #8e24aa); }
+  
+  /* Source */
+  .source-list { font-size: 13px; color: #666; }
+  .source-list li { padding: 4px 0; }
+  .source-list a { color: #0071e3; text-decoration: none; word-break: break-all; }
+  .source-list a:hover { text-decoration: underline; }
+  
+  .tag { display: inline-block; background: #e8e8ed; padding: 2px 8px; border-radius: 4px; font-size: 12px; margin: 2px; color: #555; }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 32px;
+    color: #86868b;
+    font-size: 13px;
+    border-top: 1px solid #e8e8ed;
+    margin-top: 32px;
+  }
+  
+  @media (max-width: 640px) {
+    .container { padding: 20px 12px; }
+    .report-header { padding: 32px 24px; }
+    .report-header h1 { font-size: 22px; }
+    section { padding: 24px 20px; }
+    th, td { padding: 8px 10px; font-size: 13px; }
+    .bar-label { width: 80px; font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- Header -->
+<div class="report-header">
+  <h1>AI算法岗与开发岗 · 机考与力扣要求调研报告</h1>
+  <div class="subtitle">聚焦 2024–2026 校招/社招笔试结构、题量难度、刷题基准与岗位差异</div>
+  <div class="meta">
+    <span>📅 调研日期：2026年7月</span>
+    <span>🔬 数据来源：牛客网面经、CodeTop、LeetCode、公开博客等</span>
+    <span>📊 覆盖公司：华为/字节/腾讯/阿里/美团/百度/滴滴/网易等</span>
+  </div>
+</div>
+
+<!-- Key Findings -->
+<div class="key-findings">
+  <h2>📌 核心结论速览</h2>
+  <ul>
+    <li><strong>题量结构：</strong>大厂笔试普遍 <span class="highlight">3–4 道编程题</span>，时长 90–150 分钟。华为开发岗 3 题（100/200/300分，150分及格），字节 4 题（40道行测+2中等+2Hard）。</li>
+    <li><strong>难度分布：</strong>牛客官方数据显示 2024 秋招笔试中，<span class="highlight">中等题占 36.3%</span>，较难题占 31.4%，困难题仅 2.7%。头部企业困难题占比略高（4.2%）。</li>
+    <li><strong>刷题量基准：</strong>通过大厂算法面试者平均刷 <span class="highlight">370 道</span>（2025数据）；开发岗 200–300 道、算法岗 300–400 道为常见区间。质量 &gt; 数量。</li>
+    <li><strong>算法岗 ≠ 开发岗：</strong>算法岗/AI岗除 LeetCode 外，<span class="highlight">必考 ML/DL 手撕题</span>（反向传播、KMeans、self-attention、Transformer），2025起大模型考点已成必考项。</li>
+    <li><strong>考核模式：</strong>笔试用 <span class="highlight">ACM 模式</span>（需手写输入输出），面试多用<span class="highlight">核心代码模式</span>（LeetCode式）。两者差异巨大，是最大失分点之一。</li>
+  </ul>
+</div>
+
+<!-- Section 1: 笔试结构对比 -->
+<section>
+  <h2><span class="num">1</span>各大厂笔试结构对比</h2>
+  <p>以下数据综合自牛客网面经、2024–2026届校招真题整理、以及各公司官方/半官方机考指南。不同岗位、不同年份会有浮动。</p>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>公司</th>
+          <th>典型题量与时长</th>
+          <th>难度构成</th>
+          <th>及格/通过线</th>
+          <th>备注</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>华为（开发岗）</strong></td>
+          <td>3 道编程题<br>120 分钟</td>
+          <td>100分 + 200分 + 300分<br>难度递增</td>
+          <td>150/600 分及格</td>
+          <td>ACM模式，支持C/C++/Java/Python/Go/JS等；按测试用例比例计分；可用本地IDE</td>
+        </tr>
+        <tr>
+          <td><strong>华为（AI方向，2025新增）</strong></td>
+          <td>20题选择 + 2道AI编程<br>——</td>
+          <td>选择150分 + 编程(150分+300分)</td>
+          <td>180分及格</td>
+          <td>选择题考ML/DL/大模型/概率论；编程题多为ML常见板题（numpy实现）</td>
+        </tr>
+        <tr>
+          <td><strong>字节跳动</strong></td>
+          <td>40道行测 + 4道编程<br>120 分钟</td>
+          <td>2道中等 + 2道<span class="badge badge-hard">Hard</span></td>
+          <td>无固定及格线<br>按比例排名</td>
+          <td>公认互联网大厂笔试第一梯队难度；行测极耗时间，很多人算法题做不完</td>
+        </tr>
+        <tr>
+          <td><strong>腾讯</strong></td>
+          <td>3–5 道编程题<br>90–120 分钟</td>
+          <td>1简单 + 2中等 + 1困难（典型）</td>
+          <td>无固定及格线</td>
+          <td>面试中LRU缓存为全岗第一高频（后台出现32次）；手撕快排/堆排/归并三个都要会</td>
+        </tr>
+        <tr>
+          <td><strong>阿里巴巴</strong></td>
+          <td>3–4 道编程题<br>120 分钟</td>
+          <td>中等为主，DP占比突出</td>
+          <td>无固定及格线</td>
+          <td>算法岗面试LeetCode高频题仅约18道，但DP占28%、困难题占22%，重深度不重量</td>
+        </tr>
+        <tr>
+          <td><strong>美团</strong></td>
+          <td>约30分选择 + 70-80分编程<br>——</td>
+          <td>送分题→拉开差距题→压轴题</td>
+          <td>无固定及格线</td>
+          <td>2026春招起新增大模型考点（Transformer/Attention/Agent）进入选择题必考</td>
+        </tr>
+        <tr>
+          <td><strong>百度</strong></td>
+          <td>3–4 道编程题<br>120 分钟</td>
+          <td>中等为主</td>
+          <td>无固定及格线</td>
+          <td>——</td>
+        </tr>
+        <tr>
+          <td><strong>滴滴（算法岗）</strong></td>
+          <td>2道编程 + 数学题<br>——</td>
+          <td>LeetCode中等偏上</td>
+          <td>——</td>
+          <td>数学题考贝叶斯、SVD矩阵分解；面试手撕带权随机抽样(Reservoir Sampling变种)</td>
+        </tr>
+        <tr>
+          <td><strong>网易</strong></td>
+          <td>3 道编程题<br>——</td>
+          <td>难度较大，含模拟题</td>
+          <td>——</td>
+          <td>——</td>
+        </tr>
+        <tr>
+          <td><strong>拼多多</strong></td>
+          <td>4 道编程题<br>——</td>
+          <td>中等，但题干极长</td>
+          <td>——</td>
+          <td>题意晦涩是主要难点，含单调栈、贪心等</td>
+        </tr>
+        <tr>
+          <td><strong>量化私募（九坤/幻方等）</strong></td>
+          <td>10选择 + 3编程 + 2证明<br>120 分钟</td>
+          <td><span class="badge badge-hell">Hard+</span> 竞赛级</td>
+          <td>——</td>
+          <td>难度天花板；考概率论/随机过程/线性代数证明题+C++底层/Linux内核</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="warning">
+    <strong>⚠️ 注意：</strong>华为的"及格分"是明确的硬门槛（达不到直接淘汰），而互联网大厂（字节/腾讯/阿里等）<strong>没有固定及格线</strong>，按相对排名筛选，且笔试只是参考，简历质量和面试表现权重往往更高。
+  </div>
+</section>
+
+<!-- Section 2: 难度分布 -->
+<section>
+  <h2><span class="num">2</span>笔试编程题难度分布（牛客官方数据）</h2>
+  <p>以下数据来自牛客网《25春招干货·出题官内部指南》，统计了 2024 年秋招与春招全平台笔试编程题的难度占比，是目前最权威的笔试难度统计之一。</p>
+
+  <h3>全平台笔试难度占比</h3>
+  <div class="bar-chart">
+    <div class="bar-row">
+      <div class="bar-label">入门</div>
+      <div class="bar-track"><div class="bar-fill easy" style="width: 5.6%;">4.9%~6.3%</div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">简单</div>
+      <div class="bar-track"><div class="bar-fill easy" style="width: 25%;">~25%</div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">中等</div>
+      <div class="bar-track"><div class="bar-fill medium" style="width: 35%;">~35%</div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">较难</div>
+      <div class="bar-track"><div class="bar-fill hard" style="width: 31%;">~31%</div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">困难</div>
+      <div class="bar-track"><div class="bar-fill hell" style="width: 3.2%;">~3.2%</div></div>
+    </div>
+  </div>
+  
+  <div class="note">
+    <strong>关键发现：</strong>中等 + 较难合计占 <strong>66%~68%</strong>，是笔试绝对主体。<strong>困难题占比仅约 3%–4.5%</strong>（头部企业略高至 4.2%–4.5%）。这意味着：把中等题刷熟、较难题能写出暴力/部分分解法，就能应对绝大多数笔试。
+  </div>
+
+  <h3>各难度常考知识点</h3>
+  <div class="table-wrapper">
+    <table>
+      <thead><tr><th>难度</th><th>高频考点</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-easy">入门</span></td><td>语法题、模拟、枚举、栈、队列</td></tr>
+        <tr><td><span class="badge badge-easy">简单</span></td><td>数据结构、贪心、排序、链表、前缀和、差分、位运算、哈希表、二叉树</td></tr>
+        <tr><td><span class="badge badge-medium">中等</span></td><td>动态规划(01背包/完全背包)、二分、贪心、图论(并查集/01最短路/拓扑排序)、滑动窗口、堆/优先队列、单调栈/队列、DFS/BFS、记忆化搜索</td></tr>
+        <tr><td><span class="badge badge-hard">较难</span></td><td>状压DP/树形DP/数位DP、组合数学、扩展欧几里得、二分图匹配、最小生成树、线段树、KMP、Manacher、字典树</td></tr>
+        <tr><td><span class="badge badge-hell">困难</span></td><td>DP复杂优化、博弈论、计算几何、模拟退火、NP问题</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Section 3: 刷题量基准 -->
+<section>
+  <h2><span class="num">3</span>力扣（LeetCode）刷题量要求基准</h2>
+  <p>这是最常被问到的问题。综合 CodeTop 平台统计、牛客面经、以及多家求职机构 2025 年数据，整理如下。</p>
+
+  <div class="info-grid">
+    <div class="info-card dev">
+      <h4>🟢 开发岗（后端/前端）</h4>
+      <div class="big-num">200–300</div>
+      <div class="desc">
+        道为常见达标线<br>
+        中等题占比 80%–90%<br>
+        前端约 200 道，后端 200–300 道<br>
+        <strong>150 道最低门槛</strong>（能过笔试）
+      </div>
+    </div>
+    <div class="info-card algo">
+      <h4>🟠 算法岗（含AI）</h4>
+      <div class="big-num">300–400</div>
+      <div class="desc">
+        道为推荐区间<br>
+        需覆盖到 Hard 级别<br>
+        另需掌握 CV/NLP/推荐 的手撕算法<br>
+        <strong>400+ 道为冲刺标准</strong>
+      </div>
+    </div>
+    <div class="info-card">
+      <h4>📊 行业平均（大厂通过者）</h4>
+      <div class="big-num">370</div>
+      <div class="desc">
+        道为 2025 年通过大厂算法面试者的<br>
+        <strong>平均刷题量</strong>（CodeTop数据）<br>
+        其中高频题占比超 80%
+      </div>
+    </div>
+  </div>
+
+  <div class="warning">
+    <strong>⚠️ 最重要的提醒：</strong>刷题<strong>质量 &gt; 数量</strong>。2025 年 LeetCode 用户调研显示：<strong>仅刷 100 题但掌握解题框架的人，面试通过率比刷 300 题但缺乏系统训练者高出 23%</strong>。有面试官因候选人能清晰阐述 DP 状态转移方程的设计逻辑，破格录取了刷题量仅 180 道的求职者。关键在于能否讲清思路、知道如何从暴力解优化到最优解。
+  </div>
+
+  <h3>科学的刷题路线（美团校招备考建议）</h3>
+  <div class="table-wrapper">
+    <table>
+      <thead><tr><th>阶段</th><th>题量</th><th>周期</th><th>内容</th><th>目标</th></tr></thead>
+      <tbody>
+        <tr><td>阶段1：基础</td><td>50 题</td><td>2 周</td><td>数组、链表、栈、队列，简单题为主</td><td>建立信心，熟悉语法</td></tr>
+        <tr><td>阶段2：高频题</td><td>100 题</td><td>4 周</td><td>按目标公司高频题刷，中等题为主</td><td>覆盖常考题型</td></tr>
+        <tr><td>阶段3：专题突破</td><td>50 题</td><td>2 周</td><td>动态规划、回溯、贪心，中等+困难</td><td>突破难点</td></tr>
+        <tr><td>阶段4：模拟面试</td><td>50 题</td><td>2 周</td><td>限时做题（45分钟/题）</td><td>提升速度和准确率</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Section 4: ACM vs 核心代码模式 -->
+<section>
+  <h2><span class="num">4</span>ACM模式 vs 核心代码模式（关键失分点）</h2>
+  <p>这是大量候选人栽跟头的地方：平时在 LeetCode 刷题用的是<strong>核心代码模式</strong>，但笔试普遍采用<strong>ACM模式</strong>，两者差异巨大。</p>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th>对比维度</th><th>核心代码模式（LeetCode）</th><th>ACM模式（笔试/机考）</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>编程内容</strong></td><td>只写一个函数（如 Solution 类的方法）</td><td>写完整可执行程序（含 main、输入输出）</td></tr>
+        <tr><td><strong>输入输出</strong></td><td>系统自动处理</td><td><strong>必须自己处理</strong>（cin/cout、Scanner等）</td></tr>
+        <tr><td><strong>代码健壮性</strong></td><td>假设输入合法</td><td>需考虑多组输入、边界、异常</td></tr>
+        <tr><td><strong>使用场景</strong></td><td>LeetCode、牛客部分题库、<strong>面试手撕</strong></td><td>牛客笔试、华为机考、字节/腾讯笔试</td></tr>
+        <tr><td><strong>失分风险</strong></td><td>低</td><td><strong>极高</strong>——输入输出写不对直接0分</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <strong>备考建议：</strong>笔试前务必在牛客网练习 ACM 模式题单（如"华为机试"专栏），熟悉常见输入处理：不定长读取（while(cin&gt;&gt;a&gt;&gt;b)）、行内分割、混合格式解析等。有过来人总结："ACM 模式本质就是给力扣代码套一个 Main"。
+  </div>
+</section>
+
+<!-- Section 5: 算法岗 vs 开发岗 vs AI岗差异 -->
+<section>
+  <h2><span class="num">5</span>算法岗 vs 开发岗 vs AI大模型岗 · 考核差异</h2>
+  
+  <h3>开发岗（后端/前端/客户端）</h3>
+  <p>考核以 LeetCode 算法题为主，难度中等（Medium），前端还会额外考手写题（防抖/节流/深拷贝/Promise）。后端需关注并发编程、JVM 相关。刷题量 200–300 道为主。</p>
+  <p><span class="tag">数组</span><span class="tag">链表</span><span class="tag">树</span><span class="tag">动态规划</span><span class="tag">排序</span><span class="tag">二分</span><span class="tag">哈希表</span></p>
+
+  <h3>算法岗（推荐/CV/NLP/搜索）</h3>
+  <p>LeetCode 难度要求最高（需覆盖到 Hard），同时<strong>必考岗位相关的手撕算法题</strong>。常见的链表、树、BFS/DFS、DP 需要大量练习。此外还需掌握：</p>
+  <ul style="margin-left: 20px; margin-bottom: 12px;">
+    <li><strong>CV方向：</strong>卷积运算手写、NMS实现、IoU计算、锚框生成</li>
+    <li><strong>NLP方向：</strong>Word2Vec、注意力机制、Beam Search</li>
+    <li><strong>推荐方向：</strong>协同过滤、FM/FFM、AUC计算</li>
+    <li><strong>通用：</strong>反向传播、梯度下降、KMeans、逻辑回归的 numpy 实现</li>
+  </ul>
+  
+  <h3>AI大模型岗（2025–2026 热门方向）</h3>
+  <p>这是近年变化最大的方向。根据美团 2026 春招笔试复盘、科大讯飞 2026 校招指南等最新数据：</p>
+  <ul style="margin-left: 20px; margin-bottom: 12px;">
+    <li><strong>笔试结构变化：</strong>选择题新增大模型考点（Transformer结构、self-attention、位置编码、推理优化、Agent概念），已成<strong>必考项</strong>而非加分项</li>
+    <li><strong>编程题：</strong>除常规算法外，大模型岗"基本必定包含一道模拟传统机器学习的题目（numpy实现）"</li>
+    <li><strong>手撕代码：</strong>熟练掌握 LeetCode Hot 100 基本够用，非数据结构算法题还需熟悉 <strong>self-attention 及其变体</strong>（如 RoPE）、GRPO Loss、shuffle 实现、蓄水池采样等</li>
+    <li><strong>笔试卡得不严：</strong>有过来人反馈"大模型算法笔试基本不会卡很严格，业务部门主要看简历，笔试达到基本及格线就行"</li>
+  </ul>
+
+  <div class="warning">
+    <strong>⚠️ AI岗重要趋势：</strong>2026 年春招 AI 算法岗竞争白热化，头部企业岗位报录比突破 <strong>100:1</strong>。但岗位需求同比增长 127%。大模型/多模态成为核心赛道。笔试中 <strong>AI 知识已从"加分项"变为"基础能力"</strong>。
+  </div>
+</section>
+
+<!-- Section 6: 高频题目 -->
+<section>
+  <h2><span class="num">6</span>各大厂 LeetCode 高频题（按公司）</h2>
+  <p>以下数据来自牛客网《各大厂高频题目汇总》（2025年1月更新）及 CodeTop 平台统计，列出出现频率 ≥ 70% 的题目。</p>
+
+  <div class="table-wrapper">
+    <table>
+      <thead><tr><th>公司</th><th>最高频题目（出现频率≥70%）</th><th>特色考点</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>字节跳动</strong></td>
+          <td>三数之和(95%)、手撕快排(95%)、无重复字符最长子串(90%)、合并有序数组(85%)、数组第K大(85%)、二叉树右视图(85%)、最大子序和(80%)、岛屿数量(80%)、最长递增子序列(75%)、翻转二叉树(70%)</td>
+          <td>接雨水(Hard)、二叉树序列化(Hard)、编辑距离(Hard)</td>
+        </tr>
+        <tr>
+          <td><strong>腾讯</strong></td>
+          <td>反转链表(95%)、二叉树最大深度(90%)、有效括号(85%)、LRU缓存(85%)、合并区间(80%)、最小栈(80%)、最长公共前缀(75%)、删倒数第N节点(70%)、搜索旋转排序数组(75%)</td>
+          <td><strong>LRU缓存为全岗第一高频</strong>（后台32次）；Rand7实现Rand10为腾讯特色题；快排/堆排/归并三个都要默写</td>
+        </tr>
+        <tr>
+          <td><strong>阿里巴巴</strong></td>
+          <td>两数之和(95%)、三数之和(90%)、无重复字符最长子串(85%)、反转链表(90%)、合并有序链表(85%)、二叉树中序遍历(80%)、验证BST(75%)、最大子序和(85%)、爬楼梯(80%)</td>
+          <td>算法岗面试题仅约18道，但<strong>DP占28%</strong>（最长公共子序列、编辑距离、通配符匹配），困难题占22%</td>
+        </tr>
+        <tr>
+          <td><strong>美团</strong></td>
+          <td>两数之和(90%)、反转链表(85%)、有效括号(80%)、最大子序和(80%)、二叉树中序遍历(75%)、爬楼梯(75%)、环形链表(75%)</td>
+          <td>买卖股票、合并有序链表、岛屿数量</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="note">
+    <strong>试卷覆盖率统计（牛客数据）：</strong>数据结构(字符串/哈希表) <strong>92%</strong>、贪心 <strong>87%</strong>、动态规划 <strong>68%</strong>、排序 <strong>65%</strong>、二分 <strong>47%</strong>、树/图论 <strong>43%</strong>。
+  </div>
+</section>
+
+<!-- Section 7: 备考建议总结 -->
+<section>
+  <h2><span class="num">7</span>分岗位备考建议总结</h2>
+  
+  <div class="info-grid">
+    <div class="info-card dev">
+      <h4>🟢 开发岗备考清单</h4>
+      <ul style="margin-left:16px; font-size:14px;">
+        <li>刷题 200–300 道，LeetCode Hot 100 + 剑指Offer</li>
+        <li>中等题占比 80%+，重点：数组/链表/树/DP/排序</li>
+        <li>笔试前练 ACM 模式（牛客华为题库）</li>
+        <li>前端加练：防抖/节流/深拷贝/Promise手写</li>
+        <li>后端加练：并发/JVM/系统设计</li>
+        <li>目标公司高频题定向刷（CodeTop）</li>
+      </ul>
+    </div>
+    <div class="info-card algo">
+      <h4>🟠 算法岗备考清单</h4>
+      <ul style="margin-left:16px; font-size:14px;">
+        <li>刷题 300–400 道，覆盖到 Hard</li>
+        <li>ML 八股：周志华《机器学习》+《百面机器学习》</li>
+        <li>手撕 ML 算法（反向传播/KMeans/AUC/逻辑回归）</li>
+        <li>项目深度拆解（问题-方法-结果-反思框架）</li>
+        <li>系统设计：推荐系统/在线服务/特征工程</li>
+        <li>留 6 个月准备期（3个月密集也有案例）</li>
+      </ul>
+    </div>
+    <div class="info-card">
+      <h4>🔵 AI大模型岗备考清单</h4>
+      <ul style="margin-left:16px; font-size:14px;">
+        <li>LeetCode Hot 100 熟练掌握</li>
+        <li>Transformer/Self-Attention 手撕及变体(RoPE)</li>
+        <li>大模型基础：位置编码/推理优化/Agent</li>
+        <li>numpy 实现传统ML（笔试必考一道）</li>
+        <li>RAG/微调/Prompt工程原理</li>
+        <li>准备2篇最新论文（能讲清创新点）</li>
+        <li>注意：笔试卡得不严，重项目与面试</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="warning">
+    <strong>通用铁律：</strong>① 笔试"不会写也要先拿分，能暴力就暴力，别留空"（按测试用例比例计分）；② 严格卡输出格式，行末空格等细节会导致丢分；③ 华为机考"hard级别直接跳过，中等偏上难度即可"。
+  </div>
+</section>
+
+<!-- Sources -->
+<section>
+  <h2><span class="num">8</span>数据来源与可信度说明</h2>
+  <p>本报告所有数据均来自公开渠道，主要来源如下（按权重）：</p>
+  <ol class="source-list" style="margin-left: 20px;">
+    <li><strong>牛客网（nowcoder.com）</strong>—— 华为校招机考指南2025届、25秋招华为机试高频问题民间整理、各大厂高频题目汇总(2025.1)、滴滴2025届算法面经、校招笔试地狱难度盘点、25春招出题官内部指南、今日大厂笔试总结(网易/拼多多/B站/虾皮)、科大讯飞2026校招备战指南</li>
+    <li><strong>CodeTop 平台</strong>—— 企业高频题统计、2025刷题量行业数据（通过者平均370道）</li>
+    <li><strong>CSDN / 博客园</strong>—— 2026阿里算法岗LeetCode高频题、2026腾讯校招备考全攻略、算法岗校招经验分享(华为15级/携程顶薪面经)、华为OD机试刷题策略</li>
+    <li><strong>面灵AI / nsit100 等求职平台</strong>—— 算法工程师面试全攻略、LeetCode刷题量科学规划(2025行业数据)</li>
+    <li><strong>阿里云开发者社区</strong>—— 美团2026春招笔试复盘：AI知识正式进入必考范围</li>
+    <li><strong>个人面经博客</strong>—— 大模型从零开始(三)蒙混过关（大模型岗笔试/面试实况）</li>
+  </ol>
+  
+  <div class="note">
+    <strong>可信度说明：</strong>牛客网面经和CodeTop数据为<strong>众包统计型</strong>（基于大量真实面经聚合），可信度较高。各公司具体题量/时长/及格线每年会有调整，特别是华为AI方向为2025年新增，结构可能后续变化。刷题量基准为<strong>统计平均值</strong>，个体差异大，仅供参考。建议以目标公司<strong>最新一年的面经</strong>为准。
+  </div>
+</section>
+
+<div class="footer">
+  本报告基于公开网络数据整理，仅供求职参考。<br>
+  数据截至 2026 年 7 月 · 具体要求以各公司最新招聘公告为准
+</div>
+
+</div>
+</body>
+</html>

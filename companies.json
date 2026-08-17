@@ -1,0 +1,682 @@
+{
+  "version": "1.0",
+  "updated": "2026-07-12",
+  "description": "AI 岗位调研目标公司配置——40+ 家公司全量覆盖",
+  "categories": {
+    "big_tech": "头部大厂（互联网综合巨头）",
+    "llm_startup": "大模型新锐厂商",
+    "ai_dragon": "AI 四小龙及传统 AI 公司",
+    "ai_startup": "AI 创业公司",
+    "foreign": "外企 AI 岗位",
+    "campus_aggregator": "校招信息聚合源"
+  },
+  "platforms": {
+    "custom": "公司自建招聘系统",
+    "feishu": "飞书招聘 SaaS（*.jobs.feishu.cn）",
+    "beisen": "北森招聘云（路径含 /SU.../pb/）",
+    "moka": "Moka 招聘 SaaS（*.mokahr.com）",
+    "job91": "91job 平台（*.91job.org.cn）",
+    "website_email": "官网'加入我们'页 + 邮箱投递",
+    "foreign": "海外官网（可能需代理）"
+  },
+  "companies": [
+    {
+      "id": "bytedance",
+      "name": "字节跳动",
+      "name_en": "ByteDance",
+      "category": "big_tech",
+      "tier": 1,
+      "ai_relevance": "high",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://jobs.bytedance.com/campus/position?keywords=AI&project=7525009396952582407&type=2",
+        "intern": "https://jobs.bytedance.com/campus/position?keywords=AI&project=7438836425495868930&type=2",
+        "social": "https://jobs.bytedance.com/experienced/position?keywords=AI"
+      },
+      "notes": "SPA，需 Playwright 渲染；岗位列表通过 XHR JSON 接口返回"
+    },
+    {
+      "id": "tencent",
+      "name": "腾讯",
+      "name_en": "Tencent",
+      "category": "big_tech",
+      "tier": 1,
+      "ai_relevance": "high",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://join.qq.com/post.html",
+        "intern": "https://join.qq.com/intern.html",
+        "social": "https://careers.tencent.com/search.html?keyword=AI"
+      },
+      "notes": "校招走 join.qq.com；社招走 careers.tencent.com"
+    },
+    {
+      "id": "alibaba",
+      "name": "阿里巴巴",
+      "name_en": "Alibaba",
+      "category": "big_tech",
+      "tier": 1,
+      "ai_relevance": "high",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://talent.alibaba.com/campus",
+        "intern": "https://talent.alibaba.com/intern",
+        "social": "https://talent.alibaba.com/off-campus"
+      },
+      "notes": "talent.alibaba.com 招聘门户，SPA"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "name_en": "Baidu",
+      "category": "big_tech",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://talent.baidu.com/jobs/campus-list?search=AI",
+        "intern": "https://talent.baidu.com/jobs/intern-list?search=AI",
+        "social": "https://talent.baidu.com/jobs/social-list?search=AI"
+      },
+      "notes": "AI 重镇，文心一言团队；talent.baidu.com 门户"
+    },
+    {
+      "id": "meituan",
+      "name": "美团",
+      "name_en": "Meituan",
+      "category": "big_tech",
+      "tier": 1,
+      "ai_relevance": "high",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://zhaopin.meituan.com/web/campus",
+        "intern": "https://zhaopin.meituan.com/web/intern",
+        "social": "https://zhaopin.meituan.com/web/social"
+      },
+      "notes": "zhaopin.meituan.com 门户"
+    },
+    {
+      "id": "jd",
+      "name": "京东",
+      "name_en": "JD.com",
+      "category": "big_tech",
+      "tier": 1,
+      "ai_relevance": "medium",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://campus.jd.com/",
+        "intern": "https://campus.jd.com/officialWebsite/index",
+        "social": "https://zhaopin.jd.com/web/job/job_list"
+      },
+      "notes": "campus.jd.com 校招门户"
+    },
+    {
+      "id": "pinduoduo",
+      "name": "拼多多",
+      "name_en": "Pinduoduo",
+      "category": "big_tech",
+      "tier": 1,
+      "ai_relevance": "medium",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://careers.pinduoduo.com/campus/grad",
+        "intern": "https://careers.pinduoduo.com/campus/intern",
+        "social": "https://careers.pinduoduo.com/social"
+      },
+      "notes": "careers.pinduoduo.com 门户"
+    },
+    {
+      "id": "netease",
+      "name": "网易",
+      "name_en": "NetEase",
+      "category": "big_tech",
+      "tier": 1,
+      "ai_relevance": "medium",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://hr.163.com/campus.html",
+        "intern": "https://hr.163.com/intern.html",
+        "social": "https://hr.163.com/social.html"
+      },
+      "notes": "hr.163.com 门户"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "name_en": "Xiaohongshu",
+      "category": "big_tech",
+      "tier": 1,
+      "ai_relevance": "high",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://job.xiaohongshu.com/campus/position?keywords=AI",
+        "intern": "https://job.xiaohongshu.com/intern/position?keywords=AI",
+        "social": "https://job.xiaohongshu.com/social/position?keywords=AI"
+      },
+      "notes": "job.xiaohongshu.com 门户，AI 岗位增长快"
+    },
+    {
+      "id": "huawei",
+      "name": "华为",
+      "name_en": "Huawei",
+      "category": "big_tech",
+      "tier": 1,
+      "ai_relevance": "high",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://career.huawei.com/cn/campus-recruitment",
+        "intern": "https://career.huawei.com/cn/campus-recruitment",
+        "social": "https://career.huawei.com/cn/social-recruitment"
+      },
+      "notes": "career.huawei.com 门户，含昇腾/盘古大模型岗位"
+    },
+    {
+      "id": "mihoyo",
+      "name": "米哈游",
+      "name_en": "miHoYo",
+      "category": "big_tech",
+      "tier": 1,
+      "ai_relevance": "medium",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://campus.mihoyo.com/",
+        "intern": "https://campus.mihoyo.com/#/intern",
+        "social": "https://campus.mihoyo.com/#/social"
+      },
+      "notes": "campus.mihoyo.com 门户，AI NPC/内容生成方向"
+    },
+    {
+      "id": "kuaishou",
+      "name": "快手",
+      "name_en": "Kuaishou",
+      "category": "big_tech",
+      "tier": 1,
+      "ai_relevance": "high",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607",
+        "intern": "https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271772783534",
+        "social": "https://campus.kuaishou.cn/#/campus/jobs"
+      },
+      "notes": "含可灵 AI 视频生成团队岗位；自建校招系统"
+    },
+    {
+      "id": "didi",
+      "name": "滴滴",
+      "name_en": "DiDi",
+      "category": "big_tech",
+      "tier": 2,
+      "ai_relevance": "medium",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://talent.didiglobal.com/campus/list",
+        "intern": "https://talent.didiglobal.com/intern/list",
+        "social": "https://talent.didiglobal.com/social/list"
+      },
+      "notes": "自动驾驶/AI 调度方向"
+    },
+    {
+      "id": "weibo",
+      "name": "新浪微博",
+      "name_en": "Weibo",
+      "category": "big_tech",
+      "tier": 2,
+      "ai_relevance": "medium",
+      "platform": "custom",
+      "status": "unavailable",
+      "career_urls": {
+        "campus": "https://career.sina.com.cn/campus",
+        "social": "https://career.sina.com.cn/social"
+      },
+      "notes": "career.sina.com.cn 已 404；校招全走微信公众号「新浪招聘」"
+    },
+    {
+      "id": "sohu",
+      "name": "搜狐",
+      "name_en": "Sohu",
+      "category": "big_tech",
+      "tier": 2,
+      "ai_relevance": "low",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://hr.sohu.com/campus",
+        "social": "https://hr.sohu.com/social"
+      },
+      "notes": "hr.sohu.com 门户"
+    },
+    {
+      "id": "qihoo360",
+      "name": "360",
+      "name_en": "Qihoo 360",
+      "category": "big_tech",
+      "tier": 2,
+      "ai_relevance": "medium",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://hr.360.cn/campus",
+        "intern": "https://hr.360.cn/intern",
+        "social": "https://hr.360.cn/social"
+      },
+      "notes": "含 360 智脑大模型团队"
+    },
+    {
+      "id": "zhipu",
+      "name": "智谱AI",
+      "name_en": "Zhipu AI",
+      "category": "llm_startup",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "feishu",
+      "career_urls": {
+        "campus": "https://zhipu-ai.jobs.feishu.cn/zhipucampus/position/list",
+        "intern": "https://zhipu-ai.jobs.feishu.cn/zhipucampus/position/list?job_type=intern"
+      },
+      "notes": "飞书招聘；GLM 系列大模型厂商"
+    },
+    {
+      "id": "moonshot",
+      "name": "月之暗面",
+      "name_en": "Moonshot AI (Kimi)",
+      "category": "llm_startup",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://careers.kimi.com/",
+        "intern": "https://careers.kimi.com/#/intern",
+        "social": "https://careers.kimi.com/#/social"
+      },
+      "notes": "Kimi 长上下文大模型厂商"
+    },
+    {
+      "id": "baichuan",
+      "name": "百川智能",
+      "name_en": "Baichuan Intelligence",
+      "category": "llm_startup",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://campus.baichuan-inc.com/",
+        "intern": "https://campus.baichuan-inc.com/#/intern",
+        "social": "https://campus.baichuan-inc.com/#/social"
+      },
+      "notes": "百川大模型厂商"
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "name_en": "MiniMax",
+      "category": "llm_startup",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "feishu",
+      "career_urls": {
+        "campus": "https://vrfi1sk8a0.jobs.feishu.cn/379481/?project=7496820276634634537",
+        "intern": "https://vrfi1sk8a0.jobs.feishu.cn/379481/?project=7352753013591755047",
+        "social": "https://vrfi1sk8a0.jobs.feishu.cn/379481/"
+      },
+      "notes": "abab 系列大模型；走飞书招聘"
+    },
+    {
+      "id": "stepfun",
+      "name": "阶跃星辰",
+      "name_en": "StepFun",
+      "category": "llm_startup",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "moka",
+      "career_urls": {
+        "campus": "https://app.mokahr.com/campus-recruitment/step/141903",
+        "social": "https://app.mokahr.com/social-recruitment/step/141903"
+      },
+      "notes": "Step 大模型厂商，走 Moka 招聘 SaaS"
+    },
+    {
+      "id": "deepseek",
+      "name": "深度求索",
+      "name_en": "DeepSeek",
+      "category": "llm_startup",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "website_email",
+      "career_urls": {
+        "page": "https://www.deepseek.com",
+        "jobs_page": "https://www.deepseek.com/careers",
+        "email": "talent@deepseek.com"
+      },
+      "notes": "官网'加入我们'页全量抓取岗位描述；邮箱仅作记录，不自动抓"
+    },
+    {
+      "id": "sensetime",
+      "name": "商汤科技",
+      "name_en": "SenseTime",
+      "category": "ai_dragon",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "beisen",
+      "career_urls": {
+        "campus": "https://hr.sensetime.com/SU604c56f9bef57c3d1a752c60/pb/school.html",
+        "intern": "https://hr.sensetime.com/SU604c56f9bef57c3d1a752c60/pb/interns.html",
+        "social": "https://hr.sensetime.com/SU604c56f9bef57c3d1a752c60/pb/social.html"
+      },
+      "notes": "北森招聘云；含日日新大模型岗位"
+    },
+    {
+      "id": "megvii",
+      "name": "旷视科技",
+      "name_en": "Megvii",
+      "category": "ai_dragon",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "moka",
+      "career_urls": {
+        "campus": "https://app.mokahr.com/campus-recruitment/megviihr/38642",
+        "social": "https://app.mokahr.com/social-recruitment/megviihr/38642"
+      },
+      "notes": "Face++ 旷视；CV 老牌厂商；走 Moka 招聘 SaaS"
+    },
+    {
+      "id": "hikvision",
+      "name": "海康威视",
+      "name_en": "Hikvision",
+      "category": "ai_dragon",
+      "tier": 1,
+      "ai_relevance": "high",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://campushr.hikvision.com/",
+        "intern": "https://campushr.hikvision.com/#/intern",
+        "social": "https://campushr.hikvision.com/#/social"
+      },
+      "notes": "campushr.hikvision.com 门户"
+    },
+    {
+      "id": "4paradigm",
+      "name": "第四范式",
+      "name_en": "4Paradigm",
+      "category": "ai_dragon",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "status": "unavailable",
+      "career_urls": {
+        "campus": "https://www.4paradigm.com/careers/campus",
+        "social": "https://www.4paradigm.com/careers/social"
+      },
+      "notes": "官网改版中，/careers/campus 返回 404；AutoML/决策智能方向"
+    },
+    {
+      "id": "yitu",
+      "name": "依图科技",
+      "name_en": "Yitu Technology",
+      "category": "ai_dragon",
+      "tier": 2,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://www.yitutech.com/careers/campus",
+        "social": "https://www.yitutech.com/careers/social"
+      },
+      "notes": "CV/语音双线 AI 厂商"
+    },
+    {
+      "id": "cloudwalk",
+      "name": "云从科技",
+      "name_en": "CloudWalk",
+      "category": "ai_dragon",
+      "tier": 2,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://www.cloudwalk.com/joinus/campus",
+        "social": "https://www.cloudwalk.com/joinus/social"
+      },
+      "notes": "人机协同操作系统方向"
+    },
+    {
+      "id": "iFlytek",
+      "name": "科大讯飞",
+      "name_en": "iFlytek",
+      "category": "ai_dragon",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://campus.iflytek.com/",
+        "intern": "https://campus.iflytek.com/#/intern",
+        "social": "https://talent.iflytek.com/"
+      },
+      "notes": "星火大模型；语音 AI 龙头"
+    },
+    {
+      "id": "cambricon",
+      "name": "寒武纪",
+      "name_en": "Cambricon",
+      "category": "ai_dragon",
+      "tier": 2,
+      "ai_relevance": "core",
+      "platform": "moka",
+      "career_urls": {
+        "campus": "https://joinus.cambricon.com/apply/cambricon",
+        "social": "https://joinus.cambricon.com/apply/cambricon"
+      },
+      "notes": "AI 芯片厂商；走 Moka 招聘系统"
+    },
+    {
+      "id": "chumenwenwen",
+      "name": "出门问问",
+      "name_en": "Mobvoi",
+      "category": "ai_startup",
+      "tier": 2,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://www.chumenwenwen.com/careers/campus",
+        "social": "https://www.chumenwenwen.com/careers/social"
+      },
+      "notes": "序列猴子大模型；语音交互方向"
+    },
+    {
+      "id": "aispeech",
+      "name": "思必驰",
+      "name_en": "AISpeech",
+      "category": "ai_startup",
+      "tier": 2,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "career_urls": {
+        "campus": "https://www.aispeech.com/join-us/campus",
+        "social": "https://www.aispeech.com/join-us/social"
+      },
+      "notes": "语音 AI 厂商"
+    },
+    {
+      "id": "zhuoyitec",
+      "name": "追一科技",
+      "name_en": "Zhuoyi Tech",
+      "category": "ai_startup",
+      "tier": 2,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "career_urls": {
+        "social": "https://www.zhuoyitec.com/careers"
+      },
+      "notes": "NLP/对话式 AI 厂商"
+    },
+    {
+      "id": "jthu",
+      "name": "捷通华声",
+      "name_en": "JTHU",
+      "category": "ai_startup",
+      "tier": 3,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "career_urls": {
+        "social": "https://www.jthu.cn/about/join.html"
+      },
+      "notes": "灵云 AI 平台"
+    },
+    {
+      "id": "langboat",
+      "name": "澜舟科技",
+      "name_en": "Langboat",
+      "category": "ai_startup",
+      "tier": 2,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "career_urls": {
+        "social": "https://www.langboat.com/careers"
+      },
+      "notes": "孟子大模型；周明团队"
+    },
+    {
+      "id": "leapmotor",
+      "name": "零点万物",
+      "name_en": "01.AI",
+      "category": "llm_startup",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "custom",
+      "career_urls": {
+        "social": "https://www.lingyiwanwu.com/careers"
+      },
+      "notes": "李开复创办；Yi 系列大模型"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "name_en": "OpenAI",
+      "category": "foreign",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "foreign",
+      "career_urls": {
+        "main": "https://openai.com/careers/",
+        "api_list": "https://api.greenhouse.io/v1/boards/openai/jobs"
+      },
+      "notes": "海外官网，可能需代理；Greenhouse API 提供结构化 JSON"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "name_en": "Anthropic",
+      "category": "foreign",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "foreign",
+      "career_urls": {
+        "main": "https://www.anthropic.com/careers",
+        "api_list": "https://api.greenhouse.io/v1/boards/anthropic/jobs"
+      },
+      "notes": "海外官网；Claude 大模型厂商；Greenhouse API 可直连"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "name_en": "Google",
+      "category": "foreign",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "foreign",
+      "career_urls": {
+        "main": "https://www.google.com/about/careers/applications/jobs?q=AI",
+        "gemini_team": "https://www.google.com/about/careers/applications/jobs?q=Gemini"
+      },
+      "notes": "含 Gemini/DeepMind 团队岗位；海外直连慢"
+    },
+    {
+      "id": "microsoft",
+      "name": "微软",
+      "name_en": "Microsoft",
+      "category": "foreign",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "foreign",
+      "career_urls": {
+        "main": "https://careers.microsoft.com/v2/global/en/search?q=AI",
+        "msra": "https://www.microsoft.com/en-us/research/group/msra/"
+      },
+      "notes": "含 MSRA 亚洲研究院；OpenAI 战略合作方；直连可达"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "name_en": "Meta",
+      "category": "foreign",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "foreign",
+      "career_urls": {
+        "main": "https://www.metacareers.com/jobs?q=AI",
+        "llama_team": "https://www.metacareers.com/jobs?q=Llama"
+      },
+      "notes": "Llama 大模型厂商；海外官网"
+    },
+    {
+      "id": "nvidia",
+      "name": "英伟达",
+      "name_en": "NVIDIA",
+      "category": "foreign",
+      "tier": 1,
+      "ai_relevance": "core",
+      "platform": "foreign",
+      "career_urls": {
+        "main": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+        "ai_jobs": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/joblist?q=AI"
+      },
+      "notes": "AI 芯片龙头；Workday 招聘系统"
+    },
+    {
+      "id": "amazon",
+      "name": "亚马逊",
+      "name_en": "Amazon",
+      "category": "foreign",
+      "tier": 1,
+      "ai_relevance": "high",
+      "platform": "foreign",
+      "career_urls": {
+        "main": "https://www.amazon.jobs/en/search?keyword=AI",
+        "aws_ai": "https://www.amazon.jobs/en/teams/aws-ai"
+      },
+      "notes": "含 AWS AI/Bedrock 团队岗位"
+    },
+    {
+      "id": "apple",
+      "name": "苹果",
+      "name_en": "Apple",
+      "category": "foreign",
+      "tier": 1,
+      "ai_relevance": "high",
+      "platform": "foreign",
+      "career_urls": {
+        "main": "https://jobs.apple.com/en-us/search?keyword=AI"
+      },
+      "notes": "含 Apple Intelligence 团队岗位"
+    },
+    {
+      "id": "seu",
+      "name": "东南大学就业指导中心",
+      "name_en": "SEU Career Center",
+      "category": "campus_aggregator",
+      "tier": 1,
+      "ai_relevance": "medium",
+      "platform": "job91",
+      "career_urls": {
+        "main": "https://seu.91job.org.cn/",
+        "jobs": "https://seu.91job.org.cn/sub-station/listJob?xxdm=10286"
+      },
+      "notes": "校招信息聚合源，主要作交叉验证补充信号；91job 平台"
+    }
+  ],
+  "third_party_platforms": {
+    "boss": "https://www.zhipin.com/web/geek/job?query=AI",
+    "lagou": "https://www.lagou.com/wn/zhaopin?pn=1&kd=AI",
+    "liepin": "https://www.liepin.com/zhaopin/?key=AI"
+  },
+  "campus_platforms": {
+    "nowcoder": "https://www.nowcoder.com/job/center",
+    "haitou": "https://www.haitou.cc/",
+    "yingjiesheng": "https://www.yingjiesheng.com/"
+  }
+}

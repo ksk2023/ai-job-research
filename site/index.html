@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 岗位调研 - 秋招实习数据看板</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="navbar-brand"><span class="logo">AI</span> 岗位调研</div>
+  <div class="navbar-nav">
+    <a href="index.html" class="active">数据看板</a>
+    <a href="jobs.html">岗位列表</a>
+    <a href="company.html">公司维度</a>
+    <a href="download.html">数据下载</a>
+  </div>
+  <div class="navbar-meta" id="dataDate">数据采集日期: 加载中...</div>
+</nav>
+
+<div class="container">
+  <!-- 数字统计卡片 -->
+  <div class="stats-grid" id="statsGrid">
+    <div class="stat-card">
+      <div class="stat-value" id="statTotal">-</div>
+      <div class="stat-label">总岗位数</div>
+    </div>
+    <div class="stat-card teal">
+      <div class="stat-value" id="statCompanies">-</div>
+      <div class="stat-label">覆盖公司</div>
+    </div>
+    <div class="stat-card success">
+      <div class="stat-value" id="statVerified">-</div>
+      <div class="stat-label">已验证(多源)</div>
+    </div>
+    <div class="stat-card warning">
+      <div class="stat-value" id="statConfidence">-</div>
+      <div class="stat-label">平均置信度</div>
+    </div>
+  </div>
+
+  <!-- 图表网格 -->
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="card-title">公司类别分布</div>
+      <div class="chart-container" id="chartCategory"></div>
+    </div>
+    <div class="chart-card">
+      <div class="card-title">技术岗 vs 非技术岗</div>
+      <div class="chart-container" id="chartJobCategory"></div>
+    </div>
+    <div class="chart-card">
+      <div class="card-title">招聘类型分布</div>
+      <div class="chart-container" id="chartJobType"></div>
+    </div>
+    <div class="chart-card">
+      <div class="card-title">AI 相关度漏斗</div>
+      <div class="chart-container" id="chartAiRelevance"></div>
+    </div>
+    <div class="chart-card" style="grid-column: span 2;">
+      <div class="card-title">岗位数 Top 15 公司</div>
+      <div class="chart-container" id="chartTopCompanies" style="height: 400px;"></div>
+    </div>
+    <div class="chart-card" style="grid-column: span 2;">
+      <div class="card-title">工作地点分布 Top 10</div>
+      <div class="chart-container" id="chartLocations" style="height: 360px;"></div>
+    </div>
+  </div>
+
+  <!-- 验证状态 -->
+  <div class="card">
+    <div class="card-title">数据验证状态</div>
+    <div id="verificationStatus"></div>
+  </div>
+</div>
+
+<div class="footer">
+  AI 岗位调研 · 数据仅供参考 · 多源交叉验证 · 最后更新: <span id="updateTime">-</span>
+</div>
+
+<script src="assets/vendor/echarts.min.js"></script>
+<script>
+const CATEGORY_NAMES = {
+  big_tech: '头部大厂', llm_startup: '大模型新锐', ai_dragon: 'AI四小龙',
+  ai_startup: 'AI创业公司', foreign: '外企', campus_aggregator: '校招聚合'
+};
+const JOB_CATEGORY_NAMES = { tech: '技术岗', non_tech: '非技术岗', unknown: '未分类' };
+const JOB_TYPE_NAMES = { autumn_campus: '秋招', intern: '实习', social: '社招', unknown: '未知' };
+const AI_RELEVANCE_NAMES = { core: '核心AI', high: '高度相关', medium: '中等相关', low: '低相关', unknown: '未知' };
+const CHART_COLORS = ['#4C5FE0','#1B9E6B','#E88A2A','#7C3AED','#14A8A8','#E5484D','#F77F00','#4A5BD7','#9AA0A6','#14A8A8'];
+
+// 加载统计数据
+async function loadStats() {
+  try {
+    const resp = await fetch('data/stats.json');
+    const stats = await resp.json();
+    renderStats(stats);
+    renderCharts(stats);
+  } catch (e) {
+    console.error('加载统计失败:', e);
+    document.getElementById('statsGrid').innerHTML = '<div class="empty-state"><div class="icon">!</div>数据加载失败，请先运行抓取流水线</div>';
+  }
+}
+
+function renderStats(stats) {
+  document.getElementById('statTotal').textContent = stats.total || 0;
+  document.getElementById('statCompanies').textContent = stats.company_count || 0;
+  document.getElementById('statVerified').textContent = stats.verified_count || 0;
+  document.getElementById('statConfidence').textContent = (stats.avg_confidence || 0).toFixed(1);
+  if (stats.generated_at) {
+    const d = new Date(stats.generated_at);
+    document.getElementById('dataDate').textContent = '数据采集日期: ' + d.toLocaleDateString('zh-CN');
+    document.getElementById('updateTime').textContent = d.toLocaleString('zh-CN');
+  }
+}
+
+function renderCharts(stats) {
+  renderPie('chartCategory', stats.by_category || {}, CATEGORY_NAMES);
+  renderPie('chartJobCategory', stats.by_job_category || {}, JOB_CATEGORY_NAMES);
+  renderPie('chartJobType', stats.by_job_type || {}, JOB_TYPE_NAMES, true);
+  renderFunnel('chartAiRelevance', stats.by_ai_relevance || {}, AI_RELEVANCE_NAMES);
+  renderBarH('chartTopCompanies', stats.by_company || {});
+  renderBarH('chartLocations', stats.by_location || {}, true);
+  renderVerification(stats.by_verification || {});
+}
+
+function renderPie(domId, data, nameMap, donut) {
+  donut = donut || false;
+  const chart = echarts.init(document.getElementById(domId));
+  const pieData = Object.entries(data).map(([k, v]) => ({ name: nameMap[k] || k, value: v }));
+  chart.setOption({
+    tooltip: {
+      trigger: 'item',
+      formatter: '{b}: {c} ({d}%)',
+      backgroundColor: '#FFFFFF',
+      borderColor: '#E0E3E7',
+      borderWidth: 0.5,
+      textStyle: { color: '#1A1D23', fontSize: 13 }
+    },
+    legend: { bottom: 0, textStyle: { fontSize: 12, color: '#5F6368' } },
+    color: CHART_COLORS,
+    series: [{
+      type: 'pie',
+      radius: donut ? ['40%','65%'] : '65%',
+      center: ['50%', '45%'],
+      data: pieData,
+      label: {
+        formatter: '{b}\n{c}',
+        fontSize: 12,
+        color: '#1A1D23'
+      },
+      labelLine: { lineStyle: { color: '#E0E3E7' } },
+      itemStyle: {
+        borderColor: '#FFFFFF',
+        borderWidth: 2,
+        borderRadius: 4
+      },
+      emphasis: {
+        itemStyle: { shadowBlur: 8, shadowColor: 'rgba(0,0,0,0.06)' }
+      }
+    }]
+  });
+  window.addEventListener('resize', () => chart.resize());
+}
+
+function renderFunnel(domId, data, nameMap) {
+  const chart = echarts.init(document.getElementById(domId));
+  const funnelData = Object.entries(data)
+    .map(([k, v]) => ({ name: nameMap[k] || k, value: v }))
+    .sort((a, b) => b.value - a.value);
+  chart.setOption({
+    tooltip: {
+      trigger: 'item',
+      formatter: '{b}: {c}',
+      backgroundColor: '#FFFFFF',
+      borderColor: '#E0E3E7',
+      borderWidth: 0.5,
+      textStyle: { color: '#1A1D23', fontSize: 13 }
+    },
+    color: CHART_COLORS,
+    series: [{
+      type: 'funnel',
+      left: '10%', right: '10%', top: 16, bottom: 16,
+      width: '80%', minSize: '30%',
+      data: funnelData,
+      label: {
+        show: true,
+        position: 'inside',
+        fontSize: 12,
+        color: '#FFFFFF',
+        fontWeight: 500
+      },
+      itemStyle: {
+        borderColor: '#FFFFFF',
+        borderWidth: 1,
+        borderRadius: 4
+      }
+    }]
+  });
+  window.addEventListener('resize', () => chart.resize());
+}
+
+function renderBarH(domId, data, isLocation) {
+  isLocation = isLocation || false;
+  const chart = echarts.init(document.getElementById(domId));
+  const entries = Object.entries(data).sort((a, b) => b[1] - a[1]).slice(0, 15);
+  const names = entries.map(e => e[0]);
+  const values = entries.map(e => e[1]);
+  const barColor = isLocation ? '#14A8A8' : '#4C5FE0';
+  chart.setOption({
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: { type: 'shadow' },
+      backgroundColor: '#FFFFFF',
+      borderColor: '#E0E3E7',
+      borderWidth: 0.5,
+      textStyle: { color: '#1A1D23', fontSize: 13 }
+    },
+    grid: { left: '3%', right: '6%', bottom: '3%', top: '3%', containLabel: true },
+    xAxis: {
+      type: 'value',
+      axisLine: { lineStyle: { color: '#E0E3E7' } },
+      axisTick: { show: false },
+      splitLine: { lineStyle: { color: '#F1F3F4' } },
+      axisLabel: { fontSize: 12, color: '#5F6368' }
+    },
+    yAxis: {
+      type: 'category',
+      data: names.reverse(),
+      axisLine: { show: false },
+      axisTick: { show: false },
+      axisLabel: { fontSize: 12, color: '#1A1D23' }
+    },
+    series: [{
+      type: 'bar',
+      data: values.reverse(),
+      itemStyle: {
+        color: barColor,
+        borderRadius: [0, 4, 4, 0]
+      },
+      label: {
+        show: true,
+        position: 'right',
+        fontSize: 12,
+        color: '#5F6368'
+      },
+      barWidth: 16
+    }]
+  });
+  window.addEventListener('resize', () => chart.resize());
+}
+
+function renderVerification(data) {
+  const verified = data.verified || 0;
+  const single = data.single_source || 0;
+  const total = verified + single;
+  const verifiedPct = total > 0 ? Math.round(verified / total * 100) : 0;
+  const singlePct = total > 0 ? Math.round(single / total * 100) : 0;
+  document.getElementById('verificationStatus').innerHTML = `
+    <div style="display:flex;gap:24px;align-items:center;flex-wrap:wrap;">
+      <div style="flex:1;min-width:280px;">
+        <div style="display:flex;gap:12px;margin-bottom:8px;">
+          <span class="badge badge-verified">已验证</span>
+          <span style="font-size:13px;color:var(--text-secondary);">${verified} 个岗位 (${verifiedPct}%)</span>
+        </div>
+        <div style="display:flex;gap:12px;">
+          <span class="badge badge-single">待核实</span>
+          <span style="font-size:13px;color:var(--text-secondary);">${single} 个岗位 (${singlePct}%)</span>
+        </div>
+        <div style="font-size:12px;color:var(--text-tertiary);margin-top:6px;">已验证 = 同一岗位在 ≥2 个独立来源找到</div>
+      </div>
+      <div style="flex:2;min-width:280px;">
+        <div class="verify-bar-track">
+          <div class="verify-bar-fill verified" style="width:${verifiedPct}%;">${verifiedPct > 8 ? verifiedPct + '%' : ''}</div>
+          <div class="verify-bar-fill single" style="width:${singlePct}%;">${singlePct > 8 ? singlePct + '%' : ''}</div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+loadStats();
+</script>
+</body>
+</html>

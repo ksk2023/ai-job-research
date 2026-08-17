@@ -1,0 +1,14 @@
+# 忽略运行时缓存与敏感数据
+data/cache/
+data/raw/
+*.log
+data/daily_update_log.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db

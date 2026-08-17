@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数据下载 - AI 岗位调研</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="navbar-brand"><span class="logo">AI</span> 岗位调研</div>
+  <div class="navbar-nav">
+    <a href="index.html">数据看板</a>
+    <a href="jobs.html">岗位列表</a>
+    <a href="company.html">公司维度</a>
+    <a href="download.html" class="active">数据下载</a>
+  </div>
+</nav>
+
+<div class="container">
+  <!-- 下载入口 -->
+  <div class="card download-card">
+    <div class="card-title" style="text-align:center;margin-bottom:4px;">数据下载</div>
+    <p style="text-align:center;color:var(--text-secondary);margin-bottom:20px;font-size:14px;">本数据集由自动化抓取 + 多源交叉验证生成，仅供调研参考</p>
+    <div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap;">
+      <a href="data/jobs.json" download class="download-btn">JSON 格式</a>
+      <a href="data/jobs.csv" download class="download-btn secondary">CSV 格式</a>
+      <a href="data/stats.json" download class="download-btn secondary">统计 JSON</a>
+    </div>
+    <div class="stat-widget" id="statsWidget">
+      <div class="stat-widget-item">
+        <div class="stat-widget-value" style="color:var(--primary);" id="widgetTotal">-</div>
+        <div class="stat-widget-label">岗位</div>
+      </div>
+      <div class="stat-widget-item">
+        <div class="stat-widget-value" style="color:var(--teal);" id="widgetCompanies">-</div>
+        <div class="stat-widget-label">公司</div>
+      </div>
+      <div class="stat-widget-item">
+        <div class="stat-widget-value" style="color:var(--success);" id="widgetVerified">-</div>
+        <div class="stat-widget-label">已验证</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 数据集说明 -->
+  <div class="card">
+    <div class="card-title">数据集说明</div>
+    <div style="font-size:14px;line-height:1.8;color:var(--text);">
+
+      <div class="detail-section">
+        <div class="card-title" style="margin-bottom:8px;">覆盖范围</div>
+        <ul style="margin-left:20px;color:var(--text-secondary);font-size:14px;">
+          <li>头部大厂（字节/腾讯/阿里/百度/美团/京东/拼多多/网易/小红书/华为/米哈游等 16 家）</li>
+          <li>大模型新锐厂商（智谱AI/月之暗面/百川/MiniMax/阶跃星辰/深度求索/零点万物等 7 家）</li>
+          <li>AI 四小龙及传统 AI 公司（商汤/旷视/海康/第四范式/依图/云从/科大讯飞/寒武纪等 8 家）</li>
+          <li>AI 创业公司（出门问问/思必驰/追一/捷通华声/澜舟等 5 家）</li>
+          <li>外企 AI 岗位（OpenAI/Anthropic/Google/Microsoft/Meta/NVIDIA/Amazon/Apple 等 8 家）</li>
+          <li>校招聚合源（东南大学就业指导中心）</li>
+        </ul>
+      </div>
+
+      <div class="detail-section">
+        <div class="card-title" style="margin-bottom:8px;">数据字段</div>
+        <table class="jobs-table" style="margin-bottom:12px;">
+          <thead><tr><th>字段</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td><code>id</code></td><td>岗位唯一标识（指纹哈希）</td></tr>
+            <tr><td><code>company</code></td><td>公司名（已标准化）</td></tr>
+            <tr><td><code>title</code></td><td>岗位名称</td></tr>
+            <tr><td><code>category</code></td><td>岗位类别：tech(技术岗) / non_tech(非技术岗)</td></tr>
+            <tr><td><code>ai_relevance</code></td><td>AI相关度：core / high / medium / low</td></tr>
+            <tr><td><code>job_type</code></td><td>招聘类型：autumn_campus(秋招) / intern(实习) / social(社招)</td></tr>
+            <tr><td><code>location</code></td><td>工作地点数组</td></tr>
+            <tr><td><code>verification_status</code></td><td>验证状态：verified(已验证) / single_source(待核实)</td></tr>
+            <tr><td><code>confidence_score</code></td><td>置信度评分 (0-100)</td></tr>
+            <tr><td><code>all_sources</code></td><td>所有数据来源（数组，含URL和平台）</td></tr>
+            <tr><td><code>source_count</code></td><td>来源数量</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <div class="card-title" style="margin-bottom:8px;">验证规则</div>
+        <ul style="margin-left:20px;color:var(--text-secondary);font-size:14px;">
+          <li><strong>已验证(verified)</strong>: 同一岗位在 ≥2 个独立来源找到</li>
+          <li><strong>待核实(single_source)</strong>: 仅在 1 个来源找到</li>
+          <li><strong>同一岗位判定</strong>: 公司名标准化后一致 + 标题相似度≥0.75 + 地点有交集</li>
+          <li><strong>置信度评分</strong>: 基础40 + 多源+20/源 + 官方源+10 + 完整度+10 + 新鲜度0~10</li>
+        </ul>
+      </div>
+
+      <div class="detail-section">
+        <div class="card-title" style="margin-bottom:8px;">数据声明</div>
+        <div class="disclaimer-card">
+          <strong>注意事项：</strong>
+          本数据集仅供个人调研使用，不得用于商业用途。<br>
+          数据通过自动化抓取收集，可能存在延迟或遗漏，请以各公司官方招聘网站为准。<br>
+          不存储任何个人数据（如HR邮箱、联系方式等）。
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">AI 岗位调研 · 数据仅供参考 · 多源交叉验证</div>
+
+<script>
+async function showStats() {
+  try {
+    const resp = await fetch('data/stats.json');
+    const stats = await resp.json();
+    document.getElementById('widgetTotal').textContent = stats.total || 0;
+    document.getElementById('widgetCompanies').textContent = stats.company_count || 0;
+    document.getElementById('widgetVerified').textContent = stats.verified_count || 0;
+  } catch (e) {}
+}
+showStats();
+</script>
+</body>
+</html>

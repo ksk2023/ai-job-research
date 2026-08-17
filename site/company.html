@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>公司维度 - AI 岗位调研</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="navbar-brand"><span class="logo">AI</span> 岗位调研</div>
+  <div class="navbar-nav">
+    <a href="index.html">数据看板</a>
+    <a href="jobs.html">岗位列表</a>
+    <a href="company.html" class="active">公司维度</a>
+    <a href="download.html">数据下载</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="card">
+    <div class="card-title">各公司岗位数分布 (Top 25)</div>
+    <div id="companyChart" style="width:100%;height:500px;"></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">公司类别对比</div>
+    <div id="categoryChart" style="width:100%;height:400px;"></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">公司详情列表</div>
+    <div id="companyList"><div class="loading"><div class="spinner"></div></div></div>
+  </div>
+</div>
+
+<div class="footer">AI 岗位调研 · 数据仅供参考 · 多源交叉验证</div>
+
+<script src="assets/vendor/echarts.min.js"></script>
+<script>
+const CATEGORY_NAMES = {
+  big_tech: '头部大厂', llm_startup: '大模型新锐', ai_dragon: 'AI四小龙',
+  ai_startup: 'AI创业公司', foreign: '外企', campus_aggregator: '校招聚合'
+};
+const CATEGORY_COLORS = {
+  big_tech: '#4C5FE0', llm_startup: '#1B9E6B', ai_dragon: '#7C3AED',
+  ai_startup: '#14A8A8', foreign: '#E88A2A', campus_aggregator: '#9AA0A6'
+};
+const CHART_COLORS = ['#4C5FE0','#1B9E6B','#E88A2A','#7C3AED','#14A8A8','#E5484D'];
+
+async function loadData() {
+  try {
+    const [jobsResp, statsResp] = await Promise.all([
+      fetch('data/jobs.json'), fetch('data/stats.json')
+    ]);
+    const jobs = await jobsResp.json();
+    const stats = await statsResp.json();
+    renderCompanyChart(jobs);
+    renderCategoryChart(jobs);
+    renderCompanyList(jobs, stats);
+  } catch (e) {
+    document.getElementById('companyList').innerHTML = '<div class="empty-state"><div class="icon">!</div>数据加载失败</div>';
+  }
+}
+
+function renderCompanyChart(jobs) {
+  const byCompany = {};
+  jobs.forEach(j => {
+    const c = j.company || '未知';
+    if (!byCompany[c]) byCompany[c] = { tech: 0, non_tech: 0, total: 0, category: j.company_category };
+    byCompany[c].total++;
+    if (j.category === 'tech') byCompany[c].tech++;
+    else if (j.category === 'non_tech') byCompany[c].non_tech++;
+  });
+
+  const sorted = Object.entries(byCompany).sort((a, b) => b[1].total - a[1].total).slice(0, 25);
+  const chart = echarts.init(document.getElementById('companyChart'));
+  chart.setOption({
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: { type: 'shadow' },
+      backgroundColor: '#FFFFFF',
+      borderColor: '#E0E3E7',
+      borderWidth: 0.5,
+      textStyle: { color: '#1A1D23', fontSize: 13 }
+    },
+    legend: { data: ['技术岗', '非技术岗'], bottom: 0, textStyle: { color: '#5F6368', fontSize: 12 } },
+    grid: { left: '3%', right: '6%', bottom: '8%', containLabel: true },
+    xAxis: { type: 'value', axisLine: { lineStyle: { color: '#E0E3E7' } }, axisTick: { show: false }, splitLine: { lineStyle: { color: '#F1F3F4' } }, axisLabel: { fontSize: 12, color: '#5F6368' } },
+    yAxis: { type: 'category', data: sorted.map(e => e[0]).reverse(), axisLine: { show: false }, axisTick: { show: false }, axisLabel: { fontSize: 12, color: '#1A1D23' } },
+    series: [
+      { name: '技术岗', type: 'bar', stack: 'total', data: sorted.map(e => e[1].tech).reverse(), itemStyle: { color: '#4C5FE0', borderRadius: [0, 0, 0, 0] }, barWidth: 14 },
+      { name: '非技术岗', type: 'bar', stack: 'total', data: sorted.map(e => e[1].non_tech).reverse(), itemStyle: { color: '#E88A2A', borderRadius: [4, 4, 0, 0] }, barWidth: 14 }
+    ]
+  });
+  window.addEventListener('resize', () => chart.resize());
+}
+
+function renderCategoryChart(jobs) {
+  const byCat = {};
+  jobs.forEach(j => {
+    const c = j.company_category || 'unknown';
+    if (!byCat[c]) byCat[c] = { tech: 0, non_tech: 0, total: 0, companies: new Set() };
+    byCat[c].total++;
+    byCat[c].companies.add(j.company);
+    if (j.category === 'tech') byCat[c].tech++;
+    else if (j.category === 'non_tech') byCat[c].non_tech++;
+  });
+
+  const chart = echarts.init(document.getElementById('categoryChart'));
+  const cats = Object.entries(byCat).sort((a, b) => b[1].total - a[1].total);
+  chart.setOption({
+    tooltip: {
+      trigger: 'item',
+      formatter: p => {
+        const d = p.data;
+        return `${p.name}<br/>岗位数: ${d[1]}<br/>公司数: ${d[2]}<br/>技术岗: ${d[3]}<br/>非技术: ${d[4]}`;
+      },
+      backgroundColor: '#FFFFFF',
+      borderColor: '#E0E3E7',
+      borderWidth: 0.5,
+      textStyle: { color: '#1A1D23', fontSize: 13 }
+    },
+    grid: { left: '3%', right: '6%', bottom: '3%', top: '3%', containLabel: true },
+    xAxis: { type: 'category', data: cats.map(e => CATEGORY_NAMES[e[0]] || e[0]), axisLine: { lineStyle: { color: '#E0E3E7' } }, axisTick: { show: false }, axisLabel: { fontSize: 12, color: '#5F6368' } },
+    yAxis: { type: 'value', axisLine: { show: false }, axisTick: { show: false }, splitLine: { lineStyle: { color: '#F1F3F4' } }, axisLabel: { fontSize: 12, color: '#5F6368' } },
+    series: [{
+      type: 'bar',
+      data: cats.map(e => [CATEGORY_NAMES[e[0]] || e[0], e[1].total, e[1].companies.size, e[1].tech, e[1].non_tech]),
+      itemStyle: {
+        color: function(p) { return CATEGORY_COLORS[cats[p.dataIndex][0]] || CHART_COLORS[p.dataIndex % CHART_COLORS.length]; },
+        borderRadius: [4, 4, 0, 0]
+      },
+      label: { show: true, position: 'top', fontSize: 12, color: '#5F6368' },
+      barWidth: 28
+    }]
+  });
+  window.addEventListener('resize', () => chart.resize());
+}
+
+function renderCompanyList(jobs, stats) {
+  const byCompany = {};
+  jobs.forEach(j => {
+    const c = j.company || '未知';
+    if (!byCompany[c]) byCompany[c] = { total: 0, tech: 0, verified: 0, category: j.company_category, autumn: 0, intern: 0 };
+    byCompany[c].total++;
+    if (j.category === 'tech') byCompany[c].tech++;
+    if (j.verification_status === 'verified') byCompany[c].verified++;
+    if (j.job_type === 'autumn_campus') byCompany[c].autumn++;
+    if (j.job_type === 'intern') byCompany[c].intern++;
+  });
+
+  const sorted = Object.entries(byCompany).sort((a, b) => b[1].total - a[1].total);
+  const maxTotal = Math.max(...sorted.map(e => e[1].total), 1);
+  document.getElementById('companyList').innerHTML = sorted.map(e => {
+    const d = e[1];
+    const pct = Math.round(d.total / maxTotal * 100);
+    const catColor = CATEGORY_COLORS[d.category] || '#9AA0A6';
+    return `<div class="company-card">
+      <span class="company-name">${escapeHtml(e[0])}</span>
+      <span class="badge" style="background:${catColor}15;color:${catColor};">${CATEGORY_NAMES[d.category] || d.category || '-'}</span>
+      <div class="company-bar" style="display:flex;align-items:center;gap:6px;">
+        <div class="confidence-bar" style="flex:1;">
+          <div class="confidence-bar-fill" style="width:${pct}%;background:${catColor};"></div>
+        </div>
+        <span class="company-count">${d.total}</span>
+      </div>
+      <span style="font-size:12px;color:var(--text-tertiary);">技术 ${d.tech} · 秋招 ${d.autumn} · 实习 ${d.intern} · 已验证 ${d.verified}</span>
+      <a href="jobs.html" onclick="localStorage.setItem('filterCompany','${escapeHtml(e[0])}')" style="font-size:12px;color:var(--primary);margin-left:8px;">查看</a>
+    </div>`;
+  }).join('');
+}
+
+function escapeHtml(s) { const d = document.createElement('div'); d.textContent = s||''; return d.innerHTML; }
+
+loadData();
+</script>
+</body>
+</html>

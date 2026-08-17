@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>岗位详情 - AI 岗位调研</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="navbar-brand"><span class="logo">AI</span> 岗位调研</div>
+  <div class="navbar-nav">
+    <a href="index.html">数据看板</a>
+    <a href="jobs.html">岗位列表</a>
+    <a href="company.html">公司维度</a>
+    <a href="download.html">数据下载</a>
+  </div>
+</nav>
+
+<div class="container" id="detailContainer">
+  <div class="loading"><div class="spinner"></div><div style="margin-top:12px;">加载岗位详情...</div></div>
+</div>
+
+<div class="footer">AI 岗位调研 · 数据仅供参考 · 多源交叉验证</div>
+
+<script>
+const CATEGORY_NAMES = { tech: '技术岗', non_tech: '非技术岗' };
+const JOB_TYPE_NAMES = { autumn_campus: '秋招', intern: '实习', social: '社招' };
+const AI_RELEVANCE_NAMES = { core: '核心AI', high: '高度相关', medium: '中等相关', low: '低相关' };
+
+async function loadDetail() {
+  const params = new URLSearchParams(location.search);
+  const jobId = params.get('id');
+  if (!jobId) { showError('未指定岗位 ID'); return; }
+
+  try {
+    const resp = await fetch('data/jobs.json');
+    const jobs = await resp.json();
+    const job = jobs.find(j => j.id === jobId);
+    if (!job) { showError('未找到该岗位'); return; }
+    renderDetail(job);
+  } catch (e) { showError('数据加载失败: ' + e.message); }
+}
+
+function showError(msg) {
+  document.getElementById('detailContainer').innerHTML = `<div class="empty-state"><div class="icon">!</div>${msg}<br><br><a href="jobs.html">返回列表</a></div>`;
+}
+
+function renderDetail(job) {
+  const sources = job.all_sources || [];
+  document.title = `${job.title || '岗位详情'} - AI 岗位调研`;
+
+  document.getElementById('detailContainer').innerHTML = `
+    <!-- 返回导航 -->
+    <a href="jobs.html" class="detail-back">&larr; 返回列表</a>
+
+    <!-- 岗位基本信息 -->
+    <div class="card">
+      <div class="detail-title-row">
+        <div class="detail-title">${escapeHtml(job.title || '未命名岗位')}</div>
+      </div>
+      <div class="detail-badges">
+        <span class="badge badge-autumn">${JOB_TYPE_NAMES[job.job_type] || job.job_type || '-'}</span>
+        ${job.category === 'tech' ? '<span class="badge badge-tech">技术岗</span>' : job.category === 'non_tech' ? '<span class="badge badge-non-tech">非技术岗</span>' : ''}
+        <span class="badge ${aiBadgeClass(job.ai_relevance)}">${AI_RELEVANCE_NAMES[job.ai_relevance] || '未知'}</span>
+        ${verificationBadge(job.verification_status)}
+      </div>
+      <div class="detail-meta">
+        <div class="detail-meta-item"><span class="label">公司</span><span class="value">${escapeHtml(job.company || '-')}</span></div>
+        <div class="detail-meta-item"><span class="label">公司类别</span><span class="value">${job.company_category || '-'}</span></div>
+        <div class="detail-meta-item"><span class="label">工作地点</span><span class="value">${(job.location || []).join(' / ') || '-'}</span></div>
+        <div class="detail-meta-item"><span class="label">学历要求</span><span class="value">${escapeHtml(job.education || '不限')}</span></div>
+        <div class="detail-meta-item"><span class="label">经验要求</span><span class="value">${escapeHtml(job.experience || '应届')}</span></div>
+        <div class="detail-meta-item"><span class="label">薪资</span><span class="value">${escapeHtml(job.salary_raw || '面议')}</span></div>
+        <div class="detail-meta-item"><span class="label">发布日期</span><span class="value">${escapeHtml(job.post_date || '-')}</span></div>
+        <div class="detail-meta-item"><span class="label">采集时间</span><span class="value">${formatDate(job.scraped_at)}</span></div>
+      </div>
+    </div>
+
+    <!-- 置信度评分 -->
+    <div class="card">
+      <div class="card-title">置信度评分</div>
+      <div style="display:flex;align-items:center;gap:16px;">
+        <div style="font-size:36px;font-weight:500;color:${confidenceColor(job.confidence_score)};letter-spacing:-0.03em;line-height:1;">${job.confidence_score || 0}</div>
+        <div style="flex:1;">
+          <div class="confidence-bar" style="height:12px;">
+            <div class="confidence-bar-fill" style="width:${job.confidence_score||0}%;background:${confidenceColor(job.confidence_score)}"></div>
+          </div>
+          <div style="font-size:12px;color:var(--text-tertiary);margin-top:4px;">
+            来源数: ${job.source_count || 1} · ${job.has_official_source ? '含官方来源' : '无官方来源'}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    ${job.responsibilities ? `
+    <div class="card detail-section">
+      <div class="card-title">岗位职责与要求</div>
+      <div style="white-space:pre-wrap;font-size:14px;line-height:1.8;color:var(--text);">${escapeHtml(job.responsibilities)}</div>
+    </div>
+    ` : ''}
+
+    ${job.ai_keywords && job.ai_keywords.length ? `
+    <div class="card">
+      <div class="card-title">AI 关键词</div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        ${job.ai_keywords.map(k => `<span class="badge badge-core">${escapeHtml(k)}</span>`).join('')}
+      </div>
+    </div>
+    ` : ''}
+
+    <!-- 数据来源 -->
+    <div class="card detail-section">
+      <div class="card-title">数据来源 (${sources.length} 个)</div>
+      <ul class="sources-list">
+        ${sources.map(s => `
+          <li>
+            <span class="badge ${s.source_type === 'official' ? 'badge-verified' : 'badge-single'}">${sourceTypeName(s.source_type)}</span>
+            <span style="font-size:13px;color:var(--text-secondary);min-width:140px;">${escapeHtml(s.platform || '-')}</span>
+            ${s.url && s.url.startsWith('http') ? `<a href="${escapeHtml(s.url)}" target="_blank" style="font-size:12px;word-break:break-all;">${escapeHtml(s.url)}</a>` : `<span style="font-size:12px;color:var(--text-tertiary);">无URL</span>`}
+            <span style="font-size:11px;color:var(--text-tertiary);margin-left:auto;">${formatDate(s.scraped_at)}</span>
+          </li>
+        `).join('')}
+      </ul>
+    </div>
+
+    <!-- 声明 -->
+    <div class="disclaimer-card">
+      <strong>数据说明：</strong>
+      本岗位信息通过自动化抓取收集，经多源交叉验证。
+      ${job.verification_status === 'verified' ? '该岗位已在 ≥2 个独立来源找到，置信度较高。' : '该岗位仅有单一来源，建议前往原始链接核实。'}
+      数据可能存在延迟，请以官方招聘网站为准。
+    </div>
+  `;
+}
+
+function aiBadgeClass(r) {
+  return { core: 'badge-core', high: 'badge-high', medium: 'badge-medium', low: 'badge-low' }[r] || 'badge-low';
+}
+function verificationBadge(s) {
+  if (s === 'verified') return '<span class="badge badge-verified">&#10003; 已验证</span>';
+  if (s === 'single_source') return '<span class="badge badge-single">待核实</span>';
+  return '<span class="badge badge-low">未知</span>';
+}
+function sourceTypeName(t) {
+  return { official: '官方', third_party: '第三方', campus: '校招平台', social: '社交媒体' }[t] || t || '未知';
+}
+function confidenceColor(score) {
+  if (score >= 80) return '#1B9E6B';
+  if (score >= 60) return '#4C5FE0';
+  if (score >= 40) return '#E88A2A';
+  return '#E5484D';
+}
+function formatDate(s) {
+  if (!s) return '-';
+  try { return new Date(s).toLocaleString('zh-CN'); } catch { return s; }
+}
+function escapeHtml(s) { const d = document.createElement('div'); d.textContent = s||''; return d.innerHTML; }
+
+loadDetail();
+</script>
+</body>
+</html>

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Coding 岗位 · 机考与力扣要求专题报告</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7; color: #1d1d1f; line-height: 1.7; padding: 0;
+  }
+  .container { max-width: 980px; margin: 0 auto; padding: 40px 24px 80px; }
+  
+  .report-header {
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    color: #fff; padding: 48px 40px; border-radius: 16px; margin-bottom: 32px;
+    position: relative; overflow: hidden;
+  }
+  .report-header::before {
+    content: ''; position: absolute; top: -30%; right: -10%;
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, rgba(0,255,136,0.1) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .report-header .tag-new {
+    display: inline-block; background: #00d4a0; color: #0f2027;
+    padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 700;
+    margin-bottom: 12px; position: relative;
+  }
+  .report-header h1 { font-size: 30px; font-weight: 700; margin-bottom: 12px; position: relative; }
+  .report-header .subtitle { font-size: 16px; opacity: 0.85; margin-bottom: 16px; position: relative; }
+  .report-header .meta { display: flex; gap: 24px; font-size: 13px; opacity: 0.7; flex-wrap: wrap; position: relative; }
+  
+  .key-findings {
+    background: #fff; border-left: 5px solid #00b894; border-radius: 12px;
+    padding: 28px 32px; margin-bottom: 32px; box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .key-findings h2 { font-size: 20px; margin-bottom: 16px; color: #00b894; }
+  .key-findings ul { list-style: none; }
+  .key-findings li {
+    padding: 8px 0 8px 28px; position: relative; font-size: 15px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .key-findings li:last-child { border-bottom: none; }
+  .key-findings li::before { content: '▸'; position: absolute; left: 0; color: #00b894; font-weight: bold; }
+  .key-findings .highlight { background: #e8fff5; padding: 1px 6px; border-radius: 4px; font-weight: 600; color: #00875a; }
+  .key-findings .hot { background: #fff0f0; padding: 1px 6px; border-radius: 4px; font-weight: 600; color: #d32f2f; }
+  
+  section {
+    background: #fff; border-radius: 12px; padding: 32px 36px; margin-bottom: 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  }
+  section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 8px; padding-bottom: 12px;
+    border-bottom: 2px solid #e8e8ed; display: flex; align-items: center; gap: 10px;
+  }
+  section h2 .num {
+    background: #0f2027; color: #fff; width: 32px; height: 32px; border-radius: 50%;
+    display: inline-flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 700;
+  }
+  section h3 { font-size: 17px; margin: 24px 0 12px; color: #1d1d1f; font-weight: 600; }
+  section p { margin-bottom: 12px; font-size: 15px; }
+  
+  .table-wrapper { overflow-x: auto; margin: 16px 0; border-radius: 8px; border: 1px solid #e8e8ed; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  thead { background: #0f2027; color: #fff; }
+  th { padding: 12px 14px; text-align: left; font-weight: 600; white-space: nowrap; }
+  td { padding: 12px 14px; border-bottom: 1px solid #e8e8ed; vertical-align: top; }
+  tbody tr:nth-child(even) { background: #fafafa; }
+  tbody tr:hover { background: #f0fff7; }
+  
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+  .badge-easy { background: #e8f5e9; color: #2e7d32; }
+  .badge-medium { background: #fff3e0; color: #e65100; }
+  .badge-hard { background: #ffebee; color: #c62828; }
+  .badge-new { background: #00d4a0; color: #0f2027; }
+  
+  .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 16px 0; }
+  .info-card {
+    background: linear-gradient(135deg, #f0fff4 0%, #e8ffee 100%);
+    border: 1px solid #b8e6c8; border-radius: 10px; padding: 20px;
+  }
+  .info-card.blue { background: linear-gradient(135deg, #f0f7ff 0%, #e8f0ff 100%); border-color: #b3d4ff; }
+  .info-card.purple { background: linear-gradient(135deg, #f8f0ff 0%, #f0e8ff 100%); border-color: #d4b3ff; }
+  .info-card h4 { font-size: 16px; margin-bottom: 10px; font-weight: 700; }
+  .info-card .big-num { font-size: 30px; font-weight: 800; color: #00875a; line-height: 1; margin: 8px 0; }
+  .info-card.blue .big-num { color: #1976d2; }
+  .info-card.purple .big-num { color: #7b1fa2; }
+  .info-card .desc { font-size: 13px; color: #555; }
+  
+  .warning {
+    background: #fff3cd; border: 1px solid #ffeaa7; border-left: 4px solid #f0ad4e;
+    border-radius: 8px; padding: 16px 20px; margin: 16px 0; font-size: 14px;
+  }
+  .warning strong { color: #856404; }
+  
+  .alert {
+    background: #ffebee; border: 1px solid #ffcdd2; border-left: 4px solid #e53935;
+    border-radius: 8px; padding: 16px 20px; margin: 16px 0; font-size: 14px;
+  }
+  .alert strong { color: #c62828; }
+  
+  .note {
+    background: #e8fff5; border-left: 4px solid #00b894;
+    border-radius: 0 8px 8px 0; padding: 14px 20px; margin: 16px 0; font-size: 14px;
+  }
+  .note strong { color: #00875a; }
+  
+  .compare-box {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0; margin: 16px 0;
+    border: 1px solid #e8e8ed; border-radius: 10px; overflow: hidden;
+  }
+  .compare-left, .compare-right { padding: 20px 24px; }
+  .compare-left { background: #fafafa; border-right: 1px solid #e8e8ed; }
+  .compare-right { background: #f0fff7; }
+  .compare-left h4 { color: #666; margin-bottom: 12px; font-size: 15px; }
+  .compare-right h4 { color: #00875a; margin-bottom: 12px; font-size: 15px; }
+  .compare-box ul { list-style: none; font-size: 14px; }
+  .compare-box li { padding: 4px 0 4px 20px; position: relative; }
+  .compare-left li::before { content: '✗'; position: absolute; left: 0; color: #d32f2f; }
+  .compare-right li::before { content: '✓'; position: absolute; left: 0; color: #00b894; font-weight: bold; }
+  
+  .tag { display: inline-block; background: #e8f8f0; padding: 2px 8px; border-radius: 4px; font-size: 12px; margin: 2px; color: #006d4a; border: 1px solid #b8e6c8; }
+  
+  .source-list { font-size: 13px; color: #666; }
+  .source-list li { padding: 4px 0; }
+  
+  .footer {
+    text-align: center; padding: 32px; color: #86868b; font-size: 13px;
+    border-top: 1px solid #e8e8ed; margin-top: 32px;
+  }
+  
+  @media (max-width: 640px) {
+    .container { padding: 20px 12px; }
+    .report-header { padding: 32px 24px; }
+    .report-header h1 { font-size: 22px; }
+    section { padding: 24px 20px; }
+    .compare-box { grid-template-columns: 1fr; }
+    .compare-left { border-right: none; border-bottom: 1px solid #e8e8ed; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="report-header">
+  <span class="tag-new">⚡ 2026 春招新趋势</span>
+  <h1>AI Coding 岗位 · 机考与力扣要求专题报告</h1>
+  <div class="subtitle">聚焦 AI Coding / AI 应用开发 / 大模型工程岗的笔试结构、力扣要求与考核差异</div>
+  <div class="meta">
+    <span>📅 调研日期：2026年7月</span>
+    <span>🔬 数据来源：牛客网面经、CSDN、面试鸭等</span>
+    <span>🏢 覆盖：蚂蚁/字节/腾讯/百度/华为/美团/智谱等</span>
+  </div>
+</div>
+
+<div class="key-findings">
+  <h2>📌 AI Coding 岗位核心结论</h2>
+  <ul>
+    <li><span class="hot">重大变化：</span>2026春招，<strong>蚂蚁集团率先把 AI Coding 定为算法/研发岗笔试必考题</strong>（3题必含1道AI Coding题），字节/腾讯/百度/华为/美团等已全面跟进。</li>
+    <li><strong>力扣要求降低：</strong>AI应用开发岗的 LeetCode 难度仅 <span class="highlight">Easy-Medium</span>，远低于传统算法岗的 Medium-Hard。更看重 LLM 应用和 Prompt 工程。</li>
+    <li><strong>笔试新题型：</strong>① ML工程实现题（numpy/sklearn写完整Pipeline）② 大模型API调用题 ③ AI+算法综合题。纯算法选手大量被刷。</li>
+    <li><strong>核心考察转向：</strong>从"会不会写DP"转向"会不会用AI工具 + 能不能做Agent/RAG系统设计 + 懂不懂大模型工程"。</li>
+    <li><span class="highlight">必须用Python：</span>AI Coding笔试基本只能用Python，C++/Java无用武之地，需熟 numpy/pandas/sklearn/transformers 库。</li>
+    <li><strong>面试新考点：</strong>"你怎么用AI提升日常开发效率"已成 Top1 新问题，考察 Claude Code / Cursor / Copilot 的真实使用经验。</li>
+  </ul>
+</div>
+
+<!-- Section 1: 什么是 AI Coding 岗位 -->
+<section>
+  <h2><span class="num">1</span>AI Coding 岗位到底指什么？</h2>
+  <p>"AI Coding 岗位"是一个 2025–2026 年快速兴起的岗位统称，本身不是单一岗位名称，而是指<strong>围绕大模型应用开发、AI辅助编程、AI工程化落地</strong>的一系列岗位。常见的岗位名称包括：</p>
+  
+  <div class="table-wrapper">
+    <table>
+      <thead><tr><th>常见岗位名称</th><th>核心工作</th><th>典型公司</th></tr></thead>
+      <tbody>
+        <tr><td>AI 应用开发工程师</td><td>基于大模型API开发应用（RAG/Agent/对话系统）</td><td>蚂蚁、字节、腾讯、百度</td></tr>
+        <tr><td>大模型应用研发</td><td>模型微调、推理优化、业务落地</td><td>字节豆包、阿里Qwen、百度文心</td></tr>
+        <tr><td>AI Agent 开发工程师</td><td>设计多Agent系统、Tool Calling、规划架构</td><td>智谱AI、月之暗面、MiniMax</td></tr>
+        <tr><td>Code Agent / 代码生成方向</td><td>开发AI编程助手、代码生成模型</td><td>字节Trae、百度Comate、GitHub</td></tr>
+        <tr><td>大模型算法工程师</td><td>预训练/SFT/RLHF、模型架构优化</td><td>各家大厂AI Lab</td></tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="note">
+    <strong>与传统算法岗的关键区别：</strong>传统算法岗做的是"训练推荐/CV/NLP模型"，AI Coding岗位做的是"<strong>用大模型开发应用、做工程化落地</strong>"。前者重数学和模型理论，后者重工程能力和系统设计。
+  </div>
+</section>
+
+<!-- Section 2: 哪些公司在考 AI Coding -->
+<section>
+  <h2><span class="num">2</span>2026春招：全面考察 AI Coding 的公司清单</h2>
+  <p>根据牛客网《2026春招必看：哪些公司面AI Coding》的统计，以下公司已将 AI Coding 纳入笔试或面试：</p>
+  
+  <div class="info-grid">
+    <div class="info-card">
+      <h4>🌐 互联网大厂</h4>
+      <p style="font-size:14px; line-height:2;">
+        <span class="tag">蚂蚁/阿里</span><span class="tag">字节跳动</span><span class="tag">腾讯</span>
+        <span class="tag">百度</span><span class="tag">华为</span><span class="tag">美团</span>
+        <span class="tag">拼多多</span><span class="tag">快手</span>
+      </p>
+    </div>
+    <div class="info-card blue">
+      <h4>🤖 AI 公司</h4>
+      <p style="font-size:14px; line-height:2;">
+        <span class="tag">智谱AI</span><span class="tag">MiniMax</span><span class="tag">月之暗面</span>
+        <span class="tag">商汤</span><span class="tag">微软</span><span class="tag">OpenAI</span>
+      </p>
+    </div>
+    <div class="info-card purple">
+      <h4>🎯 考察力度分级</h4>
+      <p style="font-size:13px;">
+        <strong>必考（笔试含AI Coding题）：</strong>蚂蚁、阿里<br>
+        <strong>高频（面试手撕）：</strong>字节、腾讯、百度<br>
+        <strong>选择题新增AI考点：</strong>华为、美团、拼多多
+      </p>
+    </div>
+  </div>
+  
+  <div class="alert">
+    <strong>⚠️ 2026 春招真实信号：</strong>"AI 知识已经从加分项，变成了基础能力的一部分"——美团2026春招笔试复盘明确指出，选择题已新增 Transformer结构、self-attention、位置编码、推理优化、Agent 基础概念等大模型考点。<strong>无论投哪个方向，AI Coding 已无法回避。</strong>
+  </div>
+</section>
+
+<!-- Section 3: 笔试题型详解 -->
+<section>
+  <h2><span class="num">3</span>AI Coding 笔试题型详解（蚂蚁 2026 真题）</h2>
+  <p>蚂蚁集团是目前 AI Coding 笔试设计最体系化的公司。其算法岗笔试 <strong>3题中必含1道AI Coding题</strong>，研发岗也高频出现。考生普遍反馈"比传统LeetCode难2倍"。典型题型如下：</p>
+  
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th>题型</th><th>考察内容</th><th>难度体感</th><th>常见失分点</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>① ML工程实现题</strong><br><span class="badge badge-new">必考</span></td>
+          <td>用 numpy/pandas/sklearn 实现完整Pipeline：<br>• 单层GraphSAGE<br>• KMeans聚类<br>• PCA降维<br>• 逻辑回归流水线</td>
+          <td><span class="badge badge-hard">较难</span><br>必须写出<br>可运行代码</td>
+          <td>参数/数据格式/fit-transform顺序/稀疏矩阵处理——<strong>一步错全错</strong></td>
+        </tr>
+        <tr>
+          <td><strong>② 大模型调用题</strong><br><span class="badge badge-new">高频</span></td>
+          <td>用 Qwen/GLM API 实现：<br>• 代码生成<br>• 自动Debug<br>• 文本分类<br>• 语义匹配</td>
+          <td><span class="badge badge-medium">中等</span><br>需处理<br>工程细节</td>
+          <td>prompt设计、异常处理、流式输出、上下文管理</td>
+        </tr>
+        <tr>
+          <td><strong>③ AI+算法综合题</strong><br><span class="badge badge-medium">出现</span></td>
+          <td>算法题 + AI特征工程结合：<br>• 大数运算 + 特征工程<br>• 字符串处理 + 嵌入表示<br>• 贪心/DP + 模型预测</td>
+          <td><span class="badge badge-hard">较难</span><br>跨度大</td>
+          <td>既要会算法，又要会ML库调用</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="warning">
+    <strong>为什么大家都说蚂蚁AI Coding笔试难？</strong>
+    <ul style="margin-left:20px; margin-top:8px;">
+      <li><strong>纯算法选手完全不适应：</strong>会DP不会sklearn，懂数学不会工程</li>
+      <li><strong>时间极紧：</strong>3题90分钟，AI题要写完整Pipeline，容易来不及</li>
+      <li><strong>只能用Python：</strong>C++/Java没用，必须熟ML库</li>
+      <li><strong>细节决定一切：</strong>少个reshape、错个axis直接0分</li>
+    </ul>
+    <strong>结论：很多人笔试挂在AI Coding，不是能力不行，是没练过、没准备、简历没AI项目。</strong>
+  </div>
+</section>
+
+<!-- Section 4: 力扣要求对比 -->
+<section>
+  <h2><span class="num">4</span>力扣要求：AI Coding 岗 vs 传统算法岗对比</h2>
+  <p>这是最关键的差异点。AI Coding 相关岗位的力扣要求<strong>明显低于</strong>传统算法岗，考核重心已发生根本性转移。</p>
+  
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th>对比维度</th><th>传统算法岗（推荐/CV/NLP）</th><th>AI Coding / AI应用开发岗</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>LeetCode难度</strong></td><td>Medium-Hard，需覆盖Hard</td><td><span class="badge badge-easy">Easy</span> - <span class="badge badge-medium">Medium</span> 为主</td></tr>
+        <tr><td><strong>刷题量基准</strong></td><td>300–400道，冲刺400+</td><td><strong>LeetCode Hot 100 熟练即可</strong>（约100道）</td></tr>
+        <tr><td><strong>重点题型</strong></td><td>DP、图论、复杂数据结构</td><td>哈希表、数组、字符串、基础数据结构</td></tr>
+        <tr><td><strong>手撕重点</strong></td><td>反向传播、KMeans、AUC</td><td><strong>Transformer/Self-Attention及其变体</strong></td></tr>
+        <tr><td><strong>考核重心</strong></td><td>数学推导、模型理论</td><td><strong>LLM应用、Prompt工程、系统设计</strong></td></tr>
+        <tr><td><strong>面试手撕题</strong></td><td>DP变种、Hard题</td><td>合并区间、合并K个链表、分割等和子集（均Medium）</td></tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="note">
+    <strong>来自字节大模型岗面经的真实数据：</strong>字节豆包大模型岗三轮技术面的代码题分别是——①合并区间(Medium) ②合并K个升序链表(Medium) ③分割等和子集(Medium)。全部是 Hot 100 级别，<strong>没有Hard题</strong>。但面试中会要求<strong>手写 GQA（分组查询注意力）代码</strong>。
+  </div>
+  
+  <h3>AI Coding 岗位面试代码题典型示例（字节豆包岗真题）</h3>
+  <div class="table-wrapper">
+    <table>
+      <thead><tr><th>轮次</th><th>代码题</th><th>难度</th><th>技术深挖重点</th></tr></thead>
+      <tbody>
+        <tr><td>一面</td><td>56. 合并区间</td><td><span class="badge badge-medium">Medium</span></td><td>FlashAttention、RoPE、多轮对话优化</td></tr>
+        <tr><td>二面</td><td>23. 合并K个升序链表</td><td><span class="badge badge-medium">Medium</span></td><td>Qwen2结构、Decoder-only、SFT vs RLHF、PPO vs DPO</td></tr>
+        <tr><td>三面</td><td>416. 分割等和子集</td><td><span class="badge badge-medium">Medium</span></td><td>RAG链路设计、GraphRAG、灾难性遗忘、产品思考</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Section 5: 面试核心考察 -->
+<section>
+  <h2><span class="num">5</span>面试核心考察：AI Coding 岗的"新八股"</h2>
+  <p>AI Coding 岗位的面试已经形成了一套全新的考察体系，与传统算法岗的"八股"完全不同。以下综合字节、蚂蚁、智谱、月之暗面等真实面经整理。</p>
+  
+  <h3>5.1 AI协作能力（2026面试Top1新考点）</h3>
+  <div class="warning">
+    <strong>最高频开场题：</strong>"你怎么用AI提升日常开发效率？"<br>
+    能讲出<strong>具体工具 + 真实场景 + 量化效果 + 局限性认识</strong>，立刻区分初/中/高级。
+  </div>
+  
+  <div class="table-wrapper">
+    <table>
+      <thead><tr><th>等级</th><th>能力描述</th><th>面试评价</th></tr></thead>
+      <tbody>
+        <tr><td>L1</td><td>让AI写代码，复制粘贴运行</td><td>❌ 减分项</td></tr>
+        <tr><td>L2</td><td>知道怎么提供上下文、追问细节</td><td>入门</td></tr>
+        <tr><td>L3</td><td>AI写错时能识别、能修、能解释为什么错</td><td>中级</td></tr>
+        <tr><td>L4</td><td>把大任务拆成AI能高质量完成的子任务</td><td>高级</td></tr>
+        <tr><td>L5</td><td>知道哪些任务AI不擅长（复杂状态/隐式约束/性能调优）</td><td>资深</td></tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <p><strong>必备工具栈认知：</strong></p>
+  <p>
+    <span class="tag">Cursor</span><span class="tag">GitHub Copilot</span><span class="tag">Claude Code</span>
+    <span class="tag">Cline</span><span class="tag">Trae IDE(字节)</span><span class="tag">文心快码(百度)</span>
+    <span class="tag">Ollama</span><span class="tag">LangChain</span><span class="tag">LangGraph</span>
+  </p>
+  
+  <h3>5.2 Agent / RAG 系统设计（高频必问）</h3>
+  <div class="table-wrapper">
+    <table>
+      <thead><tr><th>考察模块</th><th>典型问题</th><th>高频公司</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Agent基础</strong></td><td>Agent和Chatbot的本质区别？Agentic Loop怎么画？ReAct vs Plan-and-Execute？</td><td>字节、阿里、腾讯</td></tr>
+        <tr><td><strong>RAG系统</strong></td><td>如何搭建专业领域RAG链路？文档切片overlap参数？GraphRAG？</td><td>字节、蚂蚁、智谱</td></tr>
+        <tr><td><strong>Tool Calling</strong></td><td>function calling模板设计？工具参数幻觉如何修正？MCP协议？</td><td>腾讯、蚂蚁、字节</td></tr>
+        <tr><td><strong>Memory设计</strong></td><td>Agent长期记忆怎么设计？多轮对话上下文管理？</td><td>字节、月之暗面</td></tr>
+        <tr><td><strong>系统设计</strong></td><td>设计上下文管理服务（多线程安全+定时清理）；大模型对话系统</td><td>字节（真题）</td></tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <h3>5.3 大模型基础理论（必考八股）</h3>
+  <div class="info-grid">
+    <div class="info-card">
+      <h4>🔧 模型架构</h4>
+      <ul style="margin-left:16px; font-size:14px;">
+        <li>Transformer / Self-Attention 手撕</li>
+        <li>RoPE 旋转位置编码原理</li>
+        <li>GQA / MQA / MHA 区别</li>
+        <li>FlashAttention 思想</li>
+        <li>Decoder-only 为何成主流</li>
+        <li>KV Cache 工作原理</li>
+      </ul>
+    </div>
+    <div class="info-card blue">
+      <h4>📚 训练与对齐</h4>
+      <ul style="margin-left:16px; font-size:14px;">
+        <li>SFT 监督微调流程</li>
+        <li>RLHF / PPO / DPO / GRPO</li>
+        <li>为何 SFT 后还需 RLHF</li>
+        <li>灾难性遗忘及解决</li>
+        <li>LoRA / QLoRA 参数高效微调</li>
+        <li>数据配比设计</li>
+      </ul>
+    </div>
+    <div class="info-card purple">
+      <h4>⚙️ 推理优化</h4>
+      <ul style="margin-left:16px; font-size:14px;">
+        <li>vLLM / TensorRT-LLM</li>
+        <li>量化（INT8/INT4/AWQ）</li>
+        <li>PagedAttention</li>
+        <li>并行策略（数据/流水线/张量）</li>
+        <li>流式输出与上下文压缩</li>
+      </ul>
+    </div>
+  </div>
+  
+  <h3>5.4 真实面试题示例（蚂蚁 Agent 岗真题）</h3>
+  <div class="note">
+    <strong>蚂蚁 Code Agent（代码生成方向）一面真题：</strong>
+    <ol style="margin-left:20px; margin-top:8px;">
+      <li>工程级Code Agent在处理项目上下文、生成代码时会遇到哪些核心挑战？</li>
+      <li>当前主流Agent框架在技术演进上有哪些关键改进方向？</li>
+      <li>如何系统性保障AI生成代码的质量、安全性与可控性？</li>
+      <li>有哪些有效手段可以验证AI生成代码的正确性？</li>
+      <li>AI代码生成完成后，是否可以直接上线？还需要经过哪些关键环节的校验与治理？</li>
+    </ol>
+    <strong style="margin-top:12px; display:block;">蚂蚁 AI应用开发二面真题（节选）：</strong>
+    <ol style="margin-left:20px; margin-top:8px;">
+      <li>LangGraph中State的定义逻辑与流转机制？</li>
+      <li>文档切片策略：overlap参数的核心作用？</li>
+      <li>ReAct框架的核心原理</li>
+      <li>Multi-Agent系统中心化编排 vs 点对点架构</li>
+      <li>Skill与MCP的核心差异对比</li>
+      <li>对Vibe Coding的理解</li>
+    </ol>
+  </div>
+</section>
+
+<!-- Section 6: 简历加分项 -->
+<section>
+  <h2><span class="num">6</span>简历加分项：AI Coding 岗怎么准备？</h2>
+  
+  <div class="compare-box">
+    <div class="compare-left">
+      <h4>❌ 减分简历（传统算法岗思路）</h4>
+      <ul>
+        <li>只有LeetCode刷题记录</li>
+        <li>项目都是课程作业/Kaggle</li>
+        <li>没有大模型相关经验</li>
+        <li>不会用任何AI工具</li>
+        <li>简历写"熟悉Python"但没有工程项目</li>
+        <li>没有GitHub开源贡献</li>
+      </ul>
+    </div>
+    <div class="compare-right">
+      <h4>✓ 加分简历（AI Coding 思路）</h4>
+      <ul>
+        <li>有RAG/Agent实际项目（哪怕个人项目）</li>
+        <li>用Claude Code/Cursor做过完整开发</li>
+        <li>GitHub有AI相关开源贡献</li>
+        <li>微调过大模型（LoRA/SFT）</li>
+        <li>部署过大模型推理服务</li>
+        <li>写过Prompt工程的最佳实践总结</li>
+      </ul>
+    </div>
+  </div>
+  
+  <h3>备考三件套</h3>
+  <div class="info-grid">
+    <div class="info-card">
+      <h4>① 力扣（打底）</h4>
+      <div class="big-num">Hot 100</div>
+      <div class="desc">
+        熟练掌握即可<br>
+        重点：数组/哈希/字符串/链表/树<br>
+        能在20分钟内写出Bug Free代码<br>
+        <strong>不需要刷到300+</strong>
+      </div>
+    </div>
+    <div class="info-card blue">
+      <h4>② ML工程实现</h4>
+      <div class="big-num">手撕Pipeline</div>
+      <div class="desc">
+        numpy实现：KMeans/PCA/逻辑回归/反向传播<br>
+        sklearn熟练：fit/transform/pipeline<br>
+        transformers库：加载模型/Tokenizer<br>
+        <strong>这是笔试最大失分点</strong>
+      </div>
+    </div>
+    <div class="info-card purple">
+      <h4>③ 大模型工程</h4>
+      <div class="big-num">系统设计</div>
+      <div class="desc">
+        能手撕Self-Attention/RoPE/GQA<br>
+        搭过完整RAG链路<br>
+        做过Agent（ReAct或LangGraph）<br>
+        <strong>面试决定性因素</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 7: 一句话总结 -->
+<section>
+  <h2><span class="num">7</span>核心趋势总结</h2>
+  
+  <div class="note" style="font-size:15px;">
+    <strong>一句话概括 AI Coding 岗位的考核逻辑转变：</strong><br><br>
+    过去考：<strong>"你能不能把这道DP题写出来"</strong>（考算法能力）<br>
+    现在考：<strong>"你能不能用大模型把这个问题解决，并把工程做扎实"</strong>（考AI应用+工程能力）<br><br>
+    <strong>力扣刷题从"核心考核项"变成了"基础门槛"</strong>——Hot 100 级别够用，但光会刷题远远不够。真正拉开差距的是：<strong>ML工程实现能力 + 大模型系统设计能力 + AI工具实战经验</strong>。
+  </div>
+  
+  <div class="alert">
+    <strong>给求职者的建议：</strong>如果你目标是大模型应用开发/AI Coding 方向，不要把时间全花在刷LeetCode Hard题上。把 Hot 100 刷熟后，重点投入：<br>
+    ① 用 numpy/sklearn 手写 ML 算法（笔试必考）<br>
+    ② 做一个完整的 RAG 或 Agent 项目（简历核心）<br>
+    ③ 熟练使用 Cursor / Claude Code 等AI工具（面试必问）<br>
+    ④ 准备 Transformer / Attention 手撕（面试高频）
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">8</span>数据来源</h2>
+  <ol class="source-list" style="margin-left: 20px;">
+    <li><strong>牛客网</strong>—— 2026春招必看：哪些公司面AI Coding（蚂蚁AI Coding真题详解）、字节豆包大模型三轮面经、蚂蚁Agent一二面面经、蚂蚁暑期AI应用开发二面、美团2026春招笔试复盘</li>
+    <li><strong>CSDN</strong>—— 2025-2026 AI Agent开发岗面试真题大全（双视角答案版）、50道AI Agent/RAG/LLM进阶面试题、字节大模型岗面试手撕代码题汇总、大模型面试经验大揭秘</li>
+    <li><strong>掘金</strong>—— 面字节豆包大模型岗三轮技术面详解</li>
+    <li><strong>面灵AI</strong>—— AI求职面试实战：Python与算法高频题（AI岗位算法难度分级表）</li>
+    <li><strong>开发者指南(liukun2634)</strong>—— AI时代面试准备策略（AI协作能力5大梯度）</li>
+  </ol>
+</section>
+
+<div class="footer">
+  本报告基于公开网络数据整理，AI Coding 为快速演进的新方向，具体要求以各公司最新招聘信息为准。<br>
+  数据截至 2026 年 7 月
+</div>
+
+</div>
+</body>
+</html>

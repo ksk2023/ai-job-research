@@ -1,0 +1,907 @@
+﻿id,company,title,category,ai_relevance,job_type,location,education,verification_status,confidence_score,source_count,source_url,post_date,scraped_at
+b4678ea343f3d2dc,思必驰,思必驰亮相苏州国际精英创业周，护航苏州AI人才培育,unknown,unknown,autumn_campus,,,single_source,50,1,https://www.aispeech.com/join-us/campus,,2026-07-16T21:25:46.444236+08:00
+5a0eacf172f7767e,思必驰,中央财经委员会领导小组一行莅临思必驰考察调研,unknown,unknown,autumn_campus,,,single_source,50,1,https://www.aispeech.com/join-us/campus,,2026-07-16T21:25:46.500256+08:00
+c080aebfc3cccdaf,思必驰,思必驰×全新梅赛德斯-奔驰纯电GLC SUV,unknown,unknown,autumn_campus,,,single_source,50,1,https://www.aispeech.com/join-us/campus,,2026-07-16T21:25:46.577080+08:00
+472b7fa186fa73e0,思必驰,江苏省语言计算及应用重点实验室多项成果入选,unknown,unknown,autumn_campus,,,single_source,50,1,https://www.aispeech.com/join-us/campus,,2026-07-16T21:25:46.700953+08:00
+9090dce210c523ec,思必驰,WAIC | 思必驰入选中国AI商业落地应用价值Top50,unknown,unknown,autumn_campus,,,single_source,50,1,https://www.aispeech.com/join-us/campus,,2026-07-25T10:05:48.310023+08:00
+13ec219bf9fd141c,思必驰,具身智能机器人走向真实场景，思必驰天机系统强化AI交互底座,unknown,unknown,autumn_campus,,,single_source,50,1,https://www.aispeech.com/join-us/campus,,2026-08-03T19:02:57.419250+08:00
+ebb253f21c5a584f,思必驰,思必驰获信通院可信Token云服务云模芯用协同功能检验证书,unknown,unknown,autumn_campus,,,single_source,50,1,https://www.aispeech.com/join-us/campus,,2026-08-03T19:02:57.517611+08:00
+c69ad57e0368591a,百川智能,【百川星耀计划】AI产品经理,unknown,unknown,autumn_campus,,,single_source,70,1,https://campus.baichuan-inc.com/,,2026-07-16T21:21:53.311947+08:00
+d8d74a2dbf90184a,百川智能,【百川星耀计划】AI应用开发工程师,unknown,unknown,autumn_campus,,,single_source,50,1,https://campus.baichuan-inc.com/,,2026-07-16T21:21:53.435629+08:00
+71788b0faa171419,百川智能,【百川星耀计划】大模型算法工程师,unknown,unknown,autumn_campus,,,single_source,50,1,https://campus.baichuan-inc.com/,,2026-07-16T21:21:53.544403+08:00
+b79e6bd20ec32be0,百度,AI产品运营（J91410）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/70a4972a-3131-41b6-9fb5-b7a989948823,2025-08-06,2026-07-16T21:16:00.863494+08:00
+68ba05a992a3a099,百度,AI产品经理（J102311）,unknown,unknown,autumn_campus,北京,,verified,100,3,https://talent.baidu.com/jobs/social-list/detail/51681436-d8bb-44ae-a180-37ae3539aebb,2026-07-21,2026-07-25T09:54:58.832486+08:00
+3bb6a616eb159efe,百度,资深AI产品经理（J97082）,unknown,unknown,autumn_campus,北京,,verified,95,10,https://talent.baidu.com/jobs/social-list/detail/d7557de5-7f27-4be6-991a-5f88a2680752,2026-01-28,2026-07-16T21:16:02.286323+08:00
+14a48fb5b33cf1ed,百度,AI原生视频运营（J95020）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/2f4826a0-c703-4de5-a75b-15120ee1e6d7,2025-10-29,2026-07-16T21:16:01.501292+08:00
+d868b512e188074b,百度,AI高级产品经理（J100620）,unknown,unknown,autumn_campus,深圳/新加坡,,verified,100,3,https://talent.baidu.com/jobs/social-list/detail/3d4822dd-dc02-4988-ad9c-436550059c6d,2026-08-06,2026-08-07T09:54:31.175436+08:00
+e3952f6903c64164,百度,AI 产品经理（J94650）,unknown,unknown,autumn_campus,深圳/新加坡,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/2c188b97-6fee-4099-975e-1277a201288e,2025-10-17,2026-07-16T21:16:02.163248+08:00
+2d18591076378eaf,百度,AI搜索高阶产品（J97611）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/54f6ed55-c6ba-46ec-9db8-51afd8213f64,2026-02-27,2026-07-16T21:16:02.348505+08:00
+bc39034d9de83752,百度,AI商业化产品（J102213）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/c53b8dac-d15a-4050-91fc-1386fe2a6d9b,2026-07-08,2026-07-16T21:16:02.440334+08:00
+e25e7e1b4aa35288,百度,AI生态产品经理（J96518）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/2effd4e2-5a62-487c-8a02-54ed5928513e,2026-01-09,2026-07-16T21:16:02.593843+08:00
+426af87a01bca8b4,百度,AI全栈产品经理（J100130）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/e8e1904a-f6a7-4053-b630-c91f7e1d5269,2026-05-21,2026-07-16T21:16:02.731464+08:00
+f9b564827857e1e0,百度,AI产品营销经理（J102408）,unknown,unknown,autumn_campus,北京,,verified,75,2,https://talent.baidu.com/jobs/social-list/detail/6cacb32a-85b8-4cfe-893e-bfc25c5480eb,2026-07-10,2026-07-16T21:16:02.871611+08:00
+f8688e61296607e7,百度,AI搜索策略产品（J93381）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/8fab3077-1b9c-4d39-b525-6b509f5cec40,2025-09-22,2026-07-16T21:16:03.099492+08:00
+fe28fc74a4f6e989,百度,AI研发工程师（J93781）,unknown,unknown,autumn_campus,北京,,verified,75,2,https://talent.baidu.com/jobs/social-list/detail/3dd8daca-dc22-4655-b3d4-4ae59026d48a,2025-10-09,2026-07-16T21:16:03.375842+08:00
+a6686613921ee3c4,百度,大模型AI算法工程师（J82518）,unknown,unknown,autumn_campus,北京,,verified,95,3,https://talent.baidu.com/jobs/social-list/detail/49c7179e-ab14-4508-96f9-bdde7c300d6d,2025-06-26,2026-07-16T21:16:07.440548+08:00
+fde413774a47ce87,百度,百度AI技术生态-生态运营（J94765）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/053e079f-2d9d-41c2-a195-46ac1599ce87,2026-01-20,2026-07-16T21:16:03.605164+08:00
+3cef57c29f136fb7,百度,AI异构计算工程师（J82762）,unknown,unknown,autumn_campus,北京/深圳,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/bf46f345-28c5-4ffe-b492-b705ad20fa9d,2025-04-07,2026-07-16T21:16:03.728027+08:00
+d8606dc2d72ae15d,百度,AI Infra 研发工程师（J99362）,unknown,unknown,autumn_campus,北京/上海/深圳,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/50bfc087-5c62-4435-b9ce-fd63ff27af03,2026-04-15,2026-07-16T21:16:03.854156+08:00
+bae5743b3c5c449a,百度,AI 通信研发工程师（J100998）,unknown,unknown,autumn_campus,北京/深圳,,verified,75,2,https://talent.baidu.com/jobs/social-list/detail/22a83dc8-4de7-4e4a-9d73-9b28149caf2d,2026-06-22,2026-07-16T21:16:06.570290+08:00
+d5cabbd8b894155d,百度,AI高级产品经理（J95427）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/97d97b07-cb36-4c58-b833-afc317eb7431,2025-11-17,2026-07-16T21:16:04.069475+08:00
+0ab7d4e3b347f662,百度,商家Ai agent产品经理（J99223）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/67a90a79-47ef-4c18-9191-90bd608f4048,2026-04-10,2026-07-16T21:16:04.207013+08:00
+cd28ad01e7b1947a,百度,Ai修图客户成功经理（J102211）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/d275986a-82bd-49c3-bad0-4c0db383954e,2026-07-08,2026-07-16T21:16:04.330721+08:00
+b19f99172715a578,百度,AI Agent 算法工程师（J99071）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/c8821b51-c061-4652-8fad-61d8a49b9f52,2026-04-03,2026-07-16T21:16:04.642353+08:00
+fab3f2d8bb0a8f11,百度,B端医疗AI产品经理（J97199）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/e777aa25-0add-4719-a20b-209e875f6f3b,2026-02-02,2026-07-16T21:16:04.766970+08:00
+aecd8f72b51f7a1d,百度,AI解决方案专家（J90191）,unknown,unknown,autumn_campus,北京/上海/深圳,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/e58e3a37-a2e2-48d4-8e32-fd7c137798b5,2025-07-14,2026-07-16T21:16:04.843559+08:00
+d38136b9228710b1,百度,资深 AI 研发效能架构师（J100453）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/356d7786-eeea-453b-bffb-5413ab30df2c,2026-06-03,2026-07-16T21:16:04.938215+08:00
+339d9908beef33cb,百度,AI开源社区运营专家（J93105）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/ed956507-0ab7-4c9d-b321-387722e309a2,2025-09-03,2026-07-16T21:16:05.078181+08:00
+a15cd5da2e49a326,百度,AI 生态全栈工程师（J98854）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/f6a703a8-4466-4f4b-9f3e-0b9444a853e1,2026-03-26,2026-07-16T21:16:05.156118+08:00
+97964fed6de491bb,百度,垂类AI工具产品经理（J100860）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/a16f1853-15b0-4ba7-afd6-b9f3f0d5c222,2026-06-15,2026-07-16T21:16:05.249257+08:00
+f0e7ac4c8374ab49,百度,云原生AI研发工程师（J70063）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/81cd2eab-751e-44d4-91ed-fecd74e0391b,2024-01-05,2026-07-16T21:16:05.403614+08:00
+96ec1c05ebb7f1fd,百度,AI增长策略产品经理（J99861）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/767985cb-77f2-4d69-93e3-bfa1b6574a1f,2026-05-12,2026-07-16T21:16:05.464678+08:00
+c47ff3cd5b04076d,百度,AI创作工具产品经理（J83805）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/a02dc646-5547-4b39-9132-b7ed871d3b9c,2025-03-20,2026-07-16T21:16:05.605854+08:00
+0341f458b85c82b5,百度,AI 产品经理（私域Agent 方向）（J98474）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/037e198c-d1db-4607-9a68-041d04e309c4,2026-04-08,2026-07-16T21:16:05.684624+08:00
+9fb373795812b476,百度,数字人直播-AI产品经理（J82312）,unknown,unknown,autumn_campus,北京/上海,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/b8ec6e26-3772-4d44-a9e4-ce7da4041dbc,2025-02-05,2026-07-16T21:16:05.794626+08:00
+3c58c893c8e975e8,百度,AI短漫剧产运（内容方向）（J97673）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/b00e9833-7a53-4d8c-b9be-446ec93acf12,2026-02-28,2026-07-16T21:16:05.950317+08:00
+8fa7ed8e4867d914,百度,AI产品经理（用户增长）（J98908）,unknown,unknown,autumn_campus,北京,,single_source,75,1,https://talent.baidu.com/jobs/social-list/detail/522f0ec0-7ca1-4f87-b01e-53e1441fb4b9,2026-03-27,2026-07-16T21:16:06.058418+08:00
+16c889b1f646e963,百度,评估产品经理-AI搜方向（J92262）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/6f083ac5-634d-48ef-b94e-781e8e7da588,2025-09-23,2026-07-16T21:16:06.305463+08:00
+b39c8073b071a25f,百度,研发提效工程师（AI Coding）（J98543）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/3073c45d-d9a8-4b39-8062-e00c581c2e53,2026-03-17,2026-07-16T21:16:06.663034+08:00
+569aecc0c16d87ce,百度,AI产品经理（图像方向）（J97850）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/3acf2ada-decd-434f-851f-2f28f5a846a3,2026-03-05,2026-07-16T21:16:06.739574+08:00
+c5f1901ebcb48c73,百度,华东区域AI教育运营（J94858）,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/5414b9b6-18b3-4959-b7f0-97eab9dbede0,2026-01-20,2026-07-16T21:16:06.818181+08:00
+a7f171826064a1a0,百度,AI数据评估分析师（J92304）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/de9f455a-5aba-4be4-8471-bc97b9882e86,2025-09-02,2026-07-16T21:16:06.958887+08:00
+7b1d952d8e69d63a,百度,AI产品经理（海外AIGC平台功能方向）（J101288）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/7521ad0e-0eb7-4822-86e4-52ebe51e53eb,2026-06-30,2026-07-16T21:16:07.068540+08:00
+1d1441d4bef87a41,百度,高级产品专家（AI医疗方向）（J98647）,unknown,unknown,autumn_campus,北京,,verified,75,2,https://talent.baidu.com/jobs/social-list/detail/bf566c4b-6498-4871-8303-feb60b2c91e8,2026-03-19,2026-07-16T21:16:07.221589+08:00
+6418d5611542aa52,百度,AI芯片驱动开发工程师（J92074）,unknown,unknown,autumn_campus,北京/上海,,verified,75,2,https://talent.baidu.com/jobs/social-list/detail/5824fceb-4882-45ae-a5ae-f3f40dc00ae1,2026-03-06,2026-07-16T21:16:07.299497+08:00
+80bb9dfa2b6bfc65,百度,AI产品经理（企业效能方向）（J101407）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/645aeeb5-f2a7-4df3-b13c-d90a6006aac3,2026-07-08,2026-07-16T21:16:07.517993+08:00
+93a07e2ea4107bc0,百度,AI计算测试开发工程师（J98291）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/efd85bcd-ab31-4d2b-bd4e-10130016204b,2026-03-13,2026-07-16T21:16:07.640369+08:00
+a4a834814d4a5613,百度,大模型高级AI产品经理（J100663）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/2bdc6bd4-52bd-4b80-b0f6-7df7e5af78d5,2026-06-15,2026-07-16T21:16:07.734489+08:00
+b55032a47e39dfae,百度,AI产品经理（二次元方向）（J97939）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/40ea00c5-721b-424b-90ad-c81bc1d88720,2026-05-12,2026-07-16T21:16:07.921356+08:00
+018bdfd07a522367,百度,AI 后端架构研发工程师（J83888）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/59b4ba99-e4e5-4636-8ec9-19563101bd95,2025-03-24,2026-07-16T21:16:07.999235+08:00
+05b32425ece68ee0,百度,百度AI技术生态区域运营专家（J86867）,unknown,unknown,autumn_campus,武汉,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/4d1e1eaa-8480-4d49-ad17-08238a7b8bd6,2025-07-14,2026-07-16T21:16:08.216266+08:00
+e79cf28b03c72e71,百度,文库网盘AI能力高级产品经理（J86566）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/f77acf7b-dee5-43e7-aa00-5d5e97cbdd31,2025-07-20,2026-07-16T21:16:08.372464+08:00
+5fe44e1df36de772,百度,AI能力及生态-解决方案产品经理（J99487）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/ae960b5c-6603-429c-96d8-3a328b9f5d8e,2026-05-12,2026-07-16T21:16:08.496824+08:00
+b6e5aa1d41915dec,百度,监控平台研发（AI智能体方向）（J99613）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/81dc2738-9bcd-4e4c-9841-2ccfc37f3b26,2026-04-28,2026-07-16T21:16:08.574947+08:00
+1c4e4737bf6ad19f,百度,海外AI赛道——高级用户体验设计师（J97181）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/37e99a23-6bef-4447-8fd5-54c9e691e54b,2026-02-03,2026-07-16T21:16:08.778200+08:00
+6b09040582a1cd23,百度,AI 生态方向 Go 后端开发工程师（J97847）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/c026b4e1-5d61-4337-8338-ef563c6a2c38,2026-03-09,2026-07-16T21:16:08.885974+08:00
+9177d5e136d1a99b,百度,AI 产品经理（C 端影像 / 图像智能方向）（J100547）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/c930faf2-24d5-42e7-8ead-1b46161c4f0e,2026-06-10,2026-07-16T21:16:08.963224+08:00
+7d77ce694be77e92,百度,AI网络通信库研发工程师（J97232）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/5e7aeaf2-b7ec-41a9-adae-6260d67f1e03,2026-02-03,2026-07-16T21:16:09.165102+08:00
+4e40c5b2517b46c8,百度,AI算力与大模型产品解决方案（J97266）,unknown,unknown,autumn_campus,北京/上海/深圳,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/a20c009e-7e87-4e38-98b0-7fab767752f5,2026-02-05,2026-07-16T21:16:09.227986+08:00
+4878bca49f9ea6e7,百度,出海AI创新产品美学中心负责人（J96938）,unknown,unknown,autumn_campus,北京/上海,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/a523a1f4-536a-4c9e-8b2c-6e6a9d71be92,2026-01-22,2026-07-16T21:16:09.305892+08:00
+ddd936414818f9f1,百度,百度百舸_AI计算通信加速研发工程师（J77978）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/ab49170b-33c2-4615-8c6f-0c9659020fce,2025-02-24,2026-07-16T21:16:09.398062+08:00
+132ef682f2562706,百度,地图AI原生产品部_地图NLP、VIS 策略算法研发（J72866）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/248506af-15c9-4f67-9f08-2aeb6c4805d2,2024-06-17,2026-07-16T21:16:09.474771+08:00
+596d82ce92a3674e,百度,自动驾驶AI基础平台-后端工程师（J84318）,unknown,unknown,autumn_campus,北京,,verified,75,2,https://talent.baidu.com/jobs/social-list/detail/ee2eb6d4-8f40-4742-bc1e-f80fea35d3da,2025-04-10,2026-07-16T21:16:10.028090+08:00
+673a90f75525231d,百度,高级产品经理/资深产品经理 - C端AI方向（J99486）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/45303f78-06b9-4f30-a593-efa951a4fe10,2026-05-12,2026-07-16T21:16:09.703652+08:00
+506815120944eb79,百度,上海大客户经理（教科研・AI / 算力方向）（J96900）,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/990e0798-c930-443d-beb8-d20044d9e1e8,2026-01-22,2026-07-16T21:16:09.781354+08:00
+73fd29f71b71d27a,百度,AI智能化转型资深咨询顾问 / 咨询经理（J98510）,unknown,unknown,autumn_campus,北京/上海/深圳/广州,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/8bfe1405-d956-4e4a-a3cc-cbbe2a490260,2026-03-16,2026-07-16T21:16:09.920051+08:00
+ed846f1aec7c67df,百度,百度网盘APP—高级用户产品经理（AI及消费方向）（J99488）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/0978612f-2680-46a0-a39f-f85caf776c47,2026-05-12,2026-07-16T21:16:10.122015+08:00
+afc5c2a60b173903,百度,百度网盘APP-AI产品经理（工具体验方向）（J97004）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/84cbba90-c72e-4047-ab6f-d8a0e12946c1,2026-01-26,2026-07-16T21:16:10.214352+08:00
+eb514a4fc4247e19,百度,AI算力与大模型产品解决方案工程师（J58750）,unknown,unknown,autumn_campus,北京/上海,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/8152efe0-e609-4eda-95fc-cc23a32f1074,2023-05-19,2026-07-16T21:16:10.292584+08:00
+d8112397a357e76a,百度,KA业务拓展二组_AI云拓展销售经理（J100586）,unknown,unknown,autumn_campus,北京/上海/深圳,,single_source,55,1,https://talent.baidu.com/jobs/social-list/detail/48050f25-bfef-40bc-9366-51b71d65686c,2026-07-15,2026-07-17T11:20:51.119580+08:00
+d0e8b0b2fb39703c,百度,AI商业化负责人（J101027）,unknown,unknown,autumn_campus,北京,,single_source,60,1,https://talent.baidu.com/jobs/social-list/detail/24fdd00f-725e-4148-bead-96487f35a749,2026-07-21,2026-07-25T09:55:01.659236+08:00
+4ce7b1b108d64f78,百度,AI安全护栏-Go/Java开发工程师（J103571）,unknown,unknown,autumn_campus,北京,,single_source,60,1,https://talent.baidu.com/jobs/social-list/detail/a889dfbd-ba22-4a94-bd94-4d805d63c8a6,2026-07-23,2026-07-25T09:55:04.906379+08:00
+ae58a5e1068de250,百度,AI 产品经理 （医生助理方向）（J103996）,unknown,unknown,autumn_campus,北京,,single_source,60,1,https://talent.baidu.com/jobs/social-list/detail/3883f9f1-1460-48fd-b799-1c1409634941,2026-08-03,2026-08-04T09:59:30.633021+08:00
+a0fee6107f43bf3b,百度,AI效能与质量保障（J104103）,unknown,unknown,autumn_campus,深圳,,single_source,60,1,https://talent.baidu.com/jobs/social-list/detail/e061fd99-2599-4059-b277-f9c921191544,2026-08-03,2026-08-06T11:13:15.662878+08:00
+bfabeaaece71653b,百度,AI客户经理（J104235）,unknown,unknown,autumn_campus,北京/上海/深圳/成都/杭州,,single_source,60,1,https://talent.baidu.com/jobs/social-list/detail/0b669bb4-4f53-4da0-965a-3c9ff118a6f9,2026-08-05,2026-08-07T09:54:30.675959+08:00
+cee1c4620c3162a5,百度,AI 算力云销售经理（J104242）,unknown,unknown,autumn_campus,北京/郑州,,single_source,60,1,https://talent.baidu.com/jobs/social-list/detail/4da9f061-d9ca-402c-a3a9-7a3e8c9c0a06,2026-08-06,2026-08-07T09:54:33.613062+08:00
+73d72c509917d716,百度,AI模型研发项目经理（J104483）,unknown,unknown,autumn_campus,北京,,single_source,60,1,https://talent.baidu.com/jobs/social-list/detail/3fe5159b-1bc2-4406-b324-d2d47ad922e4,2026-08-12,2026-08-13T09:54:41.500658+08:00
+f501c799bff07df3,百度,AI安全产品经理（J104525）,unknown,unknown,autumn_campus,北京,,single_source,60,1,https://talent.baidu.com/jobs/social-list/detail/13e71919-fe34-494b-ae26-ae2abb2b26b3,2026-08-13,2026-08-14T10:39:33.118051+08:00
+63a1d21ceee7cbf6,百度,高级AI测开工程师（J104478）,unknown,unknown,autumn_campus,上海,,single_source,60,1,https://talent.baidu.com/jobs/social-list/detail/3f3b1b9b-f5e2-4f90-921a-122bbee49407,2026-08-13,2026-08-14T10:39:37.711882+08:00
+131345fac0c9db7e,字节跳动,AI数据策略实习生 - 模型数据工程,unknown,unknown,intern,,,single_source,50,1,https://jobs.bytedance.com/campus/position?keywords=AI&project=7525009396952582407&type=2,,2026-08-14T10:38:41.032749+08:00
+48cd0e312a3fb6cb,字节跳动,AI Agent开发工程师 - Commercial AI,unknown,unknown,autumn_campus,,,single_source,50,1,https://jobs.bytedance.com/campus/position?keywords=AI&project=7525009396952582407&type=2,,2026-08-14T10:38:41.152168+08:00
+c19b9ae655c8cc0f,字节跳动,图文推荐算法工程师 - TikTok算法,unknown,unknown,autumn_campus,,,single_source,50,1,https://jobs.bytedance.com/campus/position?keywords=AI&project=7525009396952582407&type=2,,2026-08-14T10:38:41.261108+08:00
+8f6ce3aabb40096f,海康威视,算法/网络安全/大数据类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:22:28.540775+08:00
+f8f521ed0edf2dfb,海康威视,器件电路类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:22:28.700292+08:00
+a8b6af8ee3f0ebef,海康威视,软件/嵌入式类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:22:28.808754+08:00
+2b777b0922fbdc61,海康威视,硬件/结构类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:22:28.885242+08:00
+9ebe3880168d1971,海康威视,国内营销岗/国内技术支持岗,unknown,unknown,autumn_campus,,,single_source,70,1,,,2026-07-16T21:22:28.994104+08:00
+bd7329dab9218d3c,海康威视,测试/支撑类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:22:29.196383+08:00
+245831f645f0e287,海康威视,供应链类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:22:29.305093+08:00
+c8bfb798291ac18d,海康威视,体验设计类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:22:29.442564+08:00
+ae64f409c51aeef4,海康威视,综合类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:22:29.535939+08:00
+4579d063eeb0cfbf,快手,【快Star】多模态大模型算法工程师-Keye-【可灵AI专项】,unknown,unknown,autumn_campus,,,single_source,75,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1784114390000,2026-07-16T21:19:07.437299+08:00
+8cbecf94200cf717,快手,【快Star】安全工程师-安全攻防Agentic AI方向,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1782964781000,2026-07-16T21:19:07.530563+08:00
+8729b3feb0a12c74,快手,【快Star】大模型应用算法工程师,unknown,unknown,autumn_campus,,,single_source,75,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1779950791000,2026-07-16T21:19:08.068351+08:00
+1d698fd49fe08ec8,快手,【快Star】容器&大模型推理调度研发工程师,unknown,unknown,autumn_campus,,,single_source,95,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1784540534000,2026-07-25T09:57:58.673552+08:00
+25df02ed1716dac9,快手,【快Star】AI应用开发工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1780280939000,2026-07-16T21:19:07.776188+08:00
+4f6e0a3039b0cd58,快手,【快Star】数据引擎内核研发工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1780055138000,2026-07-16T21:19:07.929469+08:00
+da9ba2b8bd9d382b,快手,【快Star】广告AI算法工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1779969853000,2026-07-16T21:19:08.005992+08:00
+b224b3a90efc6a08,快手,【快Star】大模型分布式推理框架工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1779949009000,2026-07-16T21:19:08.208192+08:00
+b061e14eee327d14,快手,【快Star】大模型高性能推理算子工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1779948955000,2026-07-16T21:19:08.301633+08:00
+260b64ebd1c7fea0,快手,【快Star】Agent智能创作算法研究员-【可灵AI】,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1784256972000,2026-07-17T11:22:53.142590+08:00
+d90ba41cee5fea9b,快手,【快Star】多模态大语言模型研究员-【可灵AI】,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1784256939000,2026-07-17T11:22:53.215358+08:00
+49dbbd2cd56e9ac6,快手,【快Star】强化学习算法研究员-【可灵AI】,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1784256910000,2026-07-17T11:22:53.370479+08:00
+cd176c95970af723,快手,【快Star】AI Agent算法专家-智能创作-【可灵AI专项】,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1784256637000,2026-07-17T11:22:53.448404+08:00
+57f4196abeddaf27,快手,【快Star】AIOps自主进化研究员,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1784806679000,2026-07-25T09:57:58.428964+08:00
+798f1239be94b1fc,快手,【快Star】大模型Agent算法工程师-短视频推荐方向,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1784548645000,2026-07-25T09:57:58.596476+08:00
+dea3e8478c6de5fc,快手,【快Star】多模态大模型数据策略算法工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1785406913000,2026-08-03T18:53:27.634489+08:00
+6c08d9e4f29d8d72,快手,内容运营-二次元内容,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786557527000,2026-08-13T09:57:39.693500+08:00
+4b50d07750e0ed2f,快手,AI全栈开发工程师-数据平台,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786557330000,2026-08-13T09:57:39.817776+08:00
+6cfc2f7da27fe7d3,快手,交互设计师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786547122000,2026-08-13T09:57:39.938865+08:00
+e551689a2980dd34,快手,UI设计师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786547013000,2026-08-13T09:57:40.062778+08:00
+ffd7bbaa274d38a6,快手,策略产品培训生,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786546907000,2026-08-13T09:57:40.204403+08:00
+a115e0c9103d87bd,快手,数据分析师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786546780000,2026-08-13T09:57:40.280292+08:00
+f5acb2c400efa6a6,快手,平台产品经理-增长平台,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786546621000,2026-08-13T09:57:40.373121+08:00
+b0642c0863c9a1e7,快手,用户产品经理,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786546301000,2026-08-13T09:57:40.512655+08:00
+e72a1ba6d41a9718,快手,HR-BP类,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786545959000,2026-08-13T09:57:40.650697+08:00
+887e4218250022b6,快手,HR-战略招聘,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786545828000,2026-08-13T09:57:40.729228+08:00
+8a54f613fc51896f,快手,网络库SDK开发工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786674317000,2026-08-14T10:41:53.766374+08:00
+131d7827fa815429,快手,HR-招聘类,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786674283000,2026-08-14T10:41:54.186119+08:00
+ef84f426f2ddadc1,快手,HR-组织发展,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786674272000,2026-08-14T10:41:54.280962+08:00
+736ff2c2fd9a9552,快手,策略产品经理-大模型数据,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786674227000,2026-08-14T10:41:54.376329+08:00
+fc20099f32103bc5,快手,策略运营-电商广告行业,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786673913000,2026-08-14T10:41:54.438430+08:00
+23e1afd10d1192e2,快手,广告策略产品经理,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786672856000,2026-08-14T10:41:54.563087+08:00
+d15ecdd2db6a09f8,快手,视频编解码算法工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786636721000,2026-08-14T10:41:54.657142+08:00
+811c960bb9a6586f,快手,移动端视频播放器SDK开发工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786636176000,2026-08-14T10:41:54.766523+08:00
+29380519ed6e02ab,快手,大数据引擎研发工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786720785000,2026-08-15T09:56:40.042088+08:00
+c88c0753da40c30e,快手,推荐大模型算法工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786720750000,2026-08-15T09:56:40.158908+08:00
+4e08e78a7be0c10b,快手,AI调度工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786720619000,2026-08-15T09:56:40.407413+08:00
+72fd9e0e211cb797,快手,C++开发工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786720579000,2026-08-15T09:56:40.544584+08:00
+46212397fc8c57d3,快手,CDN流量调度策略研发工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786707123000,2026-08-15T09:56:40.793452+08:00
+0b07499aa9b28cc7,快手,产品运营-支付方向,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786707101000,2026-08-15T09:56:40.933674+08:00
+798576471a47143b,快手,AI搜算法工程师,unknown,unknown,autumn_campus,,,single_source,55,1,https://campus.kuaishou.cn/#/campus/jobs?recruitSubProjectCodes=20271779425607,1786705908000,2026-08-15T09:56:41.059536+08:00
+d0d7cf20956e7545,360,AI产品经理,unknown,unknown,autumn_campus,,,single_source,90,1,https://hr.360.cn/campus,,2026-08-14T10:44:04.906756+08:00
+1b5bff0446de50c8,360,PC客户端开发工程师,unknown,unknown,autumn_campus,,,single_source,50,1,https://hr.360.cn/campus,,2026-08-14T10:44:05.027838+08:00
+693131c240220034,360,渠道销售-西安,unknown,unknown,autumn_campus,,,single_source,50,1,https://hr.360.cn/campus,,2026-08-14T10:44:05.151951+08:00
+58090ffe148916c1,360,全栈工程师（AI视频产品方向）,unknown,unknown,autumn_campus,,,single_source,50,1,https://hr.360.cn/campus,,2026-08-14T10:44:05.355180+08:00
+1b27f457b56af45f,360,AI技术接口人,unknown,unknown,autumn_campus,,,single_source,50,1,https://hr.360.cn/campus,,2026-08-14T10:44:05.481264+08:00
+d29d448b9b674ee9,360,FDE工程师-南京,unknown,unknown,autumn_campus,,,single_source,50,1,https://hr.360.cn/campus,,2026-08-14T10:44:05.619987+08:00
+88aef8eea455cb14,360,舆情系统后台开发工程师,unknown,unknown,autumn_campus,,,single_source,50,1,https://hr.360.cn/campus,,2026-08-14T10:44:05.759620+08:00
+0a80ed4af3432a0f,360,高级开发工程师,unknown,unknown,autumn_campus,,,single_source,50,1,https://hr.360.cn/campus,,2026-08-14T10:44:05.869123+08:00
+79c711e92f910ae7,360,算法,unknown,unknown,autumn_campus,,,single_source,90,1,https://hr.360.cn/campus,,2026-08-14T10:44:05.946671+08:00
+82028ac598d7234b,360,舆情产品负责人,unknown,unknown,autumn_campus,,,single_source,50,1,https://hr.360.cn/campus,,2026-08-14T10:44:06.056151+08:00
+1f81d22cc70a5709,360,售前专家-金融方向,unknown,unknown,autumn_campus,,,single_source,70,1,https://hr.360.cn/campus,,2026-08-14T10:44:06.180476+08:00
+8ebb1936a0e264d9,360,销售经理-嘉兴,unknown,unknown,autumn_campus,,,single_source,70,1,https://hr.360.cn/campus,,2026-08-14T10:44:06.554392+08:00
+764f2448ab9d935b,360,品牌营销经理,unknown,unknown,autumn_campus,,,single_source,50,1,https://hr.360.cn/campus,,2026-08-14T10:44:07.298605+08:00
+8f43bb5f977e8680,小红书,【Ace顶尖实习生】向量检索在大模型场景的应用和KVCache优化研究,unknown,unknown,intern,上海/杭州/北京,,single_source,60,1,https://job.xiaohongshu.com/campus/position?keywords=AI,2026-07-16,2026-07-16T21:22:52.569186+08:00
+498e06a4a6779553,小红书,【Ace顶尖实习生】面向多语言的AI搜索检索和生成系统研究,unknown,unknown,intern,北京/上海/杭州,,single_source,60,1,https://job.xiaohongshu.com/campus/position?keywords=AI,2026-07-17,2026-07-17T11:21:27.942883+08:00
+68ce438395531f79,小红书,【Ace顶尖实习生】基于Agent框架的AI搜索基座大模型,unknown,unknown,intern,北京/杭州/上海,,single_source,60,1,https://job.xiaohongshu.com/campus/position?keywords=AI,2026-07-17,2026-07-17T11:21:28.058600+08:00
+498e06a4a6779553,小红书,【Ace顶尖实习生】基础大模型Agent能力研究,unknown,unknown,intern,北京/上海/杭州,,single_source,60,1,https://job.xiaohongshu.com/campus/position?keywords=AI,2026-07-25,2026-07-25T09:56:25.184796+08:00
+3c109a4e3197a0c1,小红书,【Ace顶尖实习生】Large Scale Machine Learning Model训练和推理性能极致优化,unknown,unknown,intern,北京/上海,,single_source,60,1,https://job.xiaohongshu.com/campus/position?keywords=AI,2026-07-25,2026-07-25T09:56:25.261441+08:00
+df63eb40314ac9d9,小红书,校园招聘HR实习生-技术招聘,unknown,unknown,intern,上海,,single_source,80,1,https://job.xiaohongshu.com/campus/position?keywords=AI,2026-08-03,2026-08-03T18:51:16.761262+08:00
+498e06a4a6779553,小红书,【Ace顶尖实习生】大模型后训练泛化性研究,unknown,unknown,intern,北京/上海/杭州,,single_source,60,1,https://job.xiaohongshu.com/campus/position?keywords=AI,2026-08-03,2026-08-03T18:51:16.856410+08:00
+3c109a4e3197a0c1,小红书,【REDstar】多模态基础模型算法工程师,unknown,unknown,autumn_campus,北京/上海,,single_source,60,1,https://job.xiaohongshu.com/campus/position?keywords=AI,2026-08-06,2026-08-06T11:14:11.882648+08:00
+498e06a4a6779553,小红书,【REDstar】社区推荐算法工程师,unknown,unknown,autumn_campus,北京/上海/杭州,,single_source,60,1,https://job.xiaohongshu.com/campus/position?keywords=AI,2026-08-06,2026-08-06T11:14:11.949460+08:00
+dff65ad3e8bd7af7,小红书,【REDstar】创意与内容生成算法工程师-商业广告,unknown,unknown,autumn_campus,上海/北京,,single_source,60,1,https://job.xiaohongshu.com/campus/position?keywords=AI,2026-08-06,2026-08-06T11:14:12.072904+08:00
+3c109a4e3197a0c1,小红书,【27届实习】Product Engineer-产品工程师（AI与全栈方向）-社区工程,unknown,unknown,intern,北京/上海,,single_source,60,1,https://job.xiaohongshu.com/campus/position?keywords=AI,2026-08-08,2026-08-08T10:30:03.567372+08:00
+07e58bd34188e1cc,MiniMax,高级测试开发工程师-训/推系统,unknown,unknown,autumn_campus,北京,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7663021916416723241,,2026-07-16T21:22:05.423008+08:00
+71a9830eae58d1e1,MiniMax,AI 评测工程师,unknown,unknown,autumn_campus,北京/上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7660063893650606374,,2026-07-16T21:22:05.712072+08:00
+30983da36b6b9079,MiniMax,AI 招聘专家 - 基座模型技术方向,unknown,unknown,autumn_campus,北京/上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7658219588165699849,,2026-07-16T21:22:05.801866+08:00
+654c1f823b8c5be2,MiniMax,云资源 FinOps 技术专家,unknown,unknown,autumn_campus,北京/上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7657846537234139442,,2026-07-16T21:22:05.942961+08:00
+fd58277c518633ef,MiniMax,CPU性能诊断专家,unknown,unknown,autumn_campus,北京/上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7657843177752430875,,2026-07-16T21:22:06.098081+08:00
+385e584717812d76,MiniMax,大模型训练工程专家-稳定性方向,unknown,unknown,autumn_campus,北京/上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7657839836636743977,,2026-07-16T21:22:06.240066+08:00
+d2d06f3a8d301bd3,MiniMax,数据分析负责人,unknown,unknown,autumn_campus,上海/北京,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7657480881347823915,,2026-07-16T21:22:06.301992+08:00
+236743cfb344e6cc,MiniMax,公共事务,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7656654721738443058,,2026-07-16T21:22:06.412562+08:00
+7becd84e4ef6ddb1,MiniMax,AGI 推理引擎工程师 — 下一代 KVCache 存储与缓存加速,unknown,unknown,autumn_campus,上海/北京,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7655670314441902345,,2026-07-16T21:22:06.519295+08:00
+b1817311bd3eefb3,MiniMax,科技合作与生态,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7665691872693618953,,2026-07-25T10:01:30.712141+08:00
+3cf901c20f8f1b54,MiniMax,政府关系 - 监管侧,unknown,unknown,autumn_campus,上海,,single_source,70,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7664476523169630473,,2026-08-03T18:58:02.037879+08:00
+754f4ffcc802d15a,MiniMax,K8S研发工程师-资源调度方向,unknown,unknown,autumn_campus,北京/上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7663384813328730404,,2026-07-25T10:01:30.860916+08:00
+776f6575cc65aee8,MiniMax,K8S研发工程师-集群管理方向,unknown,unknown,autumn_campus,北京/上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7663382571132471558,,2026-07-25T10:01:30.924474+08:00
+661f5ab4a6cd89de,MiniMax,AI Agent 产品运营实习生,unknown,unknown,intern,上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7669691866238142746,,2026-08-03T18:58:01.864628+08:00
+c64172bbef09ae2b,MiniMax,国内增长投放专家,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7669788190274914586,,2026-08-04T10:06:07.907646+08:00
+75290e8a6285bb65,MiniMax,增长数据分析师,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7670433637955602751,,2026-08-06T11:19:40.964607+08:00
+4986564e1ff6136f,MiniMax,AI Agent 架构师 / 策略负责人（量化投资方向）,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7670833481375402246,,2026-08-07T09:59:51.110336+08:00
+8b6c49b51e5420a8,MiniMax,大模型算法工程师-预训练,unknown,unknown,autumn_campus,北京/上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7671304935124240690,,2026-08-08T10:36:57.839239+08:00
+4c913599ce6c12b4,MiniMax,视频生成开源生态负责人,unknown,unknown,autumn_campus,北京/上海/中国香港/旧金山/新加坡/伦敦,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7671161153523157311,,2026-08-08T10:36:57.942903+08:00
+b3d9dfbcffaa22d6,MiniMax,预训练数据 Pipeline 工程师,unknown,unknown,autumn_campus,北京/上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7672238359478159679,,2026-08-13T10:01:51.545401+08:00
+d0bde9396b0da64e,MiniMax,后端工程架构师-开放平台,unknown,unknown,autumn_campus,北京/上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7663802670251116826,,2026-08-13T10:01:51.688728+08:00
+f4552bb794cf4d0d,MiniMax,品牌视觉设计师,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7673423073949485348,,2026-08-14T10:45:09.408610+08:00
+7833cbdeb7380843,MiniMax,开源 Agent 开发者生态实习生,unknown,unknown,intern,上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7673910325558151434,,2026-08-15T09:59:43.214777+08:00
+300b53b239dc45ec,MiniMax,存储平台架构师,unknown,unknown,autumn_campus,北京/上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7673793843644844331,,2026-08-15T09:59:43.349172+08:00
+820a6fc1e3f7ede2,MiniMax,异构智算平台架构师,unknown,unknown,autumn_campus,北京/上海,,single_source,50,1,https://vrfi1sk8a0.jobs.feishu.cn/position/detail/7673790227559385398,,2026-08-15T09:59:43.472863+08:00
+98f02de96d4144f8,智谱AI,解决方案架构师-北京,unknown,unknown,autumn_campus,北京,,single_source,50,1,https://zhipu-ai.jobs.feishu.cn/position/detail/7624476433381869860,,2026-07-16T21:20:58.292304+08:00
+1b395b088366add2,智谱AI,销售-上海,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://zhipu-ai.jobs.feishu.cn/position/detail/7624119064441653510,,2026-07-16T21:20:58.449746+08:00
+d1a5dd08ff5b2881,智谱AI,销售-新加坡,unknown,unknown,autumn_campus,北京,,single_source,50,1,https://zhipu-ai.jobs.feishu.cn/position/detail/7624119006777706790,,2026-07-16T21:20:58.542113+08:00
+c472a46d3508e88e,智谱AI,API销售-深圳,unknown,unknown,autumn_campus,深圳,,single_source,50,1,https://zhipu-ai.jobs.feishu.cn/position/detail/7624026808514169131,,2026-07-16T21:20:58.651107+08:00
+d680af3eae985023,智谱AI,"Marketing Intern (Global / AI Native, Technical Background Preferred)",unknown,unknown,intern,北京,,single_source,50,1,https://zhipu-ai.jobs.feishu.cn/position/detail/7623240518135499017,,2026-07-16T21:20:58.713271+08:00
+8db6d39f20251ec9,智谱AI,Ecosystem Sales Manager (Global),unknown,unknown,autumn_campus,北京,,single_source,50,1,https://zhipu-ai.jobs.feishu.cn/position/detail/7623239892541458739,,2026-07-16T21:20:58.819820+08:00
+085b7eb70d91ab80,智谱AI,AI院--多模态团队--音频算法工程师,unknown,unknown,autumn_campus,北京,,single_source,50,1,https://zhipu-ai.jobs.feishu.cn/position/detail/7621095293886482697,,2026-07-16T21:20:58.975653+08:00
+3cac7bebb8338870,智谱AI,MaaS-数据分析师,unknown,unknown,autumn_campus,北京,,single_source,50,1,https://zhipu-ai.jobs.feishu.cn/position/detail/7618920678720653594,,2026-07-16T21:20:59.114549+08:00
+a38778af05e5f6d5,智谱AI,AI 技术内容实习生,unknown,unknown,intern,北京,,single_source,50,1,https://zhipu-ai.jobs.feishu.cn/position/detail/7618148041597782326,,2026-07-16T21:20:59.193374+08:00
+97886cd99fe54f94,智谱AI,Business Development—America,unknown,unknown,autumn_campus,北京,,single_source,50,1,https://zhipu-ai.jobs.feishu.cn/position/detail/7616266509032458523,,2026-07-16T21:20:59.254210+08:00
+d8a38cff4587897c,科大讯飞,AI研究院计算机视觉的,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:24:27.279056+08:00
+2ac4bd1ba4dce833,科大讯飞,修炼好内功，破局大模型赛道：,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:24:27.376342+08:00
+bd48b96aa93c0ede,科大讯飞,打破实验室和现实的隔阂，,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:24:27.516208+08:00
+c7fd5135884351e9,科大讯飞,从代码小白到技术大拿，,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:24:27.654635+08:00
+2a471fa0dc78e693,美团,技术类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:11.326953+08:00
+943b0589caa6db1f,美团,产品类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:11.438725+08:00
+f797cc2bdb458822,美团,商业分析类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:11.529796+08:00
+d65ad88fbe2c8b48,美团,零售类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:11.652674+08:00
+288d796a03a8bc87,美团,运营类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:11.745731+08:00
+d86fe394f23d9e50,美团,设计类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:11.898112+08:00
+9925b39c4f40eb2a,美团,市场营销类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:12.005565+08:00
+4d968cc2b2713e9f,美团,职能类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:12.130106+08:00
+2ba20a4da0bcf727,美团,金融类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:12.191874+08:00
+231a3865802dc01c,美团,销售、客服与支持类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:12.268239+08:00
+99a770b011f5b6f2,美团,综合类,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:12.360843+08:00
+1748272ee8966832,美团,社会招聘,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:12.485195+08:00
+7446d97325b9c6e9,美团,校园招聘,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:12.624735+08:00
+d6d2dfc1d1c3ac70,美团,核心本地商业,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:12.747928+08:00
+28299164e4bcae92,美团,食杂零售,unknown,unknown,autumn_campus,,,single_source,70,1,,,2026-07-16T21:17:12.856922+08:00
+87a1eb5609cc8483,美团,Keeta,unknown,unknown,autumn_campus,,,single_source,90,1,,,2026-07-16T21:17:12.950658+08:00
+9396c22e1ed691d6,美团,软硬件服务,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:13.057656+08:00
+dcc91757c8c82d81,美团,无人机业务部,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:13.164104+08:00
+bd4323063071ddaa,美团,金融服务平台,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:13.316616+08:00
+4aaa8a026d01d981,美团,战略与投资平台,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:13.424072+08:00
+d2d6871e6f5c7145,美团,财务平台,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:13.486088+08:00
+dbdc57eb673c6b8a,美团,公司事务平台,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:13.641106+08:00
+8834725a954b5c9d,美团,人力资源平台,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:13.763327+08:00
+221fb31adfb47e3b,美团,GN06,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:13.870743+08:00
+34c84732495e80cd,美团,北京,unknown,unknown,autumn_campus,,,single_source,90,1,,,2026-07-16T21:17:13.948886+08:00
+525436baf546dc25,美团,上海,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:14.073140+08:00
+2c2f6b197fd6e145,美团,深圳,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:14.226017+08:00
+9ef4f8e0249ee65c,美团,成都,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:14.303742+08:00
+1414f4fcca59191d,美团,香港,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:14.460128+08:00
+c8fbca83edf4c54f,美团,广州,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:14.538767+08:00
+7feec90744c7ca8b,美团,武汉,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:14.693399+08:00
+9b5b7a45fff6e6ac,美团,杭州,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:14.771218+08:00
+8291c34c81fb4242,美团,西安,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:14.832672+08:00
+f3d64200fa0d5078,美团,重庆,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:14.908889+08:00
+6179ba6528803e84,美团,南京,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:15.048014+08:00
+7b863da6296e6de1,美团,厦门,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:15.125457+08:00
+3e9854e69c916018,美团,其他,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:15.264765+08:00
+29777e7d3337c3e2,美团,沙特,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:15.357956+08:00
+9121f52250df52e1,美团,巴西,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:15.465139+08:00
+033c0314c2ce7fa4,美团,阿联酋,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:15.557692+08:00
+5ec0d34d281aad86,美团,科威特,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:15.666243+08:00
+078540a5c489b1c3,美团,卡塔尔,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:15.758845+08:00
+95b1cacf24898e40,美团,巴林,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:15.867943+08:00
+fb0d686364f97d2a,美团,阿曼,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:16.004973+08:00
+c8ebfee7a9fb904f,美团,LongCat 大模型人才校招,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:16.096184+08:00
+48d03859764f6d94,美团,常规校招,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:16.250710+08:00
+639a752e5fa7f555,美团,北斗计划,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:16.375525+08:00
+fe78b2bd9a25b19a,美团,多模态算法实习生,unknown,unknown,intern,,,single_source,90,1,,,2026-07-16T21:17:16.544143+08:00
+ee674128d13d313b,美团,中后台产品实习生（合作商管理方向）,unknown,unknown,intern,,,single_source,50,1,,,2026-07-16T21:17:16.683478+08:00
+d8aefbeec41ef585,美团,AI战略实习生/商业分析实习生,unknown,unknown,intern,,,single_source,90,1,,,2026-07-16T21:17:16.819948+08:00
+e486ac32f4c934dd,美团,AI开发者社区运营实习生（Longcat大模型）,unknown,unknown,intern,,,single_source,70,1,,,2026-07-16T21:17:16.942406+08:00
+05246cddb20c4b29,美团,大模型数据运营实习生-Agent方向,unknown,unknown,intern,,,single_source,50,1,,,2026-07-16T21:17:17.003556+08:00
+0bb64f02b7b1bb74,美团,多模态模型研究-具身智能方向算法实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-07-16T21:17:17.096264+08:00
+6a299da3648ac091,美团,大模型数据生产实习生-math&code,unknown,unknown,intern,,,single_source,50,1,,,2026-07-16T21:17:17.204854+08:00
+63f5af1923a76ce8,美团,多模态大模型评测分析实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-07-16T21:17:17.265878+08:00
+018f2da8eab5253b,美团,大模型平台产品实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-07-16T21:17:17.358046+08:00
+6c803311dca42ccf,美团,大模型预训练数据算法专家,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-07-16T21:17:17.420879+08:00
+4065ad2a96cd46a7,美团,规划调度项目实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-07-17T11:18:57.966126+08:00
+6c44154f677102af,美团,招聘实习生,unknown,unknown,intern,,,single_source,90,1,,,2026-07-17T11:18:58.089909+08:00
+e72b8afbecfb9bac,美团,项目管理实习生,unknown,unknown,intern,,,single_source,90,1,,,2026-07-17T11:18:58.584646+08:00
+7342e0088c9d659f,美团,达人履约实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-07-17T11:18:58.692967+08:00
+a3988973ebf08e1e,美团,无人车业务部-决策规划项目实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-07-17T11:18:58.849211+08:00
+e958ee6351041477,美团,美团APP财务分析实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-07-25T09:52:58.479233+08:00
+5d8891a7addde0e0,美团,搜推产品实习生,unknown,unknown,intern,,,single_source,70,1,,,2026-07-25T09:52:59.380852+08:00
+eafec3b06eb15f2d,美团,Regional Business BP 实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-03T18:47:14.436775+08:00
+af7d22dab12e04b5,美团,旅游度假业务策略产品实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-03T18:47:14.553980+08:00
+8d5da6c000953d4e,美团,Process Operations Intern 流程运营实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-03T18:47:14.974834+08:00
+73b5bab59c9098e8,美团,Agent算法实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-03T18:47:15.143424+08:00
+2517cefae125a9ca,美团,骑手基础体验实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-03T18:47:15.220450+08:00
+fab4b06fe4b0485b,美团,企业业务财务BP实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-04T09:57:46.471660+08:00
+cca3963f478a4535,美团,财务科技-AI全栈实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-04T09:57:46.657757+08:00
+4ed9f001420ab7a0,美团,市场专员,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-08-04T09:57:47.135143+08:00
+3278f062d5efec42,美团,【实习】数仓开发,unknown,unknown,intern,,,single_source,50,1,,,2026-08-07T09:52:46.598188+08:00
+1c629cfc898d7a19,美团,美团跑腿市场营销实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-07T09:52:46.828203+08:00
+d9a7186bb4e96458,美团,数据产品实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-08T10:27:40.734750+08:00
+60c6727a8e726926,美团,营销运营实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-08T10:27:40.873905+08:00
+0edc5bc3fcad2c25,美团,美团旅行整合营销实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-08T10:27:40.982035+08:00
+970b736570708305,美团,营销增长产品实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-08T10:27:41.058552+08:00
+bf0259d6ba79a8f6,美团,商家端产品实习生,unknown,unknown,intern,,,single_source,70,1,,,2026-08-08T10:27:41.182343+08:00
+1b4e052c6eab44c8,美团,商家供给产品经理,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-08-08T10:27:41.274649+08:00
+82775409b449e62e,美团,自动驾驶软件-产品实习生,unknown,unknown,intern,,,single_source,70,1,,,2026-08-13T09:52:48.992763+08:00
+8a452f9046be8718,美团,Nonfood  Category Performance Intern,unknown,unknown,intern,,,single_source,50,1,,,2026-08-13T09:52:49.580074+08:00
+a5c27c3bdd800e73,美团,无人机—UI设计实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-13T09:52:49.688774+08:00
+1d336a2e0c25449e,美团,AI产品经理,unknown,unknown,autumn_campus,,,single_source,50,1,,,2026-08-13T09:52:50.027909+08:00
+b0ee6f9a653b802a,美团,无人车业务部-后台软件开发实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-14T10:37:43.949672+08:00
+2384b76cecb7fc89,美团,Agent 产品运营实习生,unknown,unknown,intern,,,single_source,50,1,,,2026-08-15T09:52:54.136958+08:00
+a35fccab8f77afbe,网易,网易游戏（互娱）,unknown,unknown,autumn_campus,杭州,不限,single_source,55,1,https://hr.163.com/campus.html?id=57807,1784205869000,2026-07-16T21:17:17.943568+08:00
+29a4ea59c472b5e2,网易,网易云音乐,unknown,unknown,autumn_campus,北京,不限,single_source,55,1,https://hr.163.com/campus.html?id=77001,1784196093000,2026-07-16T21:17:19.194269+08:00
+1955673a949d3cfe,网易,网易职能,unknown,unknown,autumn_campus,广州,不限,single_source,55,1,https://hr.163.com/campus.html?id=73579,1784892513000,2026-07-25T09:55:19.694793+08:00
+534be1ce76313c00,网易,网易伏羲,unknown,unknown,autumn_campus,杭州,硕士及以上,single_source,55,1,https://hr.163.com/campus.html?id=69074,1785750429000,2026-08-03T18:50:51.528921+08:00
+7eda664d1f7f7160,网易,网易职能,unknown,unknown,autumn_campus,杭州,不限,single_source,55,1,https://hr.163.com/campus.html?id=74468,1785749175000,2026-08-03T18:50:52.401887+08:00
+ba86b5584d645d5c,网易,网易元气,unknown,unknown,autumn_campus,杭州,不限,single_source,55,1,https://hr.163.com/campus.html?id=77996,1785985364000,2026-08-06T11:13:47.507866+08:00
+4f86728a0fdc53ad,网易,网易智邮,unknown,unknown,autumn_campus,广州,不限,single_source,55,1,https://hr.163.com/campus.html?id=60925,1786014550000,2026-08-07T09:54:52.070181+08:00
+e62aef4a486b457b,拼多多,AI Infra研发工程师【2027届云弧计划】,unknown,unknown,autumn_campus,上海,,single_source,70,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:44.594446+08:00
+b48d91b2c5204051,拼多多,大模型算法工程师【2027届云弧计划】,unknown,unknown,autumn_campus,上海,,single_source,90,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:44.714307+08:00
+a6f00905605edad6,拼多多,用户体验运营管培（多语种优势-上海）,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:44.839200+08:00
+6d93de22c08f6c27,拼多多,商家运营（多语种优势-上海）,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:44.964048+08:00
+ff773120047c6613,拼多多,服务端研发工程师,unknown,unknown,autumn_campus,上海,,single_source,70,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:45.041889+08:00
+4ced544cc9427886,拼多多,AI Agent研发工程师,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:45.133787+08:00
+7c369663bd3679a5,拼多多,Web前端研发工程师,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:45.488641+08:00
+76166b80e7ca3660,拼多多,数据分析师,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:45.626258+08:00
+849e2033c2fe7aaa,拼多多,安全工程师,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:45.733920+08:00
+7fb85406e3173a9a,拼多多,产品管培生（上海）,unknown,unknown,autumn_campus,上海,,single_source,90,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:45.796421+08:00
+f18f851860902103,拼多多,市场管培生（上海）,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:45.920329+08:00
+14c965ac4ac90e93,拼多多,设计管培生（上海）,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:46.461245+08:00
+fb78c08104ee24f2,拼多多,视频创意制作（上海）,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:46.522966+08:00
+54df16a3749ed921,拼多多,法务助理（上海）,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:46.648567+08:00
+34e78a840f6ae4e9,拼多多,HR管培生（上海）,unknown,unknown,autumn_campus,上海,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:46.756103+08:00
+4bddd3a2cdc95d97,拼多多,审核标注专员,unknown,unknown,autumn_campus,河北雄安新,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-16T21:17:46.848838+08:00
+6a062f1dc1c54078,拼多多,内容审核专员（法律专项）,unknown,unknown,autumn_campus,河北雄安新,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-07-25T09:53:24.522969+08:00
+a495d27cb10d10bf,拼多多,HR管培生（广东省）,unknown,unknown,autumn_campus,广东省,,single_source,50,1,https://careers.pinduoduo.com/campus/grad,,2026-08-03T18:48:01.686726+08:00
+76a29022fe76967d,腾讯,微信支付-全栈开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072155705007325184,2026年07月08日,2026-07-16T21:15:10.727913+08:00
+29c8dddb39938848,腾讯,王者荣耀-动画导演-CG、PV类,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2028615288207077376,2026年07月06日,2026-07-16T21:15:10.812766+08:00
+8bbc6a9f91ea7a9b,腾讯,混元数据平台全栈开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2038450103123079168,2026年07月03日,2026-07-16T21:15:10.904913+08:00
+684eaa475a68b2a3,腾讯,元宝-研发项目经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1894579330688798720,2026年07月02日,2026-07-16T21:15:10.999612+08:00
+991fbe08c3b4b903,腾讯,《三角洲行动》-高级场景概念设计师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2066730223780675584,2026年07月02日,2026-07-16T21:15:11.076211+08:00
+7b5a3e939c1e7f39,腾讯,腾讯云全球CDN后台开发工程师(深圳),unknown,unknown,autumn_campus,深圳,,single_source,75,1,https://careers.tencent.com/jobdesc.html?postId=2068624483438211072,2026年06月29日,2026-07-16T21:15:11.230937+08:00
+93d20471f74a3e98,腾讯,混元大模型平台产品经理（北京/深圳）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2070472100677857280,2026年06月26日,2026-07-16T21:15:11.309908+08:00
+ab58ba238f2fb44c,腾讯,魔方工作室-视频生成基础模型训练工程师,unknown,unknown,autumn_campus,深圳,,single_source,75,1,https://careers.tencent.com/jobdesc.html?postId=2069379300997644288,2026年06月26日,2026-07-16T21:15:11.418332+08:00
+ab7c8732bb86bd60,腾讯,大模型推理框架研发工程师,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037101976877170688,2026年06月26日,2026-07-16T21:15:11.481235+08:00
+68062836b4abdaa8,腾讯,大模型推理框架研发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037523709425778688,2026年06月26日,2026-07-16T21:15:11.543289+08:00
+379b6be7759ee438,腾讯,大模型推理框架研发工程师,unknown,unknown,autumn_campus,杭州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037523714089840640,2026年06月25日,2026-07-16T21:15:11.683180+08:00
+68a8ca8a8608b5f3,腾讯,大模型推理框架研发工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037523711703281664,2026年06月25日,2026-07-16T21:15:11.836104+08:00
+ccf56bfa6cd1f5a5,腾讯,投放策略产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2060180630217605120,2026年06月01日,2026-07-16T21:15:11.975670+08:00
+67d096dec84a031f,腾讯,《逆战：未来》服务器开发工程师,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=1922205116874727424,2026年07月10日,2026-07-17T11:17:56.381454+08:00
+8f73a8ac6fd9bc35,腾讯,产品体验设计师-AI方向（深圳/北京）,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2071854091545526272,2026年06月30日,2026-07-17T11:17:26.632923+08:00
+df5d3ee478cbf5e8,腾讯,元宝-LLM大模型推理工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2055195929673383936,2026年05月26日,2026-07-16T21:15:12.378664+08:00
+73751d2cd3c613f3,腾讯,魔方在研轻动作风格化游戏预研项目场景概念设计专家,unknown,unknown,autumn_campus,深圳,,verified,95,4,https://careers.tencent.com/jobdesc.html?postId=2055269262364422144,2026年05月18日,2026-07-16T21:15:12.503324+08:00
+a081bb6bf3f74763,腾讯,资深文案策划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2054509644000444416,2026年05月13日,2026-07-16T21:15:12.595610+08:00
+ffdc5b409994453e,腾讯,腾讯混元大模型数据产品经理,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2064244091922853888,2026年07月16日,2026-07-16T21:15:12.750499+08:00
+7dc82f70f553ce99,腾讯,WorkBuddy-生态产品经理-经营工具,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077641744157159424,2026年07月16日,2026-07-16T21:15:12.829333+08:00
+df4d41d143977841,腾讯,混元大模型推理加速工程师（北京/深圳）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1967484294205169664,2026年07月15日,2026-07-16T21:15:12.953531+08:00
+9a95f90025b83ef6,腾讯,混元多模态大模型推理加速工程师（深圳/北京/上海/杭州）,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2007768439787249664,2026年07月08日,2026-07-16T21:15:20.804620+08:00
+3cd176ca5a52df5d,腾讯,S工作室-预研项目-战斗策划-3C/动作方向,unknown,unknown,autumn_campus,深圳,,verified,95,4,https://careers.tencent.com/jobdesc.html?postId=2072869042095570944,2026年07月14日,2026-07-16T21:15:13.171077+08:00
+bca4f7961c1d467d,腾讯,腾讯云-人脸核身产品运营,unknown,unknown,autumn_campus,西安,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2009207036767784960,2026年07月10日,2026-07-16T21:15:13.309245+08:00
+873fbbea8370c379,腾讯,腾讯云--- 音频语音识别/理解算法高级工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1856169059511463936,2026年07月06日,2026-07-16T21:15:13.387388+08:00
+5d90b98730bfd7d8,腾讯,微信安全-大模型安全高级工程师,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2070404302299643904,2026年08月03日,2026-08-04T09:57:02.914540+08:00
+51bbc0db627773e8,腾讯,微信安全-大模型安全工程师,unknown,unknown,autumn_campus,广州,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2070404306368118784,2026年07月06日,2026-07-16T21:15:13.634692+08:00
+43603945f8f32cb1,腾讯,金融科技-大模型应用架构师-支付反洗钱风控方向,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2038819556813864960,2026年06月29日,2026-07-17T11:17:44.511629+08:00
+662da6c71f440a98,腾讯,腾讯云-深圳泛政销售经理-政企联动,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1944949289897820160,2026年07月06日,2026-07-16T21:15:13.868826+08:00
+797d3676b6ea1f74,腾讯,芯片验证工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2011617155061276672,2026年06月22日,2026-07-16T21:15:13.962595+08:00
+35e72b353967a361,腾讯,芯片验证工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2011617156839657472,2026年06月22日,2026-07-16T21:15:14.056664+08:00
+8bba2e4354bbf4d0,腾讯,腾讯云-AgentRuntime高级技术专家(沙箱方向)(深圳/北京),unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2065072073834938368,2026年06月11日,2026-07-16T21:15:14.150746+08:00
+faee175505680f80,腾讯,CSIG 腾讯云销售平台运营,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2062846207142838272,2026年06月08日,2026-07-16T21:15:14.275267+08:00
+3f3d5ff0ee2aa670,腾讯,技术美术-渲染向,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2048859020634255360,2026年06月04日,2026-07-16T21:15:14.353567+08:00
+94dde6ea9734cdf0,腾讯,王者荣耀IP预研游戏-资深UE5客户端开发,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2056543033041793024,2026年05月21日,2026-07-16T21:15:14.508600+08:00
+e8a74ca21a669add,腾讯,企业智能体-全栈开发工程师-WorkBuddy,unknown,unknown,autumn_campus,深圳,,verified,95,13,https://careers.tencent.com/jobdesc.html?postId=2077641608832135168,2026年08月06日,2026-08-06T11:09:50.274554+08:00
+b2197add964b0659,腾讯,腾讯云汽车行业解决方案架构师,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2070104596247920640,2026年07月08日,2026-07-16T21:15:14.694483+08:00
+ac7b633512584501,腾讯,在研剑来IP单机游戏-2D角色原画,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2042604037874024448,2026年04月10日,2026-07-16T21:15:14.849497+08:00
+eb56ff2b31e39ba5,腾讯,营销与交易产品部-腾讯企点-产品架构师,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052679386385264640,2026年07月03日,2026-07-16T21:15:14.925580+08:00
+5aef583d70566d6e,腾讯,腾讯云乐享-全栈Agent研发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2029338859304808448,2026年07月03日,2026-07-16T21:15:15.079740+08:00
+c7d27aadfd1c49d5,腾讯,企业微信-产业互联网营销-内容营销,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2062443449004769280,2026年06月24日,2026-07-16T21:15:15.157557+08:00
+bc94951da98e383b,腾讯,微信小店-产品运营-商业分析方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2064576168803352576,2026年06月18日,2026-07-16T21:15:15.234990+08:00
+4b148a08efdf063c,腾讯,穿越火线手游项目组-2D角色设计师-武器原画,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043879555567087616,2026年06月17日,2026-07-16T21:15:15.358470+08:00
+26936aa1720d92ea,腾讯,腾讯云汽车行业解决方案架构师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2064909732744970240,2026年06月11日,2026-07-16T21:15:15.435864+08:00
+b6142f3a0b16ea05,腾讯,供应链效率优化经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2062725784216449024,2026年06月05日,2026-07-16T21:15:15.514314+08:00
+a5c80ffb5629cf2b,腾讯,腾讯营销-搜索营销匹配策略高级产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2057294692336451584,2026年06月04日,2026-07-16T21:15:15.653590+08:00
+00f956978377f4f5,腾讯,Supercell游戏《部落冲突》 -3D场景模型师,unknown,unknown,autumn_campus,深圳,,verified,95,3,https://careers.tencent.com/jobdesc.html?postId=2054036603873181696,2026年07月15日,2026-07-16T21:15:19.209634+08:00
+e39a936228a3bb64,腾讯,魔方在研轻动作风格化游戏预研项目战斗策划,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2055269217116274688,2026年05月18日,2026-07-16T21:15:16.025940+08:00
+c658d8062dfe5081,腾讯,《王者荣耀世界》资深2D角色设计,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1678312813656809472,2026年07月15日,2026-07-16T21:15:16.103187+08:00
+d33ca5e8c7b5f8cb,腾讯,元宝-大模型策略产品经理（AIGC方向）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2021054129127981056,2026年07月15日,2026-07-16T21:15:16.240538+08:00
+24c3517a22d3152b,腾讯,元宝-大模型策略产品经理（AIGC方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2021054127102132224,2026年07月15日,2026-07-16T21:15:16.379157+08:00
+7053daa8beb9bd30,腾讯,《穿越火线手游》资深3D特效设计师,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2057763518287101952,2026年06月02日,2026-07-16T21:15:17.540209+08:00
+8166da17da1367e8,腾讯,元宝-大模型评测产品经理,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1984457407304196096,2026年07月08日,2026-07-16T21:15:16.611879+08:00
+a2c6e2b62bd7dc78,腾讯,微信小游戏-客户端开发工程师-全球化,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2034823219160182784,2026年07月06日,2026-07-16T21:15:16.720601+08:00
+bb702dc443fc8ceb,腾讯,高性能计算工程师,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2038814816268873728,2026年07月01日,2026-07-16T21:15:16.814249+08:00
+5ea92efb2bd77e61,腾讯,混元大语言数据工程师（北京/深圳）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052684924506517504,2026年06月26日,2026-07-16T21:15:16.923749+08:00
+cc2e9042a55636a7,腾讯,腾讯云-安全产品高级测试工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2036455015857680384,2026年06月23日,2026-07-16T21:15:17.001222+08:00
+b4f1e9416d6ed483,腾讯,腾讯乐享-高级项目经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1909558912214999040,2026年06月18日,2026-07-16T21:15:17.078611+08:00
+5dac9d3f222e10d8,腾讯,腾讯地图-多模态大模型建图算法专家​,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1805497220284293120,2026年06月12日,2026-07-16T21:15:17.170214+08:00
+7f955c2d79c09413,腾讯,J3-UE5微恐射击-CG视频导演,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2064519581267046400,2026年06月10日,2026-07-16T21:15:17.324637+08:00
+7513fc8eaabb367d,腾讯,火龙漫剧-用户增长运营,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2060250472064921600,2026年06月05日,2026-07-16T21:15:17.448383+08:00
+cf6dfa89496d9ab0,腾讯,《王者荣耀世界》2D角色设计（英雄和NPC方向）,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1997935309832216576,2026年07月15日,2026-07-16T21:15:17.633458+08:00
+6fe103e7eb4c12d7,腾讯,腾讯云-国际运营经理（香港）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2034461101923659776,2026年07月15日,2026-07-16T21:15:17.786345+08:00
+ff0800d9e0dfeda8,腾讯,腾讯云-泛互联网行业售前架构师,unknown,unknown,autumn_campus,北京,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2041737452661669888,2026年07月14日,2026-07-16T21:15:17.925124+08:00
+fba688e84a90d450,腾讯,腾讯云-元宝SRE工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2008851655986143232,2026年07月14日,2026-07-16T21:15:18.018289+08:00
+ae22f6761be0861d,腾讯,3A开放世界-UE5资深客户端开发Gameplay-新星引力计划,unknown,unknown,autumn_campus,杭州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2076539781122277376,2026年07月13日,2026-07-16T21:15:18.095101+08:00
+fb06e23ab783a68f,腾讯,腾讯游戏-供应链安全治理高级工程师-供应链安全,unknown,unknown,autumn_campus,深圳,,verified,95,3,https://careers.tencent.com/jobdesc.html?postId=2067161117129617408,2026年07月12日,2026-07-16T21:15:18.234292+08:00
+287a83c2b671054b,腾讯,《王者荣耀》-IP衍生内容—角色设计专业指导,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2068974412136366080,2026年07月07日,2026-07-16T21:15:18.467410+08:00
+5741eb5454db1b39,腾讯,元梦之星-资深3D场景设计师,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2074031030016323584,2026年07月06日,2026-07-16T21:15:18.545367+08:00
+06f5b0d2f55645ab,腾讯,腾讯云-元宝SRE工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2027289041078222848,2026年07月03日,2026-07-16T21:15:18.638637+08:00
+3be93d8789bc629d,腾讯,J3-UE5动作游戏-资深动画设计,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2059105205013889024,2026年07月02日,2026-07-16T21:15:19.350283+08:00
+8fbfb5d739082daa,腾讯,游戏美术 AIGC 项目经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2038836783759912960,2026年06月29日,2026-07-16T21:15:18.792503+08:00
+558d66a41a64923c,腾讯,微信输入法-大模型后台开发工程师-北京,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2062098154148507648,2026年06月24日,2026-07-16T21:15:18.854422+08:00
+92fffe39e69d5c6f,腾讯,微信输入法-大模型后台开发工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2035997274684948480,2026年06月24日,2026-07-16T21:15:18.916501+08:00
+d9e0744bafbce551,腾讯,混元Agent数据与环境平台工程师（深圳/北京/上海）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2061654752378400768,2026年06月02日,2026-07-16T21:15:19.009431+08:00
+513a00fd58243cae,腾讯,智能体-运营产品经理-Miora,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2074730638006730752,2026年07月16日,2026-07-16T21:15:19.070280+08:00
+58af390ee9fc35df,腾讯,《逆战：未来》交互设计师,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2077217624193937408,2026年07月15日,2026-07-16T21:15:19.147619+08:00
+d58d34114a0268a4,腾讯,腾讯战略发展部-商业分析经理-广告产品方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1983836062820225024,2026年07月07日,2026-07-16T21:15:19.270885+08:00
+e1f7bbf05aaf002c,腾讯,大模型Infra技术研究员-(北京)or,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037377991557935104,2026年07月01日,2026-07-16T21:15:19.503213+08:00
+d31bcc43a8405d42,腾讯,《使命召唤手游》-关卡策划,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2046558135958798336,2026年04月28日,2026-07-17T11:17:59.997276+08:00
+b903f225efc44f5b,腾讯,混元多模态研发项目经理（北京/深圳）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052685118316916736,2026年06月26日,2026-07-16T21:15:19.689653+08:00
+178a900856664fcc,腾讯,《王者荣耀》-版本与活跃运营,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2053645693217849344,2026年06月22日,2026-07-16T21:15:19.768457+08:00
+0f2527de453b0e24,腾讯,腾讯云数据智能平台-资深产品经理-出海方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2047219127009050624,2026年06月22日,2026-07-16T21:15:19.908470+08:00
+9e0bcfe485dd454c,腾讯,OG项目组-高级战斗策划,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2064550713681428480,2026年06月11日,2026-07-16T21:15:20.048273+08:00
+6f1d0abd3d22bbb5,腾讯,火龙漫剧-内容BD,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2060250474589892608,2026年06月05日,2026-07-16T21:15:20.156631+08:00
+197d16615bac6471,腾讯,《三角洲行动》-音频策划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2046131277710651392,2026年05月27日,2026-07-16T21:15:20.294296+08:00
+e7c2c62e88e34fec,腾讯,AIGC内容创作导演,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2067084416139833344,2026年07月14日,2026-07-16T21:15:20.448168+08:00
+980392ee8bd93013,腾讯,Supercell游戏《皇室战争》-资深2D美宣原画,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2019612893523378176,2026年07月08日,2026-07-16T21:15:20.618316+08:00
+98f59caf93482af3,腾讯,海外技术支持-售前,unknown,unknown,autumn_campus,武汉,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1984169735352377344,2026年07月08日,2026-07-16T21:15:20.695558+08:00
+db6af99686e43ef2,腾讯,Agent Infra高级研发工程师,unknown,unknown,autumn_campus,深圳,,verified,95,4,https://careers.tencent.com/jobdesc.html?postId=2086743606953160704,2026年08月10日,2026-08-14T10:36:33.257218+08:00
+6c548f6858a9cf93,腾讯,AI产品经理-AI生成游戏,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2011285787706019840,2026年07月15日,2026-07-17T11:17:09.444317+08:00
+1b129084ba9e3c64,腾讯,光子 AI-AI应用开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2008789833664847872,2026年07月08日,2026-07-17T11:17:09.538596+08:00
+a73ee4062b8266f5,腾讯,游戏AI-AI后台开发工程师,unknown,unknown,autumn_campus,深圳,,verified,95,3,https://careers.tencent.com/jobdesc.html?postId=2066810094796058624,2026年06月16日,2026-07-17T11:17:09.616037+08:00
+ab22b87a9ff4b889,腾讯,光子 AI-AI 游戏策划-创新项目,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077246093283995648,2026年07月16日,2026-07-17T11:17:09.677492+08:00
+d2564344f3c53587,腾讯,光子 AI-后台开发-UE DS & AI bot 方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2066702544654221312,2026年06月23日,2026-07-17T11:17:10.267389+08:00
+b43b3b689d3dfd9d,腾讯,腾讯AI协作工具- AI Agent研发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2074485449791029248,2026年07月08日,2026-07-17T11:17:10.766216+08:00
+6c03f37251dd5c16,腾讯,AI设计工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2055186895503273984,2026年07月14日,2026-07-17T11:17:11.646950+08:00
+8d0f9835572ce962,腾讯,AI测试架构师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2076558136331907072,2026年07月13日,2026-07-17T11:17:11.784535+08:00
+82c3c6ffb6633b71,腾讯,AI产品架构师,unknown,unknown,autumn_campus,西安,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1963272884529029120,2026年07月08日,2026-07-17T11:17:11.862900+08:00
+c69cf86fb7d39eea,腾讯,证券-AI产品经理-金融AI应用体验方向,unknown,unknown,autumn_campus,深圳,,verified,95,5,https://careers.tencent.com/jobdesc.html?postId=2052527703940313088,2026年06月24日,2026-07-17T11:17:12.331046+08:00
+8bd00a1b84d53e13,腾讯,Game AI Product Management Intern 107504,unknown,unknown,intern,Auckland,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2056636102109999104,2026年06月10日,2026-07-17T11:17:12.658947+08:00
+8fa46f33b5271692,腾讯,光子 AI-AI 游戏策划-大模型/视频模型方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077246087458111488,2026年07月16日,2026-07-17T11:17:12.783029+08:00
+f54d32217550e987,腾讯,AI渲染研究员,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2056633439326748672,2026年05月26日,2026-07-17T11:17:12.936388+08:00
+210cc9e9c326acc2,腾讯,AI创意设计师,unknown,unknown,autumn_campus,Shenzhen,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043892057210257408,2026年04月13日,2026-07-17T11:17:13.259504+08:00
+dad0641a99012389,腾讯,AI infra规划架构师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1989222729840218112,2026年07月15日,2026-07-17T11:17:13.398671+08:00
+c19abe3a5a08614d,腾讯,AI宠物-游戏策划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2063158028676546560,2026年06月08日,2026-07-17T11:17:13.724520+08:00
+54c5695589d0dacd,腾讯,CSIG HRBP-AI产研方向,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052760276675244032,2026年06月05日,2026-07-17T11:17:13.801097+08:00
+159638d658405fe9,腾讯,AI高级评测工程师,unknown,unknown,autumn_campus,深圳,,verified,95,3,https://careers.tencent.com/jobdesc.html?postId=2068953286446329856,2026年07月28日,2026-08-04T09:56:07.948763+08:00
+4586395d81665e4d,腾讯,AI金融数据工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2036799516602171392,2026年06月23日,2026-07-17T11:17:14.141822+08:00
+e87628c4d0f2e3d1,腾讯,AI技术型产品运营,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2034114869342666752,2026年06月16日,2026-07-17T11:17:14.218454+08:00
+3b16c476cb85ae1d,腾讯,AI 宠物-后台工程师,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2063134245873958912,2026年06月08日,2026-07-17T11:17:14.297243+08:00
+b77ce0984e01b1a2,腾讯,商业分析师-AI方向,unknown,unknown,autumn_campus,深圳,,verified,95,4,https://careers.tencent.com/jobdesc.html?postId=2061418668511899648,2026年06月01日,2026-07-17T11:17:14.359646+08:00
+3244b17c04cf2109,腾讯,腾讯视频-AI 产品经理,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2046845261342470144,2026年07月16日,2026-07-17T11:17:14.437067+08:00
+f6c1799fcce19445,腾讯,PUBG Mobile-高级游戏AI策划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2049762765454880768,2026年07月16日,2026-07-17T11:17:14.499453+08:00
+5a5a76ef730f2945,腾讯,元宝- AI策略产品经理（图片理解方向）,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2021846191561666560,2026年06月25日,2026-07-17T11:17:29.204499+08:00
+2ba495894fb22aae,腾讯,企业微信-产品经理-AI方向,unknown,unknown,autumn_campus,广州,,verified,95,4,https://careers.tencent.com/jobdesc.html?postId=1880770535693004800,2026年07月14日,2026-07-17T11:17:18.128286+08:00
+8704a19f09b6cbb9,腾讯,腾讯视频-AI Agent工程师,unknown,unknown,autumn_campus,北京,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2049051430010122240,2026年07月14日,2026-07-17T11:17:14.779258+08:00
+c934961ada36289b,腾讯,游戏AI-高级产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1897945233740599296,2026年07月13日,2026-07-17T11:17:14.901944+08:00
+e465c4946c32bca6,腾讯,微信输入法-AI产品经理,unknown,unknown,autumn_campus,广州,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=1978467627152072704,2026年07月08日,2026-07-17T11:17:16.486412+08:00
+4f21d56dfb5c29e8,腾讯,光子 AI-专家游戏策划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2013865923693400064,2026年07月10日,2026-07-17T11:17:15.133509+08:00
+d2418ed07694f454,腾讯,AI前线部署工程师FDE,unknown,unknown,autumn_campus,武汉,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2041772169679241216,2026年07月07日,2026-07-17T11:17:15.272237+08:00
+cd636e5e0189e281,腾讯,云及AI 技术公关经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2048675210231709696,2026年06月26日,2026-07-17T11:17:15.428716+08:00
+80587e76aca14f06,腾讯,Project W-AI游戏工具策划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2068952782483927040,2026年06月22日,2026-07-17T11:17:15.568666+08:00
+a40cdb2f9f943f2a,腾讯,QQ-#AI搜索算法工程师#,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2067162375395655680,2026年06月17日,2026-07-17T11:17:15.646895+08:00
+15a096ba7f08ed48,腾讯,腾讯云AI前线部署工程师FDE-(北京/上海),unknown,unknown,autumn_campus,深圳,,verified,95,2,https://careers.tencent.com/jobdesc.html?postId=2066401747009712128,2026年07月01日,2026-07-17T11:17:31.263456+08:00
+8d944994493ffa27,腾讯,AI宠物-客户端工程师,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2063134243537731584,2026年06月08日,2026-07-17T11:17:15.847972+08:00
+70c27825c09691a3,腾讯,腾讯元宝AI战略分析师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1988158203220877312,2026年07月15日,2026-07-17T11:17:15.956285+08:00
+21b2ed93c962964b,腾讯,腾讯视频-AI动漫制片人,unknown,unknown,autumn_campus,北京,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2028676570826309632,2026年07月15日,2026-07-17T11:17:16.034509+08:00
+43cc9d8de8cbfce8,腾讯,混元AI Agent Harness Engineer（北京/深圳））,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052685072754196480,2026年07月15日,2026-07-17T11:17:16.160834+08:00
+9feb8a723b845ba1,腾讯,PUBG Mobile-3D角色模型（AI方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1951486647040319488,2026年07月14日,2026-07-17T11:17:16.252720+08:00
+12536da4a5f8a044,腾讯,腾讯云-华东渠道销售AI,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2074048051558920192,2026年07月13日,2026-07-17T11:17:16.393028+08:00
+9ffe06cc78485672,腾讯,微信读书/输入法/秒剪-AI 应用客户端开发工程师,unknown,unknown,autumn_campus,广州,,verified,95,4,https://careers.tencent.com/jobdesc.html?postId=1927639956445069312,2026年07月17日,2026-07-17T11:17:34.903315+08:00
+0ecf3806cd26e3bf,腾讯,WeGame游戏平台-AI算法研究,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1982705847465299968,2026年06月29日,2026-07-17T11:17:16.718913+08:00
+a6fa9bbd250f3e1f,腾讯,企业微信-AI应用后台开发工程师-AI大模型应用（成都/北京）,unknown,unknown,autumn_campus,广州,,verified,95,4,https://careers.tencent.com/jobdesc.html?postId=2037467994921271296,2026年06月25日,2026-07-17T11:17:16.827818+08:00
+b9c8463cdf8d4348,腾讯,腾讯元宝AI战略分析师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2034973987074899968,2026年06月25日,2026-07-17T11:17:16.905999+08:00
+05b2a85b39a631b8,腾讯,腾讯视频-AI短剧创作人,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2035966754550874112,2026年06月22日,2026-07-17T11:17:17.076863+08:00
+cdedacd738d4d785,腾讯,腾讯云-AI Agent测试工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2054536052047265792,2026年06月03日,2026-07-17T11:17:17.186224+08:00
+51f66f18443e7eee,腾讯,游戏AI产品策划,unknown,unknown,autumn_campus,Shenzhen,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1938557949752508416,2025年09月15日,2026-07-17T11:17:17.262973+08:00
+e2379e0ca1255304,腾讯,AI Infra SRE工程师（深圳/北京）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2054748355795529728,2026年05月21日,2026-07-17T11:17:17.354782+08:00
+0c2869dd2aff550a,腾讯,《三角洲行动》-AI产品运营,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2056017578089955328,2026年05月18日,2026-07-17T11:17:17.511338+08:00
+b488078a94cd0537,腾讯,​​腾讯云AI语音产品经理​​,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2046718048437694464,2026年04月29日,2026-07-17T11:17:17.665249+08:00
+c476860b124f776d,腾讯,光子 AI-数据平台产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077246089718837248,2026年07月16日,2026-07-17T11:17:17.758222+08:00
+567eb7c0a2ebb06f,腾讯,游戏AI-数据挖掘算法专家,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043890003045679104,2026年07月15日,2026-07-17T11:17:17.897703+08:00
+487ad85c548c6df5,腾讯,腾讯云 SaaS AI产品-数据分析,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2044313817667760128,2026年07月14日,2026-07-17T11:17:17.990997+08:00
+7af8600fc3576b3c,腾讯,光子 AI-游戏数据科学专家,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1788096480758734848,2026年07月10日,2026-07-17T11:17:18.252688+08:00
+d2b40ea921dabc4d,腾讯,AI量化投研工程师-Agent方向,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2030910912042532864,2026年07月08日,2026-07-17T11:17:18.407546+08:00
+cc36c4b43b3caee8,腾讯,混元 AI 产品经理（北京/深圳）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059455036769091584,2026年07月08日,2026-07-17T11:17:18.500365+08:00
+8cb7321f13d600a5,腾讯,微信-数据科学-AI业务方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072882196234027008,2026年07月03日,2026-07-17T11:17:18.624609+08:00
+5e81889b75b28f05,腾讯,光子 AI-游戏模型评测专家,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059914529491562496,2026年07月02日,2026-07-17T11:17:18.763431+08:00
+ba98e61f49e6ae24,腾讯,Project T-游戏战斗策划（AI方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2062039571885109248,2026年06月30日,2026-07-17T11:17:18.870921+08:00
+834f27b7d2bdc4f0,腾讯,AI infra研发工程师(北京/深圳),unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037425093965148160,2026年06月25日,2026-07-17T11:17:19.104401+08:00
+c6be42dba6b53765,腾讯,腾讯云-AI供应链产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2026121516504215552,2026年06月24日,2026-07-17T11:17:19.197205+08:00
+2eb0d2818def2d2f,腾讯,轻量云OpenClaw AI Agent 高级工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2034114862627581952,2026年06月16日,2026-07-17T11:17:19.320571+08:00
+f84fd9e12976ce34,腾讯,AI前线部署工程师FDE（杭州）,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2062519585827106816,2026年06月05日,2026-07-17T11:17:19.413062+08:00
+7b8d34c2793bb2c6,腾讯,QQ-#后台AI应用开发工程师#,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2044246233480069120,2026年05月28日,2026-07-17T11:17:19.553877+08:00
+db0c6464740526ee,腾讯,AI Agent开发工程师（游戏研发）,unknown,unknown,autumn_campus,Guangzhou,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2056998436447895552,2026年05月19日,2026-07-17T11:17:19.678729+08:00
+b4ae9002485a0405,腾讯,AW项目组-AI产品前端工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2055136913035276288,2026年07月16日,2026-07-17T11:17:19.802870+08:00
+6f202bcc5e66d97f,腾讯,AI 策略产品经理-游戏电竞方向,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2077297592525570048,2026年07月22日,2026-08-04T09:56:18.075016+08:00
+7315bd90457db8ac,腾讯,游戏AI-多模态AIGC算法研究员,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043890077440045056,2026年07月15日,2026-07-17T11:17:19.987746+08:00
+9873660a35f8b0dd,腾讯,微信-产品体验设计师-AI方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2064956957185458176,2026年07月13日,2026-07-17T11:17:20.081287+08:00
+eabecda8312ab692,腾讯,游戏AI-强化学习算法研究员,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1831157606756933632,2026年07月13日,2026-07-17T11:17:20.204024+08:00
+520962721b2a97fc,腾讯,腾讯云音视频AI海外产品营销经理,unknown,unknown,autumn_campus,深圳,,single_source,75,1,https://careers.tencent.com/jobdesc.html?postId=2075461554291257344,2026年07月24日,2026-08-04T09:56:22.499816+08:00
+c4fe0f25484e7b5e,腾讯,游戏AI-LLM大模型算法研究员,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1995314539217969152,2026年07月10日,2026-07-17T11:17:20.589243+08:00
+91eb3290d27e28ba,腾讯,边缘AI推理研发工程师（深圳）,unknown,unknown,autumn_campus,北京,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2074084898423095296,2026年07月08日,2026-07-17T11:17:20.711452+08:00
+73911cc3d9489304,腾讯,WeGame-高级产品经理-AI产品应用,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2018950192145006592,2026年07月08日,2026-07-17T11:17:20.819102+08:00
+b72de650b1dc66a5,腾讯,规划架构师-AI算力配套优化,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2074084854668111872,2026年07月06日,2026-07-17T11:17:20.941924+08:00
+e028da506399d96d,腾讯,云原生数据库AI研发工程师,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2028713326153990144,2026年07月01日,2026-07-17T11:17:21.096331+08:00
+2a8d320ba857289a,腾讯,微信读书产品部-AI产品经理,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2068897868235849728,2026年06月29日,2026-07-17T11:17:21.251476+08:00
+4283d8ace96e4e14,腾讯,《王者荣耀》资深AI全栈工程师,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1993142612818808832,2026年06月26日,2026-07-17T11:17:21.361070+08:00
+77b3c008a3f8879f,腾讯,QQ-商业内容运营-AI漫剧运营,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2047584818077794304,2026年06月26日,2026-07-17T11:17:21.423957+08:00
+cfd31475b1e1ce6c,腾讯,腾讯视频-AI 原生全栈工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2046845259174019072,2026年06月25日,2026-07-17T11:17:21.578812+08:00
+d55e1400a2dcb1f2,腾讯,AI方向-高级研效开发工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2035701614215593984,2026年06月23日,2026-07-17T11:17:21.810856+08:00
+606893fadc730dcc,腾讯,光子 AI-视频生成基础模型研究员,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2067065222975369216,2026年06月23日,2026-07-17T11:17:27.004497+08:00
+516ee5ede2a66dc2,腾讯,腾讯云-业务运营经理-（云与AI）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2036373412766707712,2026年06月22日,2026-07-17T11:17:22.073857+08:00
+f42c2a0e894c0e4b,腾讯,腾讯云WeData-Data+AI平台研发专家,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2047219021216116736,2026年06月22日,2026-07-17T11:17:22.259772+08:00
+a9a9a2aae54ab4e5,腾讯,教育行业AI专项方案架构师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2033450863112122368,2026年06月15日,2026-07-17T11:17:22.337956+08:00
+0c33d71994a1228e,腾讯,ADP-AI产品增长运营-(武汉/西安),unknown,unknown,autumn_campus,武汉,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1976672898466861056,2026年06月10日,2026-07-17T11:17:22.447842+08:00
+4a30e76de347f654,腾讯,高级AI研究员 (游戏研发管线),unknown,unknown,autumn_campus,Shenzhen,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2056998387361955840,2026年05月19日,2026-07-17T11:17:22.571900+08:00
+a7f9a299ddf0eddc,腾讯,光子艺术部-AI技术美术-(Pipeline向),unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043950351958306816,2026年05月13日,2026-07-17T11:17:22.696368+08:00
+104fd401db9e6568,腾讯,资源集成交付经理-AI算力交付,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2044353104589258752,2026年07月14日,2026-07-17T11:17:22.913648+08:00
+4dd0650eb77812e7,腾讯,微信-客户端开发工程师-AI方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2069315805996302336,2026年07月13日,2026-07-17T11:17:23.133203+08:00
+e09ad707a010f320,腾讯,AI互动影游-AI游戏客户端开发工程师,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2077214550939316224,2026年07月29日,2026-08-04T09:56:05.066276+08:00
+0817a33ff041eff2,腾讯,光子 AI-推理部署与优化研究员,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2067065229401042944,2026年07月10日,2026-07-17T11:17:23.383544+08:00
+e3b85c81ea36445f,腾讯,腾讯AI协作工具-#客户成功经理#,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2061646298494451712,2026年07月09日,2026-07-17T11:17:23.460195+08:00
+f83135c33b127220,腾讯,腾讯云-AI Infra异构计算产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2034117546277498880,2026年07月09日,2026-07-17T11:17:23.538514+08:00
+1d07a786af4e1969,腾讯,AI协作工具产品高级产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2061001589497442304,2026年07月08日,2026-07-17T11:17:23.678936+08:00
+7ef986d5fecf77cd,腾讯,腾讯游戏-编译器工程师-AI方向,unknown,unknown,autumn_campus,杭州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1982745649132756992,2026年07月08日,2026-07-17T11:17:23.820002+08:00
+3a57d0b9c70108ed,腾讯,光子 AI-大语言模型Coding算法专家,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2067104290106945536,2026年07月07日,2026-07-17T11:17:23.911812+08:00
+710827b1e1a52a1f,腾讯,魔方工作室-AI技术美术（流程工具向）,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=1924803808161038336,2026年07月09日,2026-07-17T11:17:27.792075+08:00
+e3741d9d2de28c3b,腾讯,光子 AI-3D 内容合成数据研究员,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2067065220651728896,2026年07月02日,2026-07-17T11:17:24.130542+08:00
+51963014eff148c7,腾讯,《三角洲行动》-游戏AI开发工程师,unknown,unknown,autumn_campus,深圳,,verified,95,4,https://careers.tencent.com/jobdesc.html?postId=2052018398480740352,2026年07月02日,2026-07-17T11:17:24.269360+08:00
+118ad0e83287633f,腾讯,AI Infra研发工程师-上海/北京/深圳,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2038814818466689024,2026年07月01日,2026-07-17T11:17:24.411261+08:00
+5fe6a6fb73e29868,腾讯,腾讯安全-AI代码安全产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2070679023687745536,2026年06月29日,2026-07-17T11:17:24.504268+08:00
+9987206a9148d218,腾讯,AI ⽹络集合通信库运营⼯程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2070518527399477248,2026年06月29日,2026-07-17T11:17:24.611881+08:00
+8955ec581e9c75a6,腾讯,AI ⽹络集合通信库运营⼯程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2070518525277155328,2026年06月29日,2026-07-17T11:17:24.737501+08:00
+200c3d3c3f27f70a,腾讯,《王者荣耀》游戏AI Bot算法研究员,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2066470357749116928,2026年06月26日,2026-07-17T11:17:24.861882+08:00
+957fddd3acf74a71,腾讯,AI计算库开发工程师(北京/深圳),unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037425084771237888,2026年06月25日,2026-07-17T11:17:24.939471+08:00
+2ada7b801e797954,腾讯,AI计算库开发工程师(北京/深圳),unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037425087283625984,2026年06月25日,2026-07-17T11:17:25.048804+08:00
+429f3004e0e63bfd,腾讯,腾讯游戏-综合项目管理（AI方向）,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2063818427021307904,2026年06月17日,2026-07-17T11:17:25.156610+08:00
+1ba24b35039ec954,腾讯,微信基础-大数据工程师-AI方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059948187954888704,2026年06月05日,2026-07-17T11:17:25.296095+08:00
+a32b94e7d1550787,腾讯,腾讯文档-AI自动化测试工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2053980999720812544,2026年06月03日,2026-07-17T11:17:25.404576+08:00
+a002eb3a3877cbc3,腾讯,《王者荣耀》-技术策划-AI工具方向,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2053645695394689024,2026年05月14日,2026-07-17T11:17:25.513349+08:00
+1c63b39604f36373,腾讯,腾讯投资-高级开发工程师-AI Agent,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2051623990111420416,2026年05月13日,2026-07-17T11:17:25.622572+08:00
+786f181ad01be0be,腾讯,《三角洲行动》-UE游戏客户端开发（AI）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1913052101655764992,2026年07月16日,2026-07-17T11:17:25.715970+08:00
+9ed66c92df8a85fb,腾讯,AI infra系统研发专家工程师/负责人,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037101972330541056,2026年07月15日,2026-07-17T11:17:25.809972+08:00
+3a751922c65805f1,腾讯,微信-AI Infra工程师-大模型训练与RL方向,unknown,unknown,autumn_campus,北京,,verified,95,4,https://careers.tencent.com/jobdesc.html?postId=2037411500376879104,2026年07月13日,2026-07-17T11:17:30.053617+08:00
+b8fab766e67616ed,腾讯,游戏AI-高性能推理系统研发专家,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2043890114802905088,2026年07月13日,2026-07-17T11:17:26.011591+08:00
+694159d90026825a,腾讯,企业微信-产品策划-智能文档,unknown,unknown,autumn_campus,广州,,verified,95,3,https://careers.tencent.com/jobdesc.html?postId=2038501839850336256,2026年06月29日,2026-07-17T11:17:59.795922+08:00
+faac3ea0a45d13e1,腾讯,全栈开发工程师-腾讯AI协作工具,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2074485451019956224,2026年07月08日,2026-07-17T11:17:26.182441+08:00
+b57e2ca21504f25f,腾讯,资深测试开发工程师（AI评测方向）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1950026512501678080,2026年07月06日,2026-07-17T11:17:26.338346+08:00
+818f3dcdf5388a91,腾讯,混元AI搜索算法工程师（北京/深圳）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2016441106325200896,2026年07月01日,2026-07-17T11:17:26.477505+08:00
+ba6677f2570e8716,腾讯,Project T  UE5 客户端开发工程师（游戏 AI）,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2065266737913446400,2026年06月30日,2026-07-17T11:17:26.724831+08:00
+0e28c9ae29955efa,腾讯,AI编译优化工程师(北京/上海/深圳),unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037425089443692544,2026年06月25日,2026-07-17T11:17:26.865894+08:00
+923d2dc7c07785c4,腾讯,测试开发工程师-AI软件测试方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2044704007120912384,2026年06月18日,2026-07-17T11:17:27.128461+08:00
+c7535961dcd8a5a9,腾讯,资深AI测试专家（云数据业务方向）,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2055555661177204736,2026年06月03日,2026-07-17T11:17:27.220463+08:00
+c6dd6f063bba343a,腾讯,Project T  UE5 客户端开发工程师（游戏 AI）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2045768667379171328,2026年05月29日,2026-07-17T11:17:27.282561+08:00
+cfda0635c45738ba,腾讯,AI应用开发专家/负责人（北京/深圳）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2049391881992974336,2026年05月18日,2026-07-17T11:17:27.421504+08:00
+8ab2c780cc635a00,腾讯,腾讯云- MaaS高级产品经理,unknown,unknown,autumn_campus,深圳,,verified,95,3,https://careers.tencent.com/jobdesc.html?postId=2034975730101809152,2026年06月18日,2026-07-17T11:17:39.796380+08:00
+505a3b0691ad3465,腾讯,微信-基础架构研发工程师-AI Infra方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2031005596936994816,2026年07月09日,2026-07-17T11:17:27.912661+08:00
+9ac28d2383eeaa8e,腾讯,企业微信-生态合作经理-硬件方向,unknown,unknown,autumn_campus,广州,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2075154760067100672,2026年07月16日,2026-07-17T11:17:49.840102+08:00
+7e47b1448b18aeee,腾讯,AI Infra强化学习工程师-深圳/北京/上海,unknown,unknown,autumn_campus,上海,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2038796569410695168,2026年07月01日,2026-07-17T11:17:28.834660+08:00
+50f5c8ff9a5c09ce,腾讯,企业微信-AI Agent 引擎核心开发工程师,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2039169824982204416,2026年07月03日,2026-07-17T11:17:28.374552+08:00
+91903965d356b3e1,腾讯,企业微信-战略&商业化设计-AI/SaaS方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2046110875739389952,2026年07月03日,2026-07-17T11:17:28.466582+08:00
+1fecc8b1aa254aa1,腾讯,光子 AI-游戏模型数据专家-研发数据,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2059914523263021056,2026年07月02日,2026-07-17T11:17:28.635572+08:00
+bec70516e3c8262d,腾讯,天美游戏-资深商业分析经理（AI方向）,unknown,unknown,autumn_campus,深圳,,verified,95,3,https://careers.tencent.com/jobdesc.html?postId=1977621602237571072,2026年07月01日,2026-07-17T11:17:28.973578+08:00
+6dfe5bc5afd8dc01,腾讯,天美游戏社区产品策划-AI创新方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037421573023100928,2026年06月25日,2026-07-17T11:17:29.111542+08:00
+da46679d79d5cc31,腾讯,微信视频号-大模型ai infra高级工程师,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2001215619193790464,2026年06月17日,2026-07-17T11:17:29.267023+08:00
+75c41f35f8f56cb7,腾讯,轻游梦工坊-高级玩法策划（AI游戏生成）,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2016352990373498880,2026年07月03日,2026-07-17T11:17:31.046127+08:00
+9f5de61568439843,腾讯,光子 AI-LLM 高级研究员-游戏智能体方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075441482017456128,2026年07月16日,2026-07-17T11:17:29.884059+08:00
+9cefcfe9a9123e20,腾讯,天美游戏-AI 策略工程师-新星引力计划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2054022864226664448,2026年07月15日,2026-07-17T11:17:29.962053+08:00
+d31ef52c2db9f3a4,腾讯,腾讯游戏MagicAI -AI Agent开发工程师-游戏领域,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043637366815617024,2026年07月13日,2026-07-17T11:17:30.160462+08:00
+5407d65194d0eede,腾讯,《王者荣耀》游戏AI算法研究员- LLM/NLP方向,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2017980286347935744,2026年07月13日,2026-07-17T11:17:30.285542+08:00
+f7e54c9748007dac,腾讯,腾讯游戏-游戏AI后端开发高级工程师,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2032357172091977728,2026年07月13日,2026-07-17T11:17:30.378507+08:00
+564560011ebe2c59,腾讯,刷掌-海外AI技术支持工程师-武汉/西安,unknown,unknown,autumn_campus,武汉,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1976672889713352704,2026年07月10日,2026-07-17T11:17:30.440616+08:00
+801d466560f9e9f5,腾讯,营销与交易产品部-营销云AI产品经理,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2042466630134558720,2026年07月09日,2026-07-17T11:17:30.564484+08:00
+ac9465defb13afdf,腾讯,QQ游戏大厅-AI产品策划-新星引力计划,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1984422348790587392,2026年07月09日,2026-07-17T11:17:30.719392+08:00
+640946223ebc837b,腾讯,《王者荣耀》游戏AI算法研究员- LLM/NLP方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2017980284246589440,2026年07月08日,2026-07-17T11:17:30.843623+08:00
+0537f29004577514,腾讯,PUBG Mobile-游戏动作设计师（AI 辅助动画方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2050406466082484224,2026年07月03日,2026-07-17T11:17:30.983943+08:00
+e58dcd5d38e5588d,腾讯,AI软件解决方案专家(FDE)（深圳/北京/上海）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072248701686034432,2026年07月02日,2026-07-17T11:17:31.108704+08:00
+7027244b681a2841,腾讯,J3-UE5微恐射击-UE5客户端开发（怪物/AI）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043623839329583104,2026年04月23日,2026-07-17T11:17:31.403316+08:00
+2f432ca09430a22d,腾讯,浏览器内核与自动化工程师（AI Agent领域）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2068624480498003968,2026年06月29日,2026-07-17T11:17:31.496070+08:00
+adbf27bb0ac21145,腾讯,腾讯云AI解决方案架构师-(成都/上海/深圳),unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2066401749501132800,2026年07月09日,2026-07-17T11:17:31.636610+08:00
+99ec437dfed294e8,腾讯,腾讯AI协作工具企业版后台开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2061646295944310784,2026年07月07日,2026-07-17T11:17:31.898946+08:00
+5d497799f2f5c768,腾讯,智能运维AI Agent平台-资深软件开发工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2029862287371825152,2026年07月06日,2026-07-17T11:17:32.007788+08:00
+b216c1ed30f6709b,腾讯,魔方工作室-数据科学家-AI数据工程方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2069379303518420992,2026年07月03日,2026-07-17T11:17:32.101289+08:00
+b601a931010b2f7c,腾讯,光子 AI-视频生成内容理解与反馈研究员,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2067065227102564352,2026年07月02日,2026-07-17T11:17:32.241600+08:00
+7cb43ec69948455d,腾讯,腾讯云大数据基础产品-Data+AI研发工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052284319824789504,2026年06月22日,2026-07-17T11:17:32.334357+08:00
+28fe7cb461f40669,腾讯,腾讯云大数据基础产品-Data+AI研发工程师,unknown,unknown,autumn_campus,杭州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052284145601789952,2026年06月22日,2026-07-17T11:17:32.489725+08:00
+261dc37381493435,腾讯,腾讯云大数据基础产品-Data+AI研发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052284200551366656,2026年06月22日,2026-07-17T11:17:32.630124+08:00
+463ba98565d5ecba,腾讯,金融科技-AI数据产品经理-数据开发方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2047239002926510080,2026年05月29日,2026-07-17T11:17:32.769667+08:00
+08b51d0cf6f73bfa,腾讯,腾讯云-泰国印尼AI原生云解决方案架构师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2011613372172361728,2026年07月16日,2026-07-17T11:17:32.909128+08:00
+f99dc2cc3a3baef4,腾讯,微信小游戏-AI应用开发-游戏代码理解方向,unknown,unknown,autumn_campus,深圳,,verified,95,2,https://careers.tencent.com/jobdesc.html?postId=2069242484575350784,2026年07月14日,2026-07-17T11:17:32.986660+08:00
+f2cfc090e030911e,腾讯,微信-后台开发工程师-AI语音/模型服务方向,unknown,unknown,autumn_campus,北京,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2049487881189371904,2026年07月13日,2026-07-17T11:17:33.080859+08:00
+40e2600f967ee7c0,腾讯,游戏AI-多模态Agent算法专家-UGC场景生成方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043890152685858816,2026年07月13日,2026-07-17T11:17:33.174303+08:00
+b148b907553d692d,腾讯,腾讯云汽车行业-AI交付方案工程师（FDE方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075404886018801664,2026年07月10日,2026-07-17T11:17:33.298327+08:00
+1abee65e6b061b2a,腾讯,AI协作工具产品客户端研发高级工程师岗位,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2061001584745299968,2026年07月08日,2026-07-17T11:17:34.548559+08:00
+f6b99b307c194340,腾讯,腾讯游戏-游戏引擎开发资深工程师-AI渲染,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2018583814598717440,2026年07月08日,2026-07-17T11:17:33.517136+08:00
+57064c7a92341805,腾讯,光子 AI-模型数据算法专家/负责人-数据方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059914527440551936,2026年07月02日,2026-07-17T11:17:33.579024+08:00
+f3ecec7511022d1a,腾讯,腾讯云汽车行业-AI交付方案工程师（FDE方向）,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2070086049866104832,2026年06月25日,2026-07-17T11:17:33.696088+08:00
+45cc8a8f7d1b666f,腾讯,腾讯云汽车行业-AI交付方案工程师（FDE方向）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1977581361661366272,2026年06月25日,2026-07-17T11:17:33.758662+08:00
+eee830ed7b66b9b5,腾讯,腾讯游戏平台-AI算法研究员-新星引力计划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2046443162679013376,2026年06月22日,2026-07-17T11:17:33.850434+08:00
+500af049ab072df8,腾讯,智慧行业四部—解决方案架构师(AI方向）上海,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043620146253299712,2026年06月11日,2026-07-17T11:17:33.942879+08:00
+7d85ca36bbdfbe23,腾讯,QClaw-端侧AI模型推理加速专家（深圳/北京/上海）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059817052763504640,2026年05月28日,2026-07-17T11:17:34.083027+08:00
+3e04a6b4990fe8e0,腾讯,光子 AI-高级研究员-语音合成与多模态大模型,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075441484701806592,2026年07月16日,2026-07-17T11:17:34.239901+08:00
+ffa3b305b66d4df5,腾讯,腾讯游戏MagicAI-游戏引擎开发工程师-AI原生方向,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043637364387115008,2026年07月13日,2026-07-17T11:17:34.455483+08:00
+df3226a88dca0dfb,腾讯,《三角洲行动》-AI应用开发工程师-游戏研发方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2038877531406499840,2026年07月01日,2026-07-17T11:17:34.702972+08:00
+1bbf8fdd4a9735d8,腾讯,混元多模态技术美术（AI/动画/场景渲染方向）（北京）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2033478638812430336,2026年07月15日,2026-07-17T11:17:35.027212+08:00
+08ac23981da453c8,腾讯,企业微信-AI数据算法工程师-数据标注（广州/北京）,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1976128408916217856,2026年07月13日,2026-07-17T11:17:35.166337+08:00
+6e23077a8c1091cf,腾讯,腾讯营销-资深AI研发工程师（微信数据专区联动）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052707714819342336,2026年06月08日,2026-07-17T11:17:35.659975+08:00
+4e75f4b50570abfa,腾讯,企业微信-AI Agent开发工程师-平台框架/应用（广州/北京）,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2028299866760966144,2026年07月16日,2026-07-17T11:17:35.800300+08:00
+fa1ea43aad0e13a2,腾讯,PUBG Mobile-游戏客户端开发工程师(AI 方向)-新星引力计划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2009144822585253888,2026年07月08日,2026-07-17T11:17:35.970564+08:00
+95a84d5568c5cc66,腾讯,腾讯投资-高级投资分析师-AI（一级市场）方向（北京/上海）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1955553639053549568,2026年07月15日,2026-07-17T11:17:36.047665+08:00
+6bf8a71c3a18ac12,腾讯,企业微信-大模型训练框架开发工程师-AI Infra（成都/北京）,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1976128424510644224,2026年07月13日,2026-07-17T11:17:36.156067+08:00
+47b8e336bb960bf2,腾讯,游戏AI-多模态世界模型算法专家-可控视频生成方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043890150156693504,2026年07月13日,2026-07-17T11:17:36.263718+08:00
+c3725a3cb98e9266,腾讯,智慧零售-售前解决方案专家（AI+零售餐饮方向-FDE Consultant）深圳,unknown,unknown,autumn_campus,上海,,verified,95,2,https://careers.tencent.com/jobdesc.html?postId=2064963962931425280,2026年07月10日,2026-07-17T11:17:36.602398+08:00
+a191c1c4f15d8803,腾讯,混元大模型数据策略产品经理-AI Agent / Coding方向（深圳/北京）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059832165742592000,2026年07月08日,2026-07-17T11:17:36.494304+08:00
+9d4f15a8f73d91f2,腾讯,微信搜索-AI Infra工程师-大模型后训练与RL方向（北京）（深圳）,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2062097141408641024,2026年06月11日,2026-07-17T11:17:36.696298+08:00
+e95aaec53cf35ead,腾讯,智慧零售-行业解决方案高级经理-AI数智化方向（FDE Consultant）-北京,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2062455031348772864,2026年07月16日,2026-07-17T11:17:36.773877+08:00
+2dbf78d9839373b6,腾讯,腾讯战略发展部-商业分析经理-AI效率工具方向(北京/深圳),unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2031204316806803456,2026年07月08日,2026-07-17T11:17:36.850582+08:00
+bfe03c0c492f0e6d,腾讯,魔方技术中心-高级/资深UE引擎开发工程师-AI提效方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2049066752096235520,2026年04月29日,2026-07-17T11:17:37.082656+08:00
+612b4478fa827afb,腾讯,元宝-大模型策略产品（语音方向）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1984457397548240896,2026年07月15日,2026-07-17T11:17:37.311876+08:00
+6cef34de1ea9e0bb,腾讯,网关控制器高级开发工程师,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=1810211329928077312,2026年07月15日,2026-07-17T11:17:38.543373+08:00
+4455766eaefae656,腾讯,CSIG服务生态管理部-AI模型服务高级采购经理（云和人工智能方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2034094242741252096,2026年07月01日,2026-07-17T11:17:37.526258+08:00
+85de565f5a4b3912,腾讯,研发效能专家（深圳/北京）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2058842035183595520,2026年05月25日,2026-07-17T11:17:37.740928+08:00
+16ddd14ea218d4e4,腾讯,元宝-动效设计师-产品体验方向,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1946111390351753216,2026年07月09日,2026-07-17T11:17:37.819172+08:00
+609eef4f978a4868,腾讯,腾讯游戏品质管理部-AI测试平台产品负责人-高级技术产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2049714089445470208,2026年05月09日,2026-07-17T11:17:37.957651+08:00
+ad3303fcd74cee98,腾讯,腾讯投资-投资经理/高级投资经理-半导体,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2021195511368941568,2026年07月10日,2026-07-17T11:17:38.111036+08:00
+48c8931c37f04417,腾讯,训推平台售前技术架构师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2039597307762212864,2026年07月01日,2026-07-17T11:17:38.188017+08:00
+f26948b77afb6d60,腾讯,GPU性能优化工程师,unknown,unknown,autumn_campus,杭州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2068946105739165696,2026年07月10日,2026-07-17T11:17:38.295511+08:00
+ce6471f45faaa7aa,腾讯,元宝客户端测试工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2020809610717458432,2026年06月10日,2026-07-17T11:17:38.388435+08:00
+d29b3c4d87ef9d3f,腾讯,PC游戏平台运营builder,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2057406634011045888,2026年06月04日,2026-07-17T11:17:38.682198+08:00
+63bd15c9340b56b6,腾讯,腾讯战略发展部-高级商业分析师-视频方向,unknown,unknown,autumn_campus,北京,,single_source,75,1,https://careers.tencent.com/jobdesc.html?postId=1996852113971503104,2026年07月08日,2026-07-17T11:17:38.760539+08:00
+9ac412202514414d,腾讯,和平精英-资深CG导演（商业化）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2029722833814450176,2026年07月06日,2026-07-17T11:17:38.852749+08:00
+1db44449e7cc4734,腾讯,腾讯云商业分析经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2062099033203322880,2026年06月25日,2026-07-17T11:17:38.976157+08:00
+3f70cfe08dc02f35,腾讯,媒体处理算法工程师(上海/深圳/成都),unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072885240124321792,2026年07月08日,2026-07-17T11:17:39.084490+08:00
+48a71b78d00886e4,腾讯,腾讯云-智慧零售-行业解决方案咨询经理（FDE Consultant）上海,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2049027531922898944,2026年07月16日,2026-07-17T11:17:39.238475+08:00
+dc42309a9edc8ffd,腾讯,大语言模型应用工程师（Agent方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2034117544100655104,2026年06月16日,2026-07-17T11:17:39.361340+08:00
+cee86fa954b1fff4,腾讯,腾讯云-异构计算产品经理-北京/深圳,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1902211071872155648,2026年07月02日,2026-07-17T11:17:39.500583+08:00
+cd9334621b79de19,腾讯,元宝-Agent架构工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2016726997581058048,2026年07月09日,2026-07-17T11:17:39.640770+08:00
+56e885e44cfe840d,腾讯,元宝-Agent架构工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2016726999816626176,2026年06月29日,2026-07-17T11:17:39.952777+08:00
+04e4b20bdf571243,腾讯,元宝-大模型策略产品（社交方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1984457394188607488,2026年06月25日,2026-07-17T11:17:40.047041+08:00
+7e9ebf0c39517138,腾讯,WorkBuddy-生态合作运营-SaaS方向,unknown,unknown,autumn_campus,深圳,,verified,95,6,https://careers.tencent.com/jobdesc.html?postId=2077641738788454400,2026年07月17日,2026-07-17T11:17:46.524030+08:00
+203886ebdbc0cdb7,腾讯,《三角洲行动》-客户端开发工程师（性能优化）-大世界场景,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2063913276630282240,2026年06月08日,2026-07-17T11:17:40.249348+08:00
+4df61a8994935ae8,腾讯,腾讯云汽车行业解决方案架构师,unknown,unknown,autumn_campus,杭州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2051852080519491584,2026年05月06日,2026-07-17T11:17:40.386899+08:00
+8e4175cb92a70c85,腾讯,PUBG Mobile-3D特效设计师-重构,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2042876583768915968,2026年07月14日,2026-07-17T11:17:40.511904+08:00
+5e2460ee652e756a,腾讯,混元AIGC模型产品经理（多模态方向）（北京/上海）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1930452494366932992,2026年07月11日,2026-07-17T11:17:40.620251+08:00
+3e79030da80b61b6,腾讯,异构加速框架工程师（深圳/北京/上海）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2036976620622999552,2026年06月24日,2026-07-17T11:17:40.696564+08:00
+6097f84d05bc03d8,腾讯,元宝自动化测试工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2020809543059144704,2026年07月13日,2026-07-17T11:17:40.818866+08:00
+c66c5caea7b67b7d,腾讯,腾讯云-可观测与运维平台高级研发工程师（深圳/杭州/北京/上海）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077298521521958912,2026年07月16日,2026-07-17T11:17:40.958714+08:00
+7ec094cd280ba6bd,腾讯,优图实验室市场营销经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2066464327648591872,2026年06月23日,2026-07-17T11:17:41.066640+08:00
+171a2226d623da77,腾讯,营销与交易产品部-云Mall 高级产品经理（电商交易平台方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043480582519947264,2026年06月29日,2026-07-17T11:17:41.159583+08:00
+bbd0ea01b01d8eb8,腾讯,《三角洲行动》-客户端开发工程师（编辑器开发与资源管理）-UGC,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2063913284020649984,2026年06月08日,2026-07-17T11:17:41.298769+08:00
+07dd81a65338dd32,腾讯,产品设计师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043574207895470080,2026年07月13日,2026-07-17T11:17:41.360942+08:00
+05a9e8c0991cd033,腾讯,微信基础-大模型评测产品经理,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059948192291799040,2026年06月04日,2026-07-17T11:17:41.467940+08:00
+fa37dc09e708359e,腾讯,微信安全-后台开发工程师,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2049397277746970624,2026年06月29日,2026-07-17T11:17:41.606508+08:00
+06434587ed591e5b,腾讯,微信-大模型(GUI Agent)算法研究员,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037392063242334208,2026年07月13日,2026-07-17T11:17:41.808694+08:00
+26f741fff1b3ae2f,腾讯,腾讯云-高性能网络后台研发工程师,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2065072075844005888,2026年06月11日,2026-07-17T11:17:41.898989+08:00
+0f17e8fb0637530d,腾讯,微信搜索-LLM大模型算法工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1995381946347311104,2026年07月06日,2026-07-17T11:17:42.021313+08:00
+ff63337e0bd2a9ca,腾讯,混元API产品策划（深圳/北京）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2071854047316590592,2026年06月30日,2026-07-17T11:17:42.129502+08:00
+e0f133c85609d364,腾讯,光子艺术部-AIGC 技术美术-(美术向),unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2043950305468645376,2026年07月06日,2026-07-17T11:17:50.586534+08:00
+96486d311df6ad7a,腾讯,智能体-医疗行业产品专家,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2058757450861031424,2026年07月03日,2026-07-17T11:17:42.360872+08:00
+7b8283619a0d97ca,腾讯,异构加速框架工程师（深圳/北京/上海）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1958073231227375616,2026年07月06日,2026-07-17T11:17:42.454458+08:00
+473e129e8d5fbb1d,腾讯,证券-内容运营经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2039533437710401536,2026年07月01日,2026-07-17T11:17:42.518229+08:00
+b64933fae5cd5101,腾讯,腾讯云-MaaS高级后台研发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2034611270900154368,2026年07月07日,2026-07-17T11:17:42.604849+08:00
+ff08685fc10f8307,腾讯,微信-质量管理工程师,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2041352528490299392,2026年07月13日,2026-07-17T11:17:42.730594+08:00
+1b4463e565bcff99,腾讯,腾讯云-计算产品架构师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2038796784343613440,2026年07月01日,2026-07-17T11:17:42.994327+08:00
+6ae9ea2020e5cced,腾讯,QQ-#高级推荐算法工程师#,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2053808955943206912,2026年05月11日,2026-07-17T11:17:43.070763+08:00
+012482ae2b7be022,腾讯,智能体-内容创作运营经理-WorkBuddy,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2033172783344812032,2026年07月16日,2026-07-17T11:17:43.164498+08:00
+b3210ea3bb0df300,腾讯,元宝-效果设计师（AIGC方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1996116960777232384,2026年07月13日,2026-07-17T11:17:43.288512+08:00
+daebc59a1ffde2b9,腾讯,AIGC制片,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052769144985796608,2026年06月10日,2026-07-17T11:17:43.489563+08:00
+f0533f6455450b6f,腾讯,腾讯云语音大模型算法工程师（TTS）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2061700926892322816,2026年06月02日,2026-07-17T11:17:43.644568+08:00
+bda03b5e647a5b37,腾讯,轻量云后台研发负责人,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2044063091083341824,2026年07月13日,2026-07-17T11:17:43.769145+08:00
+4e8777d7a27eea27,腾讯,微信安全-风控算法工程师,unknown,unknown,autumn_campus,广州,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2059105797836812288,2026年06月18日,2026-07-17T11:17:43.846848+08:00
+f73a10f4b073feba,腾讯,拳头IP游戏-私域渠道用户智能化运营,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2068977994520768512,2026年06月29日,2026-07-17T11:17:43.986764+08:00
+5573a79f00807450,腾讯,自研-资深战斗策划（PVE & 怪物设计方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043680208292315136,2026年07月15日,2026-07-17T11:17:44.125149+08:00
+8433c512a1f57dbc,腾讯,渠道业务-项目管理(技术向),unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2049085808673189888,2026年04月29日,2026-07-17T11:17:44.404048+08:00
+6b0e44e3e21e59d1,腾讯,微信读书/输入法/秒剪-大模型应用研发工程师-Harness工程,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1934984932162117632,2026年06月26日,2026-07-17T11:17:44.665555+08:00
+591ef9a66a5ba05e,腾讯,腾讯云海外市场媒介增长经理,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2079091620921393152,2026年07月20日,2026-08-04T09:56:46.328536+08:00
+a7315d8264298842,腾讯,腾讯云DataBuddy-Agent研发专家,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2074111273825648640,2026年07月15日,2026-07-17T11:17:45.146283+08:00
+ab87bc31508f1e94,腾讯,分布式计算研发工程师-Ray（深圳/北京/上海）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1957998239076737024,2026年07月15日,2026-07-17T11:17:45.207842+08:00
+af6e2957bb1547be,腾讯,机器学习平台调度工程师​​（北京/深圳/上海/杭州）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043890038449799168,2026年07月15日,2026-07-17T11:17:45.346861+08:00
+f004a8649129efb3,腾讯,腾讯云应用性能优化工程师,unknown,unknown,autumn_campus,杭州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2068944317736730624,2026年07月10日,2026-07-17T11:17:45.580510+08:00
+f18f7a15ad02ee52,腾讯,腾讯云-官网增长运营经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052714861087076352,2026年07月08日,2026-07-17T11:17:45.672759+08:00
+858c8a0e9ac17f53,腾讯,腾讯云-TBDS大数据产品商业化负责人,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2067564392635084800,2026年07月01日,2026-07-17T11:17:45.765281+08:00
+f66e3689276e9799,腾讯,证券-高级产品经理-ETF方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2063160298549985280,2026年06月23日,2026-07-17T11:17:45.921318+08:00
+34b8431bf5e295fd,腾讯,腾讯云-TokenHub高级资源运营经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2069251803161214976,2026年06月23日,2026-07-17T11:17:46.044424+08:00
+2a5d9faa62e1c2ba,腾讯,天美整合品牌-内容创意策划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2056919722162827264,2026年06月10日,2026-07-17T11:17:46.168970+08:00
+3bd54411869cc20f,腾讯,在研3D动作游戏-游戏测试开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059245653904769024,2026年05月26日,2026-07-17T11:17:46.292698+08:00
+f31d97eafd49f3a3,腾讯,微信-大模型算法专家岗,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1942609674138394624,2026年07月06日,2026-07-17T11:17:46.370379+08:00
+1698fd7029ea99d9,腾讯,高级投放 Agent 研发工程师（北京/深圳）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072321535468810240,2026年07月09日,2026-07-17T11:17:46.740767+08:00
+e3b7d5e9254adfaf,腾讯,元宝-达人营销经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2030596991284834304,2026年07月09日,2026-07-17T11:17:46.848965+08:00
+641d57546be75699,腾讯,《怪物猎人：旅人》-战斗策划-怪物方向,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072324826885963776,2026年07月08日,2026-07-17T11:17:46.942269+08:00
+29fc1ff8ef6eb597,腾讯,微信支付-大模型风控算法工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2065706053005389824,2026年07月02日,2026-07-17T11:17:47.035300+08:00
+deb33da10e6651ed,腾讯,人力资源平台部-HR运营与体验专家,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2064871287960023040,2026年06月30日,2026-07-17T11:17:47.173436+08:00
+07bd43d6d6cc7a58,腾讯,营销与交易产品部-产品售前解决方案,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2049337886914031616,2026年06月25日,2026-07-17T11:17:47.282839+08:00
+b585c5a5e07c99fa,腾讯,腾讯投资-高级投资分析师/投资经理,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037070079174279168,2026年06月24日,2026-07-17T11:17:47.422199+08:00
+6d8aebcabe013840,腾讯,ima增长策略产品-商业和增长方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2062519690261082112,2026年06月12日,2026-07-17T11:17:47.530162+08:00
+ef346a45c15ee158,腾讯,腾讯游戏-高级项目管理经理-世界模型数据方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2061620485397069824,2026年07月09日,2026-07-17T11:17:47.685789+08:00
+7b2073237a78d500,腾讯,大数据产品经理（深圳/北京）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2013806539382611968,2026年06月25日,2026-07-17T11:17:47.794415+08:00
+92230aa27e664a66,腾讯,《王者荣耀》游戏客户端开发工程师—游戏系统方向,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2068974835094171648,2026年06月22日,2026-07-17T11:17:47.887682+08:00
+e68b952b897cf2b7,腾讯,腾讯元宝-大模型应用平台产品经理,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052733034666573824,2026年05月27日,2026-07-17T11:17:47.980705+08:00
+858aaf187b7d2453,腾讯,大模型算法应用工程师（教育方向）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2010621139876995072,2026年06月12日,2026-07-17T11:17:48.089034+08:00
+ec9dac55725631f5,腾讯,智能体-研发项目经理-Workbuddy/CodeBuddy,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2058757442648588288,2026年05月25日,2026-07-17T11:17:48.166739+08:00
+da38d9bedb9aba27,腾讯,CSIG腾讯云To C市场营销经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059565107003961344,2026年06月01日,2026-07-17T11:17:48.306301+08:00
+4491955ae6d14f5a,腾讯,微信-WeLM -多模态大模型算法研究员（深圳、上海）,unknown,unknown,autumn_campus,北京,,verified,95,4,https://careers.tencent.com/jobdesc.html?postId=2020723052815478784,2026年07月01日,2026-07-17T11:17:48.401245+08:00
+2e184086b0d9291c,腾讯,Technology Platform-游戏引擎研发工程师-(渲染效果),unknown,unknown,autumn_campus,深圳,,verified,95,3,https://careers.tencent.com/jobdesc.html?postId=2056949444708057088,2026年05月27日,2026-07-17T11:17:49.515373+08:00
+d6e6b797e5aae3ea,腾讯,在研UE5射击游戏-客户端开发,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2048937634759340032,2026年05月12日,2026-07-17T11:17:48.604243+08:00
+2bc96619378e7cb4,腾讯,微信视频号直播-推荐大模型高级算法工程师-生态方向（深圳）,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2044395413913632768,2026年07月02日,2026-07-17T11:17:48.900286+08:00
+076ab8a2989731a8,腾讯,腾讯云音视频产品经理（海外增长策略）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2061700924304437248,2026年06月09日,2026-07-17T11:17:49.160301+08:00
+04fc22b81dc108af,腾讯,QQ飞车手游-系统策划-（养成向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043512650578685952,2026年04月20日,2026-07-17T11:17:49.222321+08:00
+173e06d3036cd6b6,腾讯,OG项目组-高级3D角色设计师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077226163742355456,2026年07月15日,2026-07-17T11:17:49.392590+08:00
+d9fca19a36b7514f,腾讯,J3-UE5动作游戏-UE5客户端开发工程师-战斗,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2066729923632087040,2026年07月02日,2026-07-17T11:17:49.700694+08:00
+6c8f22aac61584f1,腾讯,NBA2K系列产品-研发项目经理-版本方向,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2070404397749415936,2026年07月13日,2026-07-17T11:17:49.994425+08:00
+f6f4621b1a385230,腾讯,欢乐工作室-预研项目游戏策划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2054847684107485184,2026年06月24日,2026-07-17T11:17:50.134711+08:00
+558638d9df09a38a,腾讯,腾讯会议-产品运营Leader,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2036637255950565376,2026年06月23日,2026-07-17T11:17:50.228539+08:00
+216c082203ee5ba6,腾讯,混元大模型推理研发高级工程师（深圳/北京/上海/杭州）,unknown,unknown,autumn_campus,北京,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=1958076178912923648,2026年08月12日,2026-08-14T10:36:31.086332+08:00
+c93be67af420e238,腾讯,腾讯战略发展部-高级商业分析经理-广告产品方向,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1984171555621593088,2026年07月07日,2026-07-17T11:17:50.447514+08:00
+445ecddfc300180b,腾讯,腾讯云-MaaS产品高级经营分析师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2064261539174727680,2026年06月09日,2026-07-17T11:17:50.647299+08:00
+25ed443edf1bf4c8,腾讯,业务经营管理部-CSIG经营分析经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2046210923894571008,2026年04月28日,2026-07-17T11:17:50.802412+08:00
+348293fb681eea38,腾讯,高性能网络技术方案架构师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2067452809405706240,2026年06月18日,2026-07-17T11:17:50.909784+08:00
+977d8901ae9ea8ea,腾讯,高性能网络技术方案架构师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2067452806960427008,2026年06月18日,2026-07-17T11:17:50.986648+08:00
+dd2ed7f7aaf7e8ef,腾讯,《洛克王国：世界》-角色原画设计师-美宣方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2041808352102739968,2026年07月16日,2026-07-17T11:17:51.062623+08:00
+b7b5703aa9d89252,腾讯,微信-小程序测试开发工程师,unknown,unknown,autumn_campus,广州,,verified,95,3,https://careers.tencent.com/jobdesc.html?postId=2066499012814618624,2026年07月13日,2026-07-17T11:18:02.322980+08:00
+6d195e3281fbfeaf,腾讯,微信小程序-后台开发工程师-境外方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1966029487942553600,2026年07月15日,2026-07-17T11:17:51.262837+08:00
+d074f021e8ac06e6,腾讯,智能体-金融行业产品专家-（投研 / 股票方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2058757446465404928,2026年07月03日,2026-07-17T11:17:51.402286+08:00
+799a3d5bfccade39,腾讯,魔方高级 AIGC产品经理（大模型方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2071610936929730560,2026年07月02日,2026-07-17T11:17:51.555861+08:00
+8fe7e6c039002cc4,腾讯,腾讯会议-评测产品经理,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2041409199149314048,2026年07月06日,2026-07-17T11:17:57.718734+08:00
+46ad2ee79de7d85f,腾讯,混元AIGC体验设计师（模型美学方向）（北京/上海）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1983787406935085056,2026年06月29日,2026-07-17T11:17:51.787034+08:00
+ae056f3b9c57a18a,腾讯,多平台动作搜打撤-游戏客户端开发工程师(Gameplay)-新星引力计划,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2004181420859346944,2026年06月27日,2026-07-17T11:17:51.909293+08:00
+84acb48178b396e5,腾讯,腾讯云-运营商华北销售经理-电信,unknown,unknown,autumn_campus,北京,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2083068539522170880,2026年08月05日,2026-08-06T11:09:56.071272+08:00
+06415d34282b70a9,腾讯,高级Agent后台开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2067579099462938624,2026年07月08日,2026-07-17T11:17:52.157992+08:00
+64037be07bba7d2d,腾讯,智能体测评开发工程师-CodeBuddy/WorkBuddy,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2058756958223249408,2026年06月16日,2026-07-17T11:17:52.251750+08:00
+0f66b445e1c4937a,腾讯,产品策划-企业应用方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2008067973763452928,2026年07月10日,2026-07-17T11:17:52.327974+08:00
+b1f8982fb84204cb,腾讯,微信输入法/秒剪-大模型推理优化工程师-NLP 方向,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2068953043801653248,2026年06月29日,2026-07-17T11:17:52.669080+08:00
+d25e64b23d773da0,腾讯,元宝-大模型创新应用工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1985973381228552192,2026年06月12日,2026-07-17T11:17:52.792958+08:00
+ed2d7d74d34828e5,腾讯,《王者荣耀》王者营地-iOS开发工程师,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2046538637730021376,2026年07月15日,2026-07-17T11:17:52.902618+08:00
+1b2be3689d2d02fb,腾讯,微信-视觉设计师-AIGC/模型美学方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2062097664329302016,2026年07月09日,2026-07-17T11:17:53.043853+08:00
+1c501100de91d040,腾讯,SSV-数据分析,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072145189052526592,2026年07月08日,2026-07-17T11:17:53.122360+08:00
+820ca5fe78beba10,腾讯,企业微信-产品经理-生态合作,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1996181132168814592,2026年07月07日,2026-07-17T11:17:53.216202+08:00
+fbb10dfb8167da9b,腾讯,企业微信-数据分析师,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2051914910073532416,2026年05月13日,2026-07-17T11:17:53.355138+08:00
+5ae1ff44cd36bf2e,腾讯,《逆战：未来》关卡策划-新星引力计划,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072207002821640192,2026年07月01日,2026-07-17T11:17:53.495489+08:00
+d838b8166585982f,腾讯,和平精英-用户洞察运营-新星引力计划,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2067084535190962176,2026年06月30日,2026-07-17T11:17:53.572781+08:00
+8a03a45b6efd8941,腾讯,微信支付-基础产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059110495713144832,2026年06月30日,2026-07-17T11:17:53.649783+08:00
+7e0d9dd9d06182b1,腾讯,游戏商业化运营,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2064958658374184960,2026年06月29日,2026-07-17T11:17:53.820161+08:00
+43cb40b92b0bd896,腾讯,《三角洲行动》游戏视觉设计师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1933451871519899648,2026年06月29日,2026-07-17T11:17:53.897376+08:00
+63ffb40d1035a2c1,腾讯,古风志怪预研项目-资深PM,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2061273174078832640,2026年06月11日,2026-07-17T11:17:54.143889+08:00
+bace4994f688bad0,腾讯,游戏视觉设计师,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2065632494333636608,2026年06月22日,2026-07-17T11:17:54.283277+08:00
+f41cb9511a884311,腾讯,企业微信-大模型算法工程师-记忆系统（北京/成都）,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1976128396710797312,2026年07月13日,2026-07-17T11:17:54.517126+08:00
+1d16368ce3f509c7,腾讯,企业微信-向量存储研发工程师-（成都/北京）,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1976128427379548160,2026年07月13日,2026-07-17T11:17:54.594452+08:00
+e036b9fcdd8d7856,腾讯,支付产品经理-高级产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072623740965007360,2026年07月10日,2026-07-17T11:17:54.672122+08:00
+dd7bc32943721341,腾讯,运营中台-资深海外发行运营,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2055266291710869504,2026年05月22日,2026-07-17T11:17:54.750771+08:00
+124fc87a38ec5a01,腾讯,腾讯云文字识别高级产品经理,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2037377907856408576,2026年06月25日,2026-07-17T11:17:54.906111+08:00
+d57466e064f18035,腾讯,《元梦之星》-角色原画设计师,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2057293226234265600,2026年06月24日,2026-07-17T11:17:55.028998+08:00
+e778e37acfcfb2eb,腾讯,腾讯云-医疗行业海外项目交付经理-上海,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052733301868900352,2026年05月08日,2026-07-17T11:17:55.137412+08:00
+0daededb7dfd722b,腾讯,混元训练 Infra 工程师-Dataloader/Checkpoint 方向-（北京/深圳/上海/杭州）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2064594834597003264,2026年06月10日,2026-07-17T11:17:55.215413+08:00
+143057c49bb36500,腾讯,和平精英-2D美宣设计师-玩法,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2010549806400954368,2026年07月17日,2026-07-17T11:17:55.308961+08:00
+03e7f476f9aa538d,腾讯,QQ-Agent产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077347119940939776,2026年07月17日,2026-07-17T11:17:55.449203+08:00
+001c384a6a9ff028,腾讯,元宝高级数据分析师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2006178598444224512,2026年07月14日,2026-07-17T11:17:55.606267+08:00
+10bbc32c666212aa,腾讯,混元大模型应用算法工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2031289286338445312,2026年07月08日,2026-07-17T11:17:55.728626+08:00
+65dd153df0ea5518,腾讯,微信-高性能 - 视觉 AIGC 大模型推理优化工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2041352472932544512,2026年07月06日,2026-07-17T11:17:55.807538+08:00
+06e8156c16d66e56,腾讯,元宝高级数据分析师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2006178595873116160,2026年07月03日,2026-07-17T11:17:55.962704+08:00
+6265ba886b01c7b1,腾讯,腾讯云-云原生技术支持工程师for海外客户(成都/深圳/上海/北京）,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2029340477383405568,2026年07月03日,2026-07-17T11:17:56.071846+08:00
+76cac744bff64cbc,腾讯,微信小游戏-数据科学（生态分析方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2069242477075939328,2026年07月01日,2026-07-17T11:17:56.227464+08:00
+302b5f706a911399,腾讯,腾讯云-售前架构师（交通行业方向）上海,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2054898776254099456,2026年06月25日,2026-07-17T11:17:56.320347+08:00
+f9c213365b6c3f76,腾讯,光子艺术部-高级产品经理-(AIGC工具与功能设计方向),unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2044685787236302848,2026年05月13日,2026-07-17T11:17:56.520269+08:00
+cffb343bad37fcc2,腾讯,预研项目制作人-RPG游戏,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2063902027066552320,2026年06月15日,2026-07-17T11:17:56.754622+08:00
+6ef9740dd0532aca,腾讯,《穿越火线手游》服务器开发工程师（gameplay方向）-新星引力计划,unknown,unknown,autumn_campus,深圳,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=1922120447667838976,2026年07月06日,2026-07-17T11:17:56.941873+08:00
+229f8d11414eea77,腾讯,《无畏契约手游》-渠道运营,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2039533048684511232,2026年07月01日,2026-07-17T11:17:57.097553+08:00
+be7629c0ef46448d,腾讯,机器学习平台研发工程师（深圳/北京/上海）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1958073224923336704,2026年07月14日,2026-07-17T11:17:57.220677+08:00
+d2f9027558759448,腾讯,微信读书/输入法/秒剪-大模型评测算法工程师-Agent方向,unknown,unknown,autumn_campus,北京,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2068897969461178368,2026年06月29日,2026-07-17T11:17:57.330279+08:00
+a9a73187169252d6,腾讯,和平精英-高级关卡/战斗策划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059851960999391232,2026年06月29日,2026-07-17T11:17:57.453904+08:00
+a2051a40bbf10f71,腾讯,《王者荣耀世界》资深战斗策划(角色向),unknown,unknown,autumn_campus,上海,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=1968170095121424384,2026年06月29日,2026-07-17T11:17:59.873408+08:00
+d558cc4388079d48,腾讯,智能体-商业化产品经理-CodeBuddy/WorkBuddy,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059816926359764992,2026年06月04日,2026-07-17T11:17:58.150189+08:00
+03b8ff73b8d6a39e,腾讯,混元强化训练框架研发工程师（深圳/北京/上海）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2061810859658887168,2026年06月02日,2026-07-17T11:17:58.259201+08:00
+c911021ba86a85ab,腾讯,S工作室-预研项目-AI策划,unknown,unknown,autumn_campus,深圳,,verified,95,4,https://careers.tencent.com/jobdesc.html?postId=2072869053122396160,2026年07月17日,2026-08-04T09:56:13.667206+08:00
+f3775019f9b191e6,腾讯,在研3D动作游戏-UE5引擎开发工程师（深圳/北京）,unknown,unknown,autumn_campus,深圳,,single_source,75,1,https://careers.tencent.com/jobdesc.html?postId=2038450034349080576,2026年07月14日,2026-07-17T11:17:58.539626+08:00
+464c1ce81d14819c,腾讯,混元大模型数据交付负责人（北京/深圳）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2042207111764672512,2026年07月14日,2026-07-17T11:17:58.756650+08:00
+d90c145d4f3501a0,腾讯,《王者荣耀世界》战斗策划(怪物向)-新星引力计划,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2053645496039424000,2026年07月10日,2026-07-17T11:17:59.176301+08:00
+b76fbe8075ef1fcb,腾讯,混元多模态大模型评测（北京）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1997884330793394176,2026年07月08日,2026-07-17T11:17:59.298553+08:00
+6644c2d8a3508249,腾讯,Technology Platform-UE资深技术美术-角色渲染方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2039528742862352384,2026年07月06日,2026-07-17T11:17:59.438878+08:00
+f49de7242d08faee,腾讯,太极机器学习平台产品经理（深圳/北京./上海）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2065347628102762496,2026年07月06日,2026-07-17T11:17:59.501115+08:00
+bfb014e7d8341afb,腾讯,微信-基础功能后台开发,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2040982134000353280,2026年07月06日,2026-07-17T11:17:59.610824+08:00
+381097dc86183677,腾讯,元宝-运营视觉设计师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2001186276975464448,2026年07月02日,2026-07-17T11:17:59.718499+08:00
+64c8d90727621c29,腾讯,在研剑来IP单机游戏-2D场景原画,unknown,unknown,autumn_campus,杭州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2065051070798938112,2026年06月11日,2026-07-17T11:18:00.306698+08:00
+d8655b807e5d2533,腾讯,古风志怪预研项目-资深2D角色设计师,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059955197320544256,2026年06月11日,2026-07-17T11:18:00.383769+08:00
+1388d3a6131233dd,腾讯,艺术部-产品运营经理-AIGC平台产品,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2052733682808176640,2026年06月10日,2026-07-17T11:18:00.489329+08:00
+d887629b0cea2744,腾讯,《暗区突围》手游-UE4客户端开发工程师gameplay方向-新星引力计划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2044621985752973312,2026年04月20日,2026-07-17T11:18:00.645181+08:00
+92b1facdb6a4ca17,腾讯,《王者荣耀》UGC-技术美术-AIGC方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059145735269695488,2026年05月26日,2026-07-17T11:18:00.785060+08:00
+3f491016906e29ff,腾讯,腾讯游戏-游戏运营(社区和私域运营方向)-新星引力计划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2046081367816695808,2026年05月21日,2026-07-17T11:18:00.878475+08:00
+3e6c21229fb66353,腾讯,大模型异构芯片推理适配调优工程师（深圳/北京/上海/杭州）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2021416952777568256,2026年07月15日,2026-07-17T11:18:01.003386+08:00
+4a20ff960d26090f,腾讯,腾讯游戏-多模态数据策略产品经理-视频生成方向,unknown,unknown,autumn_campus,杭州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2073970041505890304,2026年07月14日,2026-07-17T11:18:01.112433+08:00
+9838ff1a1e1ab672,腾讯,腾讯游戏-多模态数据策略产品经理-视频生成方向,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2073970038867668992,2026年07月14日,2026-07-17T11:18:01.174466+08:00
+076c867cadde2257,腾讯,腾讯游戏-多模态数据策略产品经理-视频生成方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2073970036510470144,2026年07月14日,2026-07-17T11:18:01.236565+08:00
+26279450349ad073,腾讯,渠道业务-行业研究与分析,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2049085813249179648,2026年04月29日,2026-07-17T11:18:01.297999+08:00
+b56b7ca43323e1cd,腾讯,《怪物猎人：旅人》-资深3D角色模型,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2046932790297128960,2026年04月22日,2026-07-17T11:18:01.375347+08:00
+d6857b7eb88f258c,腾讯,国风预研项目-资深2D角色设计师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1986387400112361472,2026年07月16日,2026-07-17T11:18:01.686843+08:00
+c08a2bda1f6cb7e5,腾讯,在研UE5射击游戏-概念设计师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2076888031511625728,2026年07月14日,2026-07-17T11:18:02.091798+08:00
+e866f619b3622791,腾讯,元宝全链路高级测试工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2020809468387946496,2026年07月14日,2026-07-17T11:18:02.199272+08:00
+d327a52f66198bf6,腾讯,腾讯游戏-大模型推理性能优化工程师/专家,unknown,unknown,autumn_campus,杭州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072330945872183296,2026年07月09日,2026-07-17T11:18:02.583997+08:00
+280d53a832ea6878,腾讯,腾讯游戏-大模型推理性能优化工程师/专家,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072330940650270720,2026年07月09日,2026-07-17T11:18:02.739327+08:00
+f3a7aeea26b39d54,腾讯,腾讯游戏-大模型推理性能优化工程师/专家,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072330943372378112,2026年07月09日,2026-07-17T11:18:02.832400+08:00
+481e9d4a0ca39996,腾讯,腾讯游戏-大模型推理性能优化工程师/专家,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072330938095943680,2026年07月09日,2026-07-17T11:18:02.909352+08:00
+c7a60f621a3c9427,腾讯,英雄联盟手游-UGC策划负责人,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2008429655438286848,2026年07月08日,2026-07-17T11:18:03.002417+08:00
+f2cbe66df84a77bf,腾讯,金融科技-文本大模型算法工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2006357165308272640,2026年07月08日,2026-07-17T11:18:13.756353+08:00
+d28ee03469ee8c33,腾讯,《王者荣耀》IP在研项目-海外商业化游戏运营,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072596950649319424,2026年07月02日,2026-07-17T11:18:13.833228+08:00
+3acfa8dc3977a8b9,腾讯,《王者荣耀》IP在研项目-海外商业化游戏运营,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072596952738082816,2026年07月02日,2026-07-17T11:18:13.911657+08:00
+6fd344997f20066c,腾讯,王者荣耀IP预研游戏-Gameplay开发/初级UE5客户端开发,unknown,unknown,autumn_campus,成都,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2057704391217164288,2026年06月10日,2026-07-17T11:18:14.051111+08:00
+2203fb2e7aa1a4be,腾讯,OG项目组-3D 场景设计师（自然生态向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2061369988694061056,2026年06月01日,2026-07-17T11:18:14.205709+08:00
+a7e6281322ad7b8f,腾讯,AI互动影游-AI互动影游产品策划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077214553070026752,2026年07月29日,2026-08-04T09:56:03.390380+08:00
+09c742e589afd60c,腾讯,"Sales Intern, Cloud & AI 107870",unknown,unknown,intern,Dubai,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082018298429616128,2026年07月28日,2026-08-04T09:56:03.469085+08:00
+649f45c491c0a878,腾讯,AI互动影游-AI互动影游视频创作导演,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2069966033007067136,2026年07月29日,2026-08-04T09:56:04.972631+08:00
+0722ffc429799023,腾讯,QQ-AI数据科学家,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2074698764207173632,2026年08月03日,2026-08-04T09:56:06.658709+08:00
+7f3980add294d64a,腾讯,AI大模型架构师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2080544639538081792,2026年07月24日,2026-08-04T09:56:06.787284+08:00
+1f58f1b15bc0a5a9,腾讯,Tencent Cloud - AI Native Cloud Solution Architect (Thailand),unknown,unknown,autumn_campus,Bangkok,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2043574951784640512,2026年07月22日,2026-08-04T09:56:08.118369+08:00
+8c99a3d8015def75,腾讯,Tencent Cloud - AI Native Cloud Solution Architect (Indonesia),unknown,unknown,autumn_campus,Jakarta,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2078031995237220352,2026年07月17日,2026-08-04T09:56:08.350780+08:00
+ada34eb802e50eda,腾讯,混元AI HUB平台工程Lead,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082042039100424192,2026年07月30日,2026-08-04T09:56:08.596697+08:00
+377eecbc57d501b8,腾讯,音频策划（AI创作方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2081936349014966272,2026年07月28日,2026-08-04T09:56:08.815431+08:00
+9fce350e03658a3e,腾讯,AI视频数据项目经理,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2067158751374393344,2026年07月23日,2026-08-04T09:56:08.877297+08:00
+05662769bd287839,腾讯,理财通AI算法工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2076924809798922240,2026年07月21日,2026-08-04T09:56:09.158557+08:00
+072b187c47aca754,腾讯,技术音频工程师（AI方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059605178184810496,2026年07月28日,2026-08-04T09:56:10.338111+08:00
+fadb6f0dc725340f,腾讯,腾讯云AI售前技术支持,unknown,unknown,autumn_campus,长沙,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075126122189864960,2026年07月28日,2026-08-04T09:56:10.416106+08:00
+14ebdd552eef23b6,腾讯,腾讯云AI产品-客户成功,unknown,unknown,autumn_campus,西安,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075126127122362368,2026年07月28日,2026-08-04T09:56:10.555807+08:00
+c4f3adfa6d7e4344,腾讯,腾讯云AI产品-客户成功,unknown,unknown,autumn_campus,武汉,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075126126367391744,2026年07月28日,2026-08-04T09:56:10.634277+08:00
+27b9e883b068639d,腾讯,腾讯云AI产品-客户成功,unknown,unknown,autumn_campus,长沙,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075126125310423040,2026年07月28日,2026-08-04T09:56:10.788668+08:00
+ee5a09639f98d83b,腾讯,腾讯云AI产品-客户成功,unknown,unknown,autumn_campus,重庆,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075126124299595776,2026年07月28日,2026-08-04T09:56:10.942798+08:00
+39aa909ba6fd6e75,腾讯,腾讯云AI售前技术支持,unknown,unknown,autumn_campus,西安,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075126123641090048,2026年07月28日,2026-08-04T09:56:11.019477+08:00
+4604bc401ed50885,腾讯,腾讯云AI售前技术支持,unknown,unknown,autumn_campus,武汉,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075126122902896640,2026年07月28日,2026-08-04T09:56:11.172772+08:00
+89bc657c5c9968fd,腾讯,腾讯云AI售前技术支持,unknown,unknown,autumn_campus,重庆,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075126121296474112,2026年07月28日,2026-08-04T09:56:11.295757+08:00
+30bd75f99dfd767b,腾讯,后台开发负责人-AI方向,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2079388903260995584,2026年07月23日,2026-08-04T09:56:11.771896+08:00
+7823de80552745b0,腾讯,游戏AI化管线建设负责人,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2053020337062461440,2026年07月24日,2026-08-04T09:56:13.173195+08:00
+d722db6cc454aa7b,腾讯,腾讯元宝AI用户研究经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077945294397550592,2026年07月17日,2026-08-04T09:56:13.758707+08:00
+5d5a58863c7e7f22,腾讯,AI游戏创新产品-大模型产品,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2079517619366572032,2026年08月03日,2026-08-04T09:56:14.800697+08:00
+6d1c9c5ea8e84483,腾讯,AI方向-高级研效开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2035701614215593984,2026年07月31日,2026-08-04T09:56:14.987344+08:00
+6713bc62d4ff0e83,腾讯,腾讯游戏来联-AI全栈工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2061451043539169280,2026年07月28日,2026-08-04T09:56:15.139526+08:00
+12040f8d44821632,腾讯,AI 方案架构师-游戏电竞方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077297590629740544,2026年07月22日,2026-08-04T09:56:15.618640+08:00
+dd44952e578592ab,腾讯,AI协作产品全栈开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2079115540219211776,2026年07月20日,2026-08-04T09:56:16.022456+08:00
+0883ecef5d433861,腾讯,AW项目组- AI原生游戏引擎开发,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2079197223526252544,2026年07月24日,2026-08-04T09:56:17.935927+08:00
+0bf18c1c5b5a9be9,腾讯,腾讯游戏-AI方向资深商业分析师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2071425534142885888,2026年07月28日,2026-08-04T09:56:20.639530+08:00
+61cff7a486c44c54,腾讯,AI管线数据专家/架构师（深圳/北京）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1945294221971922944,2026年07月23日,2026-08-04T09:56:20.810026+08:00
+f9bedfbe41eaec53,腾讯,腾讯云AI方向-高级测试开发工程师,unknown,unknown,autumn_campus,西安,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1907282625777737728,2026年08月03日,2026-08-04T09:56:21.633114+08:00
+bb25d5f7c6d611ee,腾讯,CSIG战略管理中心-项目经理(AI咨询类),unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2068939742652841984,2026年07月27日,2026-08-04T09:56:22.175111+08:00
+5d0e0d7405474e97,腾讯,光子 AI-大模型质量工程师-游戏方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2078028283043299328,2026年07月25日,2026-08-04T09:56:22.375326+08:00
+c09f72713fc3b165,腾讯,AI记忆系统研发专家/工程师（上海/深圳）,unknown,unknown,autumn_campus,上海,,verified,75,2,https://careers.tencent.com/jobdesc.html?postId=2080545046582702080,2026年07月31日,2026-08-04T09:56:24.343422+08:00
+f75296bcac6f52c0,腾讯,微信基础-AI语音产品经理-模型能力方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077774424102322176,2026年08月03日,2026-08-04T09:56:26.126972+08:00
+28d8c4007729ab7a,腾讯,腾讯云大数据-DATA+AI 产品经理-引擎&存储方向,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2084184533015638016,2026年08月03日,2026-08-04T09:56:27.275601+08:00
+1a0562307b97fceb,腾讯,AI互动影游-多模态大模型高级算法工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2069966035091636224,2026年07月29日,2026-08-04T09:56:27.477246+08:00
+ce55f9af9205d64d,腾讯,腾讯游戏-产品经理（游戏发行AI方向）-新星引力计划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2079258728280010752,2026年07月28日,2026-08-04T09:56:30.208565+08:00
+cd3b1874b7868b4d,腾讯,腾讯投资-投资经理/高级投资经理-AI应用方向（二级市场）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2056648355555225600,2026年07月28日,2026-08-04T09:56:30.972121+08:00
+3dc76304ffe9dfd1,腾讯,智慧行业四部-大客户公有云销售经理（AI+出海方向）（北京）,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2079039161486192640,2026年07月27日,2026-08-04T09:56:31.034225+08:00
+feb391cb1eb7156b,腾讯,智能体-产品经理-CodeBuddy,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077642272568160256,2026年07月23日,2026-08-04T09:56:32.617372+08:00
+b92787b66afc52c6,腾讯,智慧行业四部-智慧文旅-大客户销售经理/公有云销售（AI+出海方向）（广州深圳）,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2078002769058512896,2026年07月27日,2026-08-04T09:56:32.942902+08:00
+28300099640b821c,腾讯,腾讯游戏-游戏美术-AIGC方向,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2074786903349178368,2026年07月31日,2026-08-04T09:56:33.021342+08:00
+3a9171f4bcaf0717,腾讯,生态发展部-资深游戏测试工程师-Agent评测,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2064235003574923264,2026年07月24日,2026-08-04T09:56:34.515342+08:00
+3fedf9fa9b44e0aa,腾讯,腾讯云-智慧零售-行业解决方案架构师（零售AI方向-FDE Consultant）-商超便利/零食渠道/营养保健滋补等方向,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077642180880678912,2026年07月29日,2026-08-04T09:56:35.341128+08:00
+7d1519f6c08ae455,腾讯,腾讯营销-数据Agent产品经理(深圳/上海),unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2079868794368602112,2026年08月03日,2026-08-04T09:56:36.345198+08:00
+403265984f05ccbe,腾讯,腾讯云研发效能-后端开发工程师,unknown,unknown,autumn_campus,西安,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2001689019871813632,2026年07月28日,2026-08-04T09:56:37.359374+08:00
+467c5082c8f1241e,腾讯,数据安全应用工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2083853733489459200,2026年08月03日,2026-08-04T09:56:38.042564+08:00
+bf2f071ef0cfbc26,腾讯,小游戏Unity引擎开发-架构和系统开发,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2079188389395083264,2026年08月03日,2026-08-04T09:56:38.696410+08:00
+9ee6ad3424c26e57,腾讯,腾讯专有云（TCE）解决方案架构师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2079810209739616256,2026年08月03日,2026-08-04T09:56:38.789344+08:00
+dfdf8426b2881970,腾讯,混元3D AIGC产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2074695803712225280,2026年07月29日,2026-08-04T09:56:38.851121+08:00
+60c877d39a05b826,腾讯,混元多模态大模型服务增长运营（北京）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077299493635796992,2026年07月28日,2026-08-04T09:56:42.160001+08:00
+30d8047285dd155c,腾讯,QQ浏览器商业分析经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075460704344911872,2026年07月17日,2026-08-04T09:56:45.270905+08:00
+b149a70bd89232cd,腾讯,应用产品高级测试工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2003325251534082048,2026年07月28日,2026-08-04T09:56:47.137384+08:00
+febf30f957057390,腾讯,腾讯云成本数据分析经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2069624200511012864,2026年07月27日,2026-08-04T09:56:49.063557+08:00
+e607afa386c2b7b9,腾讯,小游戏策划-战斗方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2076533096072790016,2026年08月03日,2026-08-04T09:56:49.689671+08:00
+89a1ae774288ec43,腾讯,混元大模型-后台开发工程师（北京/深圳）,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2079823095534891008,2026年07月30日,2026-08-04T09:56:51.466296+08:00
+04a8b7ad326dfa96,腾讯,新一代在研SLG--2D场景原画师（写实）,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082365149024534528,2026年07月29日,2026-08-04T09:56:51.575006+08:00
+7a75436710017ce9,腾讯,UE微恐轻动作项目-客户端开发（玩法方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2053714330876297216,2026年07月28日,2026-08-04T09:56:51.850533+08:00
+00e39c07ea0b514a,腾讯,《使命召唤手游》视觉设计师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2081629661825249280,2026年07月27日,2026-08-04T09:56:52.234289+08:00
+c348e7f10323fdf3,腾讯,腾讯互娱-数字人衍生互动产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077290981111283712,2026年07月22日,2026-08-04T09:56:52.388373+08:00
+be408bdfe4a95342,腾讯,J3-游戏视觉设计岗,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2079450901097136128,2026年07月21日,2026-08-04T09:56:52.450238+08:00
+67a2a5a901736237,腾讯,SLG-界面视觉设计师,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2078412528710496256,2026年07月20日,2026-08-04T09:56:52.726151+08:00
+7452ccc8560a1cf1,腾讯,地下城与勇士-内容运营经理-官号运营方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077939395759091712,2026年08月03日,2026-08-04T09:56:54.923939+08:00
+0acf3f87db4c7770,腾讯,公益数据工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072876432996089856,2026年07月30日,2026-08-04T09:56:55.198465+08:00
+0d34a9c283e0b9d5,腾讯,推理框架研发工程师-深圳/北京/上海,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077208531924336640,2026年07月24日,2026-08-04T09:56:56.168347+08:00
+5183c055e9611b8a,腾讯,CSIG平台产品策划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2062846207142838272,2026年07月21日,2026-08-04T09:56:59.680242+08:00
+eb523c90eea6b603,腾讯,天美J1工作室-游戏测试开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2076875296509964288,2026年07月21日,2026-08-04T09:56:59.864979+08:00
+b409daf381781334,腾讯,高级DCI网络运营工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2083853624911507456,2026年08月03日,2026-08-04T09:57:01.249405+08:00
+a8513e79b8ebb5f5,腾讯,腾讯云-安全策略工程师-反入侵方向,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082417763518955520,2026年07月29日,2026-08-04T09:57:01.373023+08:00
+e85cad797a80e83a,腾讯,腾讯游戏-高级游戏分析师 -游戏研究与应用,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075786299700330496,2026年07月29日,2026-08-04T09:57:01.465790+08:00
+db8210df9c05b2c1,腾讯,微信基础-产品策划,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077774426753122304,2026年07月28日,2026-08-04T09:57:01.604483+08:00
+08932a498292e836,腾讯,资源整合需求计划经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2080544907034013696,2026年07月24日,2026-08-04T09:57:01.682137+08:00
+52d5c480dc8b8a7c,腾讯,3D 场景地编负责人,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2074080297267408896,2026年07月28日,2026-08-04T09:57:03.177732+08:00
+16abc283b3b26d2a,腾讯,UI动效设计师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2056289827795677184,2026年07月28日,2026-08-04T09:57:03.272165+08:00
+5562dab5e595f07d,腾讯,WorkBuddy-开放生态高级开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077641750666719232,2026年07月23日,2026-08-04T09:57:03.394111+08:00
+eb66ad8b5d857408,腾讯,腾讯云-出海渠道销售经理（港澳）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075217369395019776,2026年07月22日,2026-08-04T09:57:03.517114+08:00
+2af3a3fbe02a61ff,腾讯,资深大客户经理-天刀,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2064636739854712832,2026年07月27日,2026-08-04T09:57:04.880473+08:00
+3dc90bf0f52096e1,腾讯,Project W-高级移动客户端应用开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077585581994590208,2026年07月24日,2026-08-04T09:57:05.158038+08:00
+79a5500636efb451,腾讯,安全评测工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2068946105739165696,2026年07月31日,2026-08-04T09:57:06.259842+08:00
+15f8e6fc409c2960,腾讯,微信基础-后台开发-AI评测方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2059948190203035648,2026年08月05日,2026-08-06T11:09:28.543577+08:00
+a9214df10c42d01e,腾讯,人力资源平台部-AI应用开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082043721595138048,2026年08月04日,2026-08-06T11:09:33.240196+08:00
+1f77609c300472e2,腾讯,微信视频号直播-AI Agent高级算法工程师-（深圳）,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072877991679143936,2026年08月05日,2026-08-06T11:09:38.702349+08:00
+f15f8cee5792462a,腾讯,腾讯游戏-智能多模态NPC高级研究员,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075037592683986944,2026年08月04日,2026-08-06T11:09:53.940481+08:00
+8a13523f8702a6f1,腾讯,PUBG Mobile-技术策划-编辑器方向（新星引力计划）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082081195197382656,2026年08月04日,2026-08-06T11:10:07.036619+08:00
+23ea08dae0e5ce73,腾讯,微信小微-大模型算法研究员-对话方向,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2084268346076999680,2026年08月04日,2026-08-06T11:10:07.158951+08:00
+9b0e9b708d817886,腾讯,微信小程序-AI Agent 开发工程师-小工具,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082710402210381824,2026年08月06日,2026-08-07T09:51:23.117289+08:00
+91b4991729757a7f,腾讯,微信小程序-AI Agent 算法工程师-Coding方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082710396749393920,2026年08月06日,2026-08-07T09:51:23.255056+08:00
+fd0f96cf3e73c6d8,腾讯,金融科技-高级 AI 产品经理（反洗钱与尽调方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2006252632364175360,2026年08月06日,2026-08-07T09:51:30.403316+08:00
+3f1e41c6ac5ce702,腾讯,腾讯营销-搜索营销前端开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2085193664560279552,2026年08月06日,2026-08-07T09:51:38.216978+08:00
+fc8df595a9cecfc5,腾讯,腾讯营销-投放 Agent 产品专家-北京/深圳,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082682598882193408,2026年08月06日,2026-08-07T09:51:38.775361+08:00
+aae0312140835ff1,腾讯,微信小店-产品策划-平台客服,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082712767961411584,2026年08月06日,2026-08-07T09:51:43.365508+08:00
+19a727d06e19b8ca,腾讯,企业微信-高级研发工程师-大模型推理框架（成都/北京）,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2085294808083116032,2026年08月06日,2026-08-07T09:51:56.635017+08:00
+149a7f356fa9bec4,腾讯,《无畏契约端手游》-赛事产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2083026530455437312,2026年08月07日,2026-08-08T10:26:44.449814+08:00
+5f2ab69e09a8a960,腾讯,《王者荣耀世界》技术策划（玩法&叙事剧情方向）,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2085544700726657024,2026年08月07日,2026-08-08T10:26:52.465738+08:00
+37cf43cc3aa16834,腾讯,腾讯视频-AI导演,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2087820581205622784,2026年08月13日,2026-08-14T10:35:38.149418+08:00
+0ae8865c0fa365c3,腾讯,WAND AI音视频算法工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082102980622069760,2026年08月10日,2026-08-14T10:35:41.710610+08:00
+7dca80d3aee91aad,腾讯,企业微信-AI产品体验设计师,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2009212421759193088,2026年08月13日,2026-08-14T10:35:45.434524+08:00
+11c4cb66925ba222,腾讯,金融科技-AI测试开发专家工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2087100620363448320,2026年08月12日,2026-08-14T10:35:51.501729+08:00
+34f801285c7dd42f,腾讯,企业微信-AI产品经理-智能助理Agent,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=1880770535693004800,2026年08月11日,2026-08-14T10:35:51.654721+08:00
+02de7b51f8845212,腾讯,微信视频号-AI Infra高级工程师-工程平台,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2081596463103782912,2026年08月12日,2026-08-14T10:35:55.423495+08:00
+38c3f76676735f90,腾讯,AI方向-高级测试开发工程师（质量效能方向）,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2035701614215593984,2026年08月10日,2026-08-14T10:35:58.866621+08:00
+977501a87d9025cf,腾讯,腾讯云市场部市场研究经理（AI C端产品方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2087859096794607616,2026年08月13日,2026-08-14T10:36:00.305402+08:00
+a7463b610a842d8d,腾讯,音视频 PaaS 高级产品经理（Voice AI / 语音生成与交互方向）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2074113833202532352,2026年08月10日,2026-08-14T10:36:01.862472+08:00
+6b5239ec0e3e6329,腾讯,腾讯云-国际行业解决方案架构师-AI业务应用LLM/Agent方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2086467461347192832,2026年08月10日,2026-08-14T10:36:02.741841+08:00
+22fc70f2d8eca6cb,腾讯,腾讯云-国际行业解决方案架构师-AI业务应用LLM/Agent 方向,unknown,unknown,autumn_campus,上海,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2086467463696003072,2026年08月10日,2026-08-14T10:36:02.897107+08:00
+ac10b5e2e147a9b5,腾讯,设计智能体- Ardot产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2086346849417080832,2026年08月10日,2026-08-14T10:36:05.127950+08:00
+30a0faf912102c11,腾讯,腾讯视频-Agent 技术负责人,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2072477788216147968,2026年08月12日,2026-08-14T10:36:06.814505+08:00
+83a6ef04b4bdc30e,腾讯,微信视频号-产品运营-内容治理方向,unknown,unknown,autumn_campus,广州,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082687727605821440,2026年08月10日,2026-08-14T10:36:10.309694+08:00
+be00502532db4b3b,腾讯,市场与用户研究经理-数据分析方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2075414191912693760,2026年08月10日,2026-08-14T10:36:13.558482+08:00
+5fcbab54fad6ad5b,腾讯,智能体-海外投放产品经理-Workbuddy,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2085361155655778304,2026年08月11日,2026-08-14T10:36:15.882326+08:00
+8af22f6b87d6fab1,腾讯,实时互动后台研发工程师,unknown,unknown,autumn_campus,北京,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2077641013345828864,2026年08月10日,2026-08-14T10:36:18.458477+08:00
+9c3e58772984c86f,腾讯,视觉设计师-小游戏方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2076532975524294656,2026年08月10日,2026-08-14T10:36:19.782119+08:00
+e79cb4b32f30447d,腾讯,UE微恐轻动作项目-资深玩法开发工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2082098244657262592,2026年08月12日,2026-08-14T10:36:23.797108+08:00
+b8cca94ae700c4c5,腾讯,《暗区突围》手游-测试工程师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2087005116887642112,2026年08月11日,2026-08-14T10:36:23.952287+08:00
+7926540e3d65fe3a,腾讯,IEG财务协同-新星引力计划,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2079747329077985280,2026年08月10日,2026-08-14T10:36:24.244656+08:00
+fc6b41bd02f4dbea,腾讯,跨境支付-外汇量化分析产品经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2085259521378398208,2026年08月13日,2026-08-14T10:36:26.965357+08:00
+9998ce80d1b04f8b,腾讯,腾讯健康-医疗行业解决方案云架构师,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2086772495033221120,2026年08月10日,2026-08-14T10:36:27.057451+08:00
+037d6c7880892b2a,腾讯,小游戏运营,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2076533135075618816,2026年08月10日,2026-08-14T10:36:27.275820+08:00
+5e4566c55754d029,腾讯,天美游戏-游戏战略经理（新生态与平台创新）,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2054022864226664448,2026年08月14日,2026-08-14T10:36:30.854127+08:00
+c3e1f7075c6a9e0d,腾讯,微信支付-商业分析经理,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2084839826556891136,2026年08月12日,2026-08-14T10:36:35.225262+08:00
+1b2ccdef40f14e5b,腾讯,WorkBuddy-智能体产品经理-出海方向,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2074708175067725824,2026年08月12日,2026-08-14T10:36:35.319021+08:00
+2af9e87beb8051c5,腾讯,QQ-#社交平台后台研发工程师#,unknown,unknown,autumn_campus,深圳,,single_source,55,1,https://careers.tencent.com/jobdesc.html?postId=2087100746268065792,2026年08月11日,2026-08-14T10:36:36.951429+08:00

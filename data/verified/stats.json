@@ -1,0 +1,62 @@
+{
+  "total": 906,
+  "company_count": 15,
+  "verified_count": 89,
+  "verified_ratio": 0.098,
+  "avg_confidence": 57.7,
+  "by_category": {
+    "ai_startup": 7,
+    "llm_startup": 38,
+    "big_tech": 848,
+    "ai_dragon": 13
+  },
+  "by_job_category": {
+    "unknown": 906
+  },
+  "by_job_type": {
+    "autumn_campus": 856,
+    "intern": 50
+  },
+  "by_ai_relevance": {
+    "unknown": 906
+  },
+  "by_verification": {
+    "single_source": 817,
+    "verified": 89
+  },
+  "by_company": {
+    "腾讯": 592,
+    "美团": 86,
+    "百度": 77,
+    "快手": 41,
+    "MiniMax": 25,
+    "拼多多": 18,
+    "360": 13,
+    "小红书": 11,
+    "智谱AI": 10,
+    "海康威视": 9,
+    "思必驰": 7,
+    "网易": 7,
+    "科大讯飞": 4,
+    "百川智能": 3,
+    "字节跳动": 3
+  },
+  "by_location": {
+    "深圳": 364,
+    "北京": 195,
+    "上海": 115,
+    "广州": 51,
+    "杭州": 21,
+    "成都": 18,
+    "武汉": 7,
+    "西安": 6,
+    "新加坡": 3,
+    "Shenzhen": 3,
+    "河北雄安新": 2,
+    "长沙": 2,
+    "重庆": 2,
+    "郑州": 1,
+    "中国香港": 1
+  },
+  "generated_at": "2026-08-15T10:06:11.737053+08:00"
+}

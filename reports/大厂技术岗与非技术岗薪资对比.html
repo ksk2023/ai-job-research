@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>国内大厂 技术岗 vs 非技术岗 薪资对比 · 秋招 &amp; 实习双维度</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #0f1117;
+    color: #e4e6eb;
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 1180px; margin: 0 auto; }
+  h1 {
+    font-size: 26px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #4ade80, #22c55e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+  }
+  .subtitle { color: #8b8fa3; font-size: 14px; margin-bottom: 8px; }
+  .badge {
+    display: inline-block;
+    background: rgba(74,222,128,0.15);
+    color: #4ade80;
+    border: 1px solid rgba(74,222,128,0.4);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-right: 8px;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4ade80;
+    margin: 44px 0 16px;
+    padding-left: 12px;
+    border-left: 3px solid #4ade80;
+  }
+  h3 { font-size: 15px; color: #a8acbe; margin: 24px 0 10px; font-weight: 600; }
+
+  .card {
+    background: #1a1d27;
+    border: 1px solid #2a2d3a;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    min-width: 950px;
+  }
+  th {
+    background: #1e2a1e;
+    color: #86efac;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 2px solid #4ade80;
+    white-space: nowrap;
+  }
+  td {
+    padding: 9px 12px;
+    border-bottom: 1px solid #2a2d3a;
+    vertical-align: top;
+  }
+  tr:hover td { background: #1e2530; }
+  .salary { font-weight: 700; color: #4ade80; white-space: nowrap; }
+  .salary-b { font-weight: 700; color: #60a5fa; white-space: nowrap; }
+  .gap-pos { font-weight: 700; color: #fbbf24; white-space: nowrap; }
+
+  .tier-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+  .t1 { background: #3a1e1e; color: #f87171; }
+  .t2 { background: #3a2d1e; color: #fbbf24; }
+  .t3 { background: #1e3a5f; color: #60a5fa; }
+  .t4 { background: #2d3b2a; color: #86efac; }
+
+  .note-box {
+    background: rgba(74,222,128,0.06);
+    border-left: 3px solid #4ade80;
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-size: 13px;
+  }
+  .note-box strong { color: #4ade80; }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 14px;
+    margin: 20px 0;
+  }
+  .stat-card {
+    background: #1a1d27;
+    border: 1px solid #2a2d3a;
+    border-radius: 10px;
+    padding: 18px;
+    text-align: center;
+  }
+  .stat-num { font-size: 22px; font-weight: 700; color: #4ade80; }
+  .stat-num-blue { font-size: 22px; font-weight: 700; color: #60a5fa; }
+  .stat-label { font-size: 12px; color: #8b8fa3; margin-top: 4px; }
+
+  ul { margin-left: 18px; margin-bottom: 12px; }
+  li { margin-bottom: 6px; font-size: 13px; }
+  .source { font-size: 12px; color: #555870; margin-top: 32px; border-top: 1px solid #2a2d3a; padding-top: 16px; line-height: 1.8; }
+  .source a { color: #60a5fa; text-decoration: none; }
+  .footnote { font-size: 11px; color: #555870; margin-top: 8px; }
+  .highlight-gold { color: #fbbf24; font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <h1>国内大厂 · 技术岗 vs 非技术岗 薪资对比</h1>
+  <p class="subtitle">秋招全职（白菜/SP/SSP）与实习（日薪）双维度 · 按公司四梯队分类 · 数据调研时间：2026年8月17日</p>
+  <span class="badge">综合 8 家以上薪资数据源交叉比对</span>
+  <span class="badge">实习数据含 2026年7月25日 一手在招验证</span>
+
+  <div class="note-box">
+    <strong>数据说明：</strong>
+    <ul style="margin-top:6px">
+      <li><strong>秋招数据</strong>来自牛客网 OfferShow 爆料汇总（程序员花海、小林coding 等多博主多年跟踪）、牛客/知乎校招开奖帖、各公司校招简章及媒体盘点，多源交叉比对后取主流区间。</li>
+      <li><strong>实习数据</strong>部分复用 2026年7月25日 报告《AI相关实习岗位日薪调研》中逐条页面验证过的一手在招数据。</li>
+      <li>白菜/SP/SSP 含义：白菜 = 普通录用；SP = 优先录用；SSP = 卓越录用。总包 = 月薪 × 薪数 + 签字费 + 股票/期权 + 房补等。</li>
+      <li>所有区间为<strong>主流档位</strong>，个别 SSP/大模型 SP 会更高（如字节 Top Seed、阿里 T-Star 等，SSP 总包可破 100W）。</li>
+    </ul>
+  </div>
+
+  <!-- ==================== 核心结论 ==================== -->
+  <h2>一、先说结论：技术岗 vs 非技术岗，谁工资高？</h2>
+
+  <div class="stat-grid">
+    <div class="stat-card">
+      <div class="stat-num">35-60W</div>
+      <div class="stat-label">技术岗应届总包（主流区间）</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num-blue">20-35W</div>
+      <div class="stat-label">产品岗应届总包（主流区间）</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num-blue">15-24W</div>
+      <div class="stat-label">运营/职能岗应届总包（主流区间）</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">1.5-2倍</div>
+      <div class="stat-label">技术岗 ÷ 非技术岗 典型倍数</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>六条核心结论（先看这个）</h3>
+    <ul>
+      <li><strong>结论1 · 全行业普适规律：技术岗 &gt; 产品岗 &gt; 运营/职能岗。</strong>几乎所有公司都成立，倍数关系稳定在：技术岗 ≈ 产品岗 × 1.3-1.5 ≈ 运营岗 × 1.5-2。</li>
+      <li><strong>结论2 · 技术岗内部方差极大。</strong>开发岗（白菜 21-26K×15）只是起点，<span class="highlight-gold">算法岗（尤其大模型方向）比开发岗再高 10-30%</span>，SSP 大模型算法总包可破 80-100W+（字节 Top Seed、阿里 T-Star、腾讯青云等）。</li>
+      <li><strong>结论3 · 非技术岗天花板也很高，但门槛不同。</strong>小红书/字节产品岗 SSP 总包能到 50-70W，接近技术白菜价；但运营岗几乎无股票，涨幅主要靠 base。</li>
+      <li><strong>结论4 · 硬件厂技术/非技术差距最大。</strong>华为/小米/OPPO/vivo/比亚迪等：技术岗对标互联网大厂、有股票签字费；非技术岗（营销/职能）月薪仅 7-15K，差距可到 2-3 倍。</li>
+      <li><strong>结论5 · 实习维度同样成立。</strong>技术实习日薪 200-800 元（大模型方向 500-1000+），产品/运营实习日薪 150-300 元，<strong>差距约 2 倍</strong>，且越顶尖的岗位差距越大（商汤 AI先锋 2000/天 vs 普通运营实习 120-150/天）。</li>
+      <li><strong>结论6 · AI/大模型是当前"弯道超车"方向。</strong>DeepSeek 应届生月薪 6W 起（14薪，年 84W+）；顶尖 AI 公司的产品岗（智谱 22-35W）也低于其技术岗（32-55W），但高于传统大厂运营岗。</li>
+    </ul>
+  </div>
+
+  <!-- ==================== 秋招：第一梯队 ==================== -->
+  <h2>二、秋招全职对比 · 第一梯队：综合超级巨头<span class="tier-tag t1">腾讯 / 阿里 / 字节 / 华为 / 美团 / 拼多多</span></h2>
+
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>公司</th>
+          <th>技术岗 · 白菜</th>
+          <th>技术岗 · SP</th>
+          <th>技术岗 · SSP</th>
+          <th>非技术岗（产品/运营）</th>
+          <th>技术 vs 非技术差距</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>字节跳动</strong></td>
+          <td class="salary">26K×15 ≈ 39W</td>
+          <td class="salary">28-30K×15 ≈ 43-46W</td>
+          <td class="salary">35-40K×15 ≈ 50-60W+</td>
+          <td class="salary-b">产品 24-30K×15 ≈ 36-45W<br>运营 16-24K×15 ≈ 24-36W</td>
+          <td class="gap-pos">产品=技术×0.85<br>运营=技术×0.65</td>
+        </tr>
+        <tr>
+          <td><strong>腾讯</strong></td>
+          <td class="salary">24-26K×15 ≈ 36-40W</td>
+          <td class="salary">28K×15 ≈ 43W</td>
+          <td class="salary">30-36K×15 ≈ 46-58W</td>
+          <td class="salary-b">产品 18-24K×15 ≈ 27-36W<br>运营 16-20.5K×15 ≈ 24-31W</td>
+          <td class="gap-pos">产品=技术×0.75<br>运营=技术×0.65</td>
+        </tr>
+        <tr>
+          <td><strong>阿里巴巴</strong></td>
+          <td class="salary">18-22K×16 ≈ 29-35W<br>（淘天核心 26K×16）</td>
+          <td class="salary">24-26K×16 ≈ 38-42W</td>
+          <td class="salary">28-31K×16 ≈ 45-50W</td>
+          <td class="salary-b">产品 18-24K×16 ≈ 29-38W<br>运营 14-18K×16 ≈ 22-29W</td>
+          <td class="gap-pos">产品=技术×0.85<br>运营=技术×0.6</td>
+        </tr>
+        <tr>
+          <td><strong>华为</strong></td>
+          <td class="salary">13级 19-21K×(14-16) ≈ 30-33W<br>14级 22-25K×(14-16) ≈ 35-40W</td>
+          <td class="salary">14A/15级 26-31K×(14-16)<br>≈ 41-50W</td>
+          <td class="salary">15级+ ≈ 41-50W<br>天才少年 89-201W</td>
+          <td class="salary-b">非技术 15-25W/年<br>（无股票，14薪为主）</td>
+          <td class="gap-pos">技术岗高 1.5-2倍<br>（硬件厂差距最大）</td>
+        </tr>
+        <tr>
+          <td><strong>美团</strong></td>
+          <td class="salary">23K×15.5 ≈ 36W</td>
+          <td class="salary">25-27K×15.5 ≈ 39-42W</td>
+          <td class="salary">28-30K×15.5 ≈ 43-50W</td>
+          <td class="salary-b">产品 20-24K×15.5 ≈ 31-37W<br>运营 16-20K×15.5 ≈ 25-31W</td>
+          <td class="gap-pos">产品=技术×0.85<br>运营=技术×0.7</td>
+        </tr>
+        <tr>
+          <td><strong>拼多多</strong></td>
+          <td class="salary">28-30K×16 ≈ 45-48W</td>
+          <td class="salary">32-35K×16 ≈ 51-56W</td>
+          <td class="salary">38-40K×16 ≈ 60-70W</td>
+          <td class="salary-b">产品 25-32K×16 ≈ 40-51W<br>运营 18-25K×16 ≈ 29-40W</td>
+          <td class="gap-pos">产品=技术×0.8<br>运营=技术×0.6</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="footnote">数据源：牛客网25/26届开奖帖（程序员花海汇总）、小林coding校招薪资系列、腾讯/字节/阿里校招简章。26届白菜档整体比25届上浮约5-10%（26届白菜约39-45W）。</p>
+  </div>
+
+  <!-- ==================== 秋招：第二梯队 ==================== -->
+  <h2>三、秋招全职对比 · 第二梯队：垂直赛道龙头<span class="tier-tag t2">百度 / 京东 / 网易 / 快手 / 小红书 / 滴滴 / 蚂蚁集团 / B站 / 微博</span></h2>
+
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>公司</th>
+          <th>技术岗 · 白菜</th>
+          <th>技术岗 · SP</th>
+          <th>技术岗 · SSP</th>
+          <th>非技术岗（产品/运营）</th>
+          <th>技术 vs 非技术差距</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>百度</strong></td>
+          <td class="salary">20-22K×16 ≈ 32-35W</td>
+          <td class="salary">24-26K×16 ≈ 38-42W</td>
+          <td class="salary">28-32K×16 ≈ 45-51W<br>（大模型 SSP 70W+）</td>
+          <td class="salary-b">产品 16-20K×16 ≈ 26-32W<br>运营 13-16K×16 ≈ 21-26W</td>
+          <td class="gap-pos">产品=技术×0.8</td>
+        </tr>
+        <tr>
+          <td><strong>京东</strong></td>
+          <td class="salary">19.5-23K×(16-20) ≈ 31-37W</td>
+          <td class="salary">24-27K×(16-20) ≈ 38-43W</td>
+          <td class="salary">29-30K×20 ≈ 58-60W</td>
+          <td class="salary-b">产品 16-22K×(16-19) ≈ 26-35W<br>运营 12-16K×(16-19) ≈ 19-26W</td>
+          <td class="gap-pos">产品=技术×0.8</td>
+        </tr>
+        <tr>
+          <td><strong>网易</strong></td>
+          <td class="salary">18-20K×16 ≈ 29-32W<br>（游戏技术更高）</td>
+          <td class="salary">22-24K×16 ≈ 35-38W</td>
+          <td class="salary">26-28K×16 ≈ 42-45W</td>
+          <td class="salary-b">产品 15-20K×16 ≈ 24-32W<br>运营 12-15K×16 ≈ 19-24W</td>
+          <td class="gap-pos">产品=技术×0.8</td>
+        </tr>
+        <tr>
+          <td><strong>快手</strong></td>
+          <td class="salary">22-24K×16 ≈ 35-38W</td>
+          <td class="salary">26-28K×16 ≈ 42-45W</td>
+          <td class="salary">30-32K×16 ≈ 48-51W</td>
+          <td class="salary-b">产品 18-22K×16 ≈ 29-35W<br>运营 14-18K×16 ≈ 22-29W</td>
+          <td class="gap-pos">产品=技术×0.8</td>
+        </tr>
+        <tr>
+          <td><strong>小红书</strong></td>
+          <td class="salary">30K×16 ≈ 46W</td>
+          <td class="salary">30-35K×16 ≈ 48-56W</td>
+          <td class="salary">35-40K×16+期权 ≈ 60-70W</td>
+          <td class="salary-b">产品 25-30K×16 ≈ 40-48W<br>运营 20-25K×16 ≈ 32-40W</td>
+          <td class="gap-pos">产品=技术×0.85<br>（小红书产品岗很强）</td>
+        </tr>
+        <tr>
+          <td><strong>滴滴</strong></td>
+          <td class="salary">21-23K×15 ≈ 32-35W</td>
+          <td class="salary">25-27K×15 ≈ 38-41W</td>
+          <td class="salary">30K×15 ≈ 45W</td>
+          <td class="salary-b">产品 17-22K×15 ≈ 26-33W<br>运营 13-17K×15 ≈ 20-26W</td>
+          <td class="gap-pos">产品=技术×0.8</td>
+        </tr>
+        <tr>
+          <td><strong>蚂蚁集团</strong></td>
+          <td class="salary">23K×16 ≈ 37W<br>（+房补1.5-2K/月×36月）</td>
+          <td class="salary">25-26K×16 ≈ 40-42W</td>
+          <td class="salary">28K×16 ≈ 45W</td>
+          <td class="salary-b">产品 20-24K×16 ≈ 32-38W<br>运营 15-18K×16 ≈ 24-29W</td>
+          <td class="gap-pos">产品=技术×0.85</td>
+        </tr>
+        <tr>
+          <td><strong>哔哩哔哩</strong></td>
+          <td class="salary">25K×15 ≈ 37.5W（估）</td>
+          <td class="salary">27-28K×15 ≈ 40-42W</td>
+          <td class="salary">31K×15 ≈ 46W</td>
+          <td class="salary-b">产品 18-22K×15 ≈ 27-33W<br>运营 13-16K×15 ≈ 20-24W</td>
+          <td class="gap-pos">产品=技术×0.75</td>
+        </tr>
+        <tr>
+          <td><strong>微博</strong></td>
+          <td class="salary">18-21K×(14-16) ≈ 27-31W</td>
+          <td class="salary">23-25K×(14-16) ≈ 34-37W</td>
+          <td class="salary">27-28K×(14-16) ≈ 40W</td>
+          <td class="salary-b">产品 14-18K×(14-16) ≈ 21-27W<br>运营 11-14K×(14-16) ≈ 16-21W</td>
+          <td class="gap-pos">产品=技术×0.75</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="footnote">数据源：小林coding《25届校招薪资盘点》系列（B站/蚂蚁/京东/快手/小红书 offer爆料）、牛客网开奖帖、爱企查薪酬统计。B站白菜为小林根据爆料样本推测；微博数据样本较少为区间估计。</p>
+  </div>
+
+  <!-- ==================== 秋招：第三梯队 ==================== -->
+  <h2>四、秋招全职对比 · 第三梯队：硬核科技硬件<span class="tier-tag t3">小米 / OPPO / vivo / 荣耀 / 联想 / 宁德时代 / 比亚迪</span></h2>
+
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>公司</th>
+          <th>技术岗 · 白菜</th>
+          <th>技术岗 · SP</th>
+          <th>技术岗 · SSP</th>
+          <th>非技术岗（产品/运营/营销）</th>
+          <th>技术 vs 非技术差距</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>小米</strong></td>
+          <td class="salary">16-18K×(14-15) ≈ 23-27W</td>
+          <td class="salary">20-22K×(14-15) ≈ 29-33W</td>
+          <td class="salary">24K×(14-15) ≈ 34-36W</td>
+          <td class="salary-b">产品 14-18K ≈ 21-27W<br>运营/营销 10-14K ≈ 15-21W</td>
+          <td class="gap-pos">技术高 1.3-1.6倍</td>
+        </tr>
+        <tr>
+          <td><strong>OPPO</strong></td>
+          <td class="salary">21-23K×(14-15)+房补1.2K/月<br>≈ 32-35W</td>
+          <td class="salary">25-27K×(14-15) ≈ 38-41W</td>
+          <td class="salary">30K+×(14-15) ≈ 45W+</td>
+          <td class="salary-b">产品运营社招均值 15.5K<br>校招产品 12-16K ≈ 18-24W<br>营销类更低</td>
+          <td class="gap-pos">技术高 1.5-1.8倍</td>
+        </tr>
+        <tr>
+          <td><strong>vivo</strong></td>
+          <td class="salary">21-23K×(14-15)+房补1.5K/月<br>≈ 32-35W</td>
+          <td class="salary">25-27K×(14-15) ≈ 38-41W</td>
+          <td class="salary">29-30K×(14-15) ≈ 43-45W</td>
+          <td class="salary-b">产品运营管培生（区域）7K+ ≈ 8-10W/年<br>总部产品 12-16K ≈ 18-24W</td>
+          <td class="gap-pos">技术高 1.5-2倍<br>（区域管培差距最大）</td>
+        </tr>
+        <tr>
+          <td><strong>荣耀</strong></td>
+          <td class="salary">22-24K×(14-16) ≈ 33-36W</td>
+          <td class="salary">26-28K×(14-16) ≈ 39-42W</td>
+          <td class="salary">30K+×(14-16) ≈ 45W+<br>（南京35W年包有竞争力）</td>
+          <td class="salary-b">产品 15-20K ≈ 23-30W<br>营销/职能 10-15K ≈ 15-23W</td>
+          <td class="gap-pos">技术高 1.4-1.6倍</td>
+        </tr>
+        <tr>
+          <td><strong>联想</strong></td>
+          <td class="salary">本科Band5 14-16K ≈ 21-24W<br>硕士Band6 18-24K ≈ 27-36W</td>
+          <td class="salary">25-28K ≈ 38-42W</td>
+          <td class="salary">30K+ ≈ 45W+</td>
+          <td class="salary-b">校招产品 15-20K ≈ 23-30W<br>运营/职能均值 16.9-19.2K</td>
+          <td class="gap-pos">技术高 1.2-1.4倍<br>（联想非技术岗待遇相对厚）</td>
+        </tr>
+        <tr>
+          <td><strong>宁德时代</strong></td>
+          <td class="salary">研究岗 博士 40-70W<br>硕士 20-30W<br>（8类人才层级制）</td>
+          <td class="salary">硕士 30-40W</td>
+          <td class="salary">博士顶尖 70W+</td>
+          <td class="salary-b">综合类岗 7-10W/年<br>职能岗更低</td>
+          <td class="gap-pos">技术高 2-4倍<br>（全表差距最大之一）</td>
+        </tr>
+        <tr>
+          <td><strong>比亚迪</strong></td>
+          <td class="salary">博士 25-40W<br>硕士 18-30W<br>本科 12-20W</td>
+          <td class="salary">硕士 30-35W</td>
+          <td class="salary">博士顶尖 40W+</td>
+          <td class="salary-b">综合类/职能 8-15W</td>
+          <td class="gap-pos">技术高 1.5-2.5倍</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="footnote">数据源：小林coding手机大厂系列（OPPO/vivo/荣耀/小米开奖）、爱企查/看准网薪酬统计（联想/vivo管培）、宁德时代/比亚迪人才层级公开资料。硬件厂普遍特点：技术岗对标互联网大厂，非技术岗明显低一档。</p>
+  </div>
+
+  <!-- ==================== 秋招：第四梯队 ==================== -->
+  <h2>五、秋招全职对比 · 第四梯队：AI大模型头部<span class="tier-tag t4">科大讯飞 / 商汤 / 智谱AI / MiniMax / DeepSeek</span></h2>
+
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>公司</th>
+          <th>技术岗（开发/算法）</th>
+          <th>非技术岗（产品/运营）</th>
+          <th>说明</th>
+          <th>技术 vs 非技术差距</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>科大讯飞</strong></td>
+          <td class="salary">开发 20-30K×14 ≈ 28-42W<br>算法 30K+×14 ≈ 42W+<br>博士更高（签字费+股票）</td>
+          <td class="salary-b">产品 16-24K×14 ≈ 22-34W<br>职能 10-16K×14 ≈ 14-22W</td>
+          <td>合肥低成本+人才补贴3年6W，性价比高</td>
+          <td class="gap-pos">技术高 1.3-1.6倍</td>
+        </tr>
+        <tr>
+          <td><strong>商汤科技</strong></td>
+          <td class="salary">算法 20-30K×(14-15) ≈ 30-45W<br>研究岗更高</td>
+          <td class="salary-b">产品 15-20K ≈ 22-30W<br>运营 12-15K ≈ 18-22W</td>
+          <td>另有「AI先锋」顶尖计划（对应实习2000/天）</td>
+          <td class="gap-pos">技术高 1.4-1.7倍</td>
+        </tr>
+        <tr>
+          <td><strong>智谱AI</strong></td>
+          <td class="salary">算法/研究 35-55W 总包<br>系统/推理优化 32-50W<br>数据/RAG/评测 28-45W</td>
+          <td class="salary-b">产品/增长/运营 22-35W 总包</td>
+          <td>顶会一作另有论文奖金；16薪制</td>
+          <td class="gap-pos">技术高 1.4-1.6倍</td>
+        </tr>
+        <tr>
+          <td><strong>MiniMax</strong></td>
+          <td class="salary">算法研究员 月薪5-8W×14<br>≈ 70-112W</td>
+          <td class="salary-b">产品 25-40K×14 ≈ 35-56W</td>
+          <td>薪资对标字节Top Seed/DeepSeek</td>
+          <td class="gap-pos">技术高 1.5-2倍</td>
+        </tr>
+        <tr>
+          <td><strong>DeepSeek（深度求索）</strong></td>
+          <td class="salary">校招月薪 6W 起（14薪）<br>核心系统研发 6-9W/月<br>最高年薪 126-154W</td>
+          <td class="salary-b">UI设计 3-7W/月 ≈ 42-98W<br>法务等职能岗 20薪</td>
+          <td>偏好应届生+顶尖人才；实习生与正职同薪</td>
+          <td class="gap-pos">技术高 1.2-1.6倍<br>（AI厂非技术岗也极高）</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="footnote">数据源：DeepSeek官方招聘信息（红星新闻/新浪财经/新华报业2025年2月报道）、智谱AI校招薪酬区间（i人事校招指南）、科大讯飞/商汤爱企查+牛客数据。AI公司全员高薪，但技术岗（尤其研究/算法）仍显著高于产品运营。</p>
+  </div>
+
+  <!-- ==================== 实习对比 ==================== -->
+  <h2>六、实习对比 · 技术实习 vs 非技术实习（日薪）</h2>
+
+  <div class="note-box">
+    <strong>实习数据说明：</strong>下表技术实习部分来自 2026年7月25日 逐条页面验证的一手在招数据（详见《AI实习岗位日薪调研报告.html》），非技术实习为本次补充调研的在招岗位。
+  </div>
+
+  <h3>6.1 头部大厂 · 技术实习 vs 非技术实习</h3>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>公司</th>
+          <th>技术实习（算法/开发）</th>
+          <th>非技术实习（产品/运营）</th>
+          <th>倍数关系</th>
+          <th>备注</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>字节跳动</strong></td>
+          <td class="salary">350-800/天<br>（抖音算法500-800，广告450-600）</td>
+          <td class="salary-b">抖音产品 200/天<br>技术产品（LLM方向）500/天</td>
+          <td class="gap-pos">算法=产品×2.5<br>（LLM技术产品=算法）</td>
+          <td>实习统一400/天+1500房补（一线城市），算法岗上浮</td>
+        </tr>
+        <tr>
+          <td><strong>腾讯</strong></td>
+          <td class="salary">7500/月 统一 + 2000/月房补<br>（青云计划上不封顶）</td>
+          <td class="salary-b">同为7500/月统一标准</td>
+          <td class="gap-pos">实习期同薪<br>（转正后拉开差距）</td>
+          <td>腾讯实习统一价，差异化在转正offer</td>
+        </tr>
+        <tr>
+          <td><strong>阿里巴巴</strong></td>
+          <td class="salary">400/天 + 1500房补<br>（AI方向300-600）</td>
+          <td class="salary-b">产品/运营 200-300/天</td>
+          <td class="gap-pos">技术=非技术×1.5-2</td>
+          <td>淘天27届实习（含AI产品）统一500/天</td>
+        </tr>
+        <tr>
+          <td><strong>美团</strong></td>
+          <td class="salary">280/天 + 1500房补<br>（AI算法250-300）</td>
+          <td class="salary-b">产品运营 180-250/天<br>AI产品运营 220-250/天</td>
+          <td class="gap-pos">技术≈非技术×1.2-1.5</td>
+          <td>转正率80%，全大厂最高</td>
+        </tr>
+        <tr>
+          <td><strong>百度</strong></td>
+          <td class="salary">220-350/天 + 1600房补</td>
+          <td class="salary-b">产品/运营 150-200/天</td>
+          <td class="gap-pos">技术=非技术×1.5</td>
+          <td>NLP硕士250-350，本科大模型200-250</td>
+        </tr>
+        <tr>
+          <td><strong>京东</strong></td>
+          <td class="salary">技术产品经理 200-400/天</td>
+          <td class="salary-b">内容运营 200-300/天</td>
+          <td class="gap-pos">≈同档</td>
+          <td>京东技术产品岗介于技术与产品之间</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>6.2 AI公司 · 技术实习 vs 非技术实习</h3>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>公司</th>
+          <th>技术实习（算法/大模型）</th>
+          <th>非技术实习（产品/HR等）</th>
+          <th>倍数关系</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>DeepSeek</strong></td>
+          <td class="salary">500-1000/天 + 3000/月房补</td>
+          <td class="salary-b">数据百晓生 500-510/天</td>
+          <td class="gap-pos">技术顶尖岗=非技术×1.5-2<br>基础岗同薪</td>
+        </tr>
+        <tr>
+          <td><strong>商汤科技</strong></td>
+          <td class="salary">算法 300-450/天<br>AI先锋 2000/天</td>
+          <td class="salary-b">产品/运营 150-250/天</td>
+          <td class="gap-pos">算法=非技术×2<br>AI先锋=×10（顶尖计划）</td>
+        </tr>
+        <tr>
+          <td><strong>科大讯飞</strong></td>
+          <td class="salary">算法 180-200/天</td>
+          <td class="salary-b">产品/运营 120-160/天</td>
+          <td class="gap-pos">技术=非技术×1.3-1.5</td>
+        </tr>
+        <tr>
+          <td><strong>MiniMax</strong></td>
+          <td class="salary">算法 400-500/天</td>
+          <td class="salary-b">HR实习 350-450/天</td>
+          <td class="gap-pos">AI公司非技术实习也高</td>
+        </tr>
+        <tr>
+          <td><strong>小红书</strong></td>
+          <td class="salary">多模态搜索算法 500-600/天</td>
+          <td class="salary-b">产品 200-300/天</td>
+          <td class="gap-pos">算法=产品×2</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>6.3 实习薪资速查 · 按公司梯队</h3>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>梯队</th>
+          <th>技术实习日薪</th>
+          <th>非技术实习日薪</th>
+          <th>典型差距</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>第一梯队（字节/阿里/腾讯/华为/美团/拼多多）</td>
+          <td class="salary">220-800/天<br>（腾讯按月薪7500统一）</td>
+          <td class="salary-b">150-300/天</td>
+          <td class="gap-pos">1.5-2.5倍</td>
+        </tr>
+        <tr>
+          <td>第二梯队（百度/京东/网易/快手/小红书/滴滴/蚂蚁/B站/微博）</td>
+          <td class="salary">200-600/天</td>
+          <td class="salary-b">120-300/天</td>
+          <td class="gap-pos">1.5-2倍</td>
+        </tr>
+        <tr>
+          <td>第三梯队（小米/OPPO/vivo/荣耀/联想/宁德/比亚迪）</td>
+          <td class="salary">150-300/天<br>（硬件厂实习普遍偏低）</td>
+          <td class="salary-b">100-180/天</td>
+          <td class="gap-pos">1.3-1.6倍</td>
+        </tr>
+        <tr>
+          <td>第四梯队（讯飞/商汤/智谱/MiniMax/DeepSeek）</td>
+          <td class="salary">180-2000/天<br>（DeepSeek 500-1000，商汤先锋2000）</td>
+          <td class="salary-b">150-500/天</td>
+          <td class="gap-pos">1.2-2倍<br>（AI厂基础岗也高薪）</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ==================== 总排名 ==================== -->
+  <h2>七、总排名 · 技术岗天花板 TOP10（校招总包）</h2>
+
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>排名</th>
+          <th>公司 · 岗位</th>
+          <th>校招总包</th>
+          <th>备注</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>DeepSeek · 深度学习研究员-AGI</td><td class="salary">最高154W（8-11W/月×14薪）</td><td>需顶会论文/竞赛，偏好应届生</td></tr>
+        <tr><td>2</td><td>华为 · 天才少年</td><td class="salary">89-201W</td><td>博士专属，全球限量</td></tr>
+        <tr><td>3</td><td>月之暗面 · 大模型训练工程师</td><td class="salary">80-150W</td><td>校招顶级博士可达此区间</td></tr>
+        <tr><td>4</td><td>字节 · Top Seed / 大模型SSP</td><td class="salary">75-80W+（SSP+期权可破100W）</td><td>26届大模型SSP总包显著上浮</td></tr>
+        <tr><td>5</td><td>MiniMax · 算法研究员</td><td class="salary">70-112W（5-8W/月×14薪）</td><td>需大模型训练经验</td></tr>
+        <tr><td>6</td><td>阿里 · T-Star / 达摩院 SSP</td><td class="salary">60-100W+</td><td>大模型方向上浮20-30%</td></tr>
+        <tr><td>7</td><td>腾讯 · 青云计划</td><td class="salary">50-100W+（实习上不封顶）</td><td>AI大模型六大方向定制培养</td></tr>
+        <tr><td>8</td><td>拼多多 · 技术SSP</td><td class="salary">60-70W</td><td>现金部分全行业最高档</td></tr>
+        <tr><td>9</td><td>百度 · 大模型SSP</td><td class="salary">70W+</td><td>文心大模型方向</td></tr>
+        <tr><td>10</td><td>小红书 · 技术SSP</td><td class="salary">60-70W（含期权）</td><td>上海三巨头之一</td></tr>
+      </tbody>
+    </table>
+    <p class="footnote">注：以上为"天花板"档位，即各公司面向顶尖博士/特殊人才计划的最高档，普通白菜/SP见前面分梯队表格。</p>
+  </div>
+
+  <!-- ==================== 秋招vs实习建议 ==================== -->
+  <h2>八、秋招 vs 实习 · 策略建议</h2>
+
+  <div class="card">
+    <h3>给准备秋招的同学</h3>
+    <ul>
+      <li><strong>技术背景优先冲技术岗</strong>：同等学历下技术岗总包高 30-100%，且 SSP 档差距更大（技术 SSP 50-154W vs 非技术 SSP 50-70W）。</li>
+      <li><strong>非技术背景的最优解是产品岗</strong>：产品岗是唯一能逼近技术白菜价的非技术岗（小红书/字节产品 SSP 46-70W），重点提升数据分析（SQL/Excel）+ 行业认知。</li>
+      <li><strong>AI 是所有岗位的溢价方向</strong>：传统运营岗 15-24W，但 AI 产品运营、大模型数据运营可达 25-40W，接近技术白菜价。</li>
+      <li><strong>硬件厂非技术岗性价比最低</strong>（vivo 区域营销管培 8-10W/年 vs 技术岗 32W+），除非特别看重家乡地域。</li>
+    </ul>
+    <h3>给找实习的同学</h3>
+    <ul>
+      <li><strong>技术实习优先选有转正机会的</strong>：美团转正率 80% 全场最高；字节/腾讯转正率不到 50%，需 6 个月以上实习期。</li>
+      <li><strong>日薪最高的实习岗</strong>：商汤 AI先锋 2000/天 &gt; DeepSeek 500-1000/天（+3000房补） &gt; 字节抖音算法 500-800/天 &gt; 小红书算法 500-600/天。</li>
+      <li><strong>非技术同学瞄准 AI 产品实习</strong>：字节技术产品（LLM方向）500/天 = 算法实习价；美团 AI 产品运营 220-250/天 也高于普通运营。</li>
+      <li><strong>实习薪资统一价公司</strong>：腾讯（7500/月统一）、字节（400/天+房补）、阿里（400/天+房补）——这些公司实习期不区分岗位，差异化在转正 offer。</li>
+    </ul>
+  </div>
+
+  <div class="source">
+    <strong>数据来源（多源交叉比对）：</strong><br><br>
+    <strong>秋招薪资：</strong><br>
+    • 牛客网 25/26届校招开奖帖（程序员花海汇总：腾讯/字节/美团/京东/小红书 详细白菜-SP-SSP拆解）<br>
+    • 小林coding《互联网校招薪资盘点》系列（xiaolincoding.com/salary，覆盖35+公司，B站/蚂蚁/快手/京东/OPPO/vivo/荣耀/小米 offer爆料）<br>
+    • 爱企查企业薪酬知识库（联想/OPPO/vivo/B站/科大讯飞 技术vs非技术月薪统计）<br>
+    • DeepSeek官方招聘信息（红星新闻/新浪财经/新华报业等多家媒体2025年2月报道，14薪制、年薪百万岗位明细）<br>
+    • 智谱AI校招指南（i人事，算法35-55W/系统32-50W/产品22-35W）<br>
+    • 2026年AI行业薪资分析（MiniMax 5-8W/14薪、月之暗面L5 48-55K）<br>
+    • 网经社《2025互联网大厂薪资大比拼》（各公司分学历平均月薪统计）<br><br>
+    <strong>实习薪资：</strong><br>
+    • 《AI实习岗位日薪调研报告.html》（2026年7月25日，逐条页面验证的一手在招数据）<br>
+    • 实习僧/牛客网/BOSS直聘在招岗位（京东200-400/天、美团180-250/天、字节抖音产品200/天等）<br>
+    • 语雀《一些实习和秋招你需要了解的事儿》（字节400+1500房补、腾讯7500/月、阿里400/天、美团280/天、百度220/天标准价）<br><br>
+    <strong>免责说明：</strong>校招薪资为网络公开爆料汇总，非官方数据；白菜/SP/SSP档位划分基于样本推测，实际以个人 offer 为准。实习数据采集于2026年7-8月，岗位具有时效性。
+  </div>
+
+</div>
+</body>
+</html>
