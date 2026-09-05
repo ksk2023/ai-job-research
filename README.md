@@ -4,10 +4,10 @@
 
 **《ai-job-research · 数据 · 报告 · 工具》**
 
-[![数据更新](https://img.shields.io/badge/数据更新-2026--08--14-57606a?style=flat)](https://github.com/ksk2023/ai-job-research)
-[![岗位](https://img.shields.io/badge/在招岗位-895-0969da?style=flat)](./data)
-[![公司](https://img.shields.io/badge/覆盖公司-15-8250df?style=flat)](./companies.json)
-[![适配器](https://img.shields.io/badge/抓取适配器-47-22c55e?style=flat)](./scrapers)
+[![Updated](https://img.shields.io/badge/Updated-2026--08--14-57606a?style=flat)](https://github.com/ksk2023/ai-job-research)
+[![Jobs](https://img.shields.io/badge/Jobs-895-0969da?style=flat)](./data)
+[![Companies](https://img.shields.io/badge/Companies-15-8250df?style=flat)](./companies.json)
+[![Adapters](https://img.shields.io/badge/Adapters-47-22c55e?style=flat)](./scrapers)
 [![Stars](https://img.shields.io/github/stars/ksk2023/ai-job-research?style=flat&logo=github&label=Stars&color=0969da)](https://github.com/ksk2023/ai-job-research/stargazers)
 [![Forks](https://img.shields.io/github/forks/ksk2023/ai-job-research?style=flat&logo=github&label=Forks&color=57606a)](https://github.com/ksk2023/ai-job-research/network)
 
